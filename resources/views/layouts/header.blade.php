@@ -18,7 +18,7 @@
                       </a>
                    </li>
                    <li>
-                      <a href="tel:+919600442776">
+                      <a href="tel:+919324394183">
                          <i>
                             <svg xmlns="https://www.w3.org/2000/svg" width="32.499" height="32.499" viewBox="0 0 32.499 32.499">
                                <defs>
@@ -50,7 +50,7 @@
                                </g>
                             </svg>
                          </i>
-                         info@chennee.in
+                         constructiontechnology.lko@gmail.com
                       </a>
                    </li>
                 </ul>
@@ -58,7 +58,7 @@
              <div class="top-nav-social">
                 <ul class="social-link">
                    <li>
-                      <a href="https://wa.me/919600442776?text=Hi%20I%20have%20a%20plot%20in" rel="nofollow" target="_blank" >
+                      <a href="https://wa.me/919324394183?text=Hi%20I%20have%20a%20plot%20in" rel="nofollow" target="_blank" >
                          <svg xmlns="https://www.w3.org/2000/svg" width="24.98" height="24.98" viewBox="0 0 24.98 24.98">
                             <defs>
                                <style>.absw{fill:#1a232c;}</style>
