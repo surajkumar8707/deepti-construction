@@ -71,7 +71,7 @@
             font-family: 'sofia_proregular';
         }
     </style>
-    <div class="publishd-date-wrap" itemscope="" itemtype="http://schema.org/WebPage"><span class="text-tiny">Published:  <span class="published_on" itemprop="datePublished"> 2023-10-02</span></span></div>
+    <div class="publishd-date-wrap" itemscope="" itemtype=""><span class="text-tiny">Published:  <span class="published_on" itemprop="datePublished"> 2023-10-02</span></span></div>
 </div>
 <!-- Last published date  -->
 <section class="faq-bg" id="faq">
@@ -80,13 +80,13 @@
             <h5 class="section-title">Frequently Asked Questions (FAQ)</h5>
         </div>
     </div>
-    <div itemscope="" itemtype="https://schema.org/FAQPage" class="container faq-container">
+    <div itemscope="" itemtype="" class="container faq-container">
         <div class="faq-accordian-wrapper acc1">
-            <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-acc accordion-commns rotate arrow">
+            <div itemscope="" itemprop="mainEntity" itemtype="" class="faq-acc accordion-commns rotate arrow">
                 <div class="faq">
                     <h3 itemprop="name">
                         Why is CHENNEE Architects the Best Architectural Firm in Hosur?
-                        <svg class="arrows" xmlns="http://www.w3.org/2000/svg" width="15.798" height="9.022" viewBox="0 0 15.798 9.022">
+                        <svg class="arrows" xmlns="" width="15.798" height="9.022" viewBox="0 0 15.798 9.022">
                             <g id="next" transform="translate(0.565 126.199) rotate(-90)">
                                 <g id="Group_19807" data-name="Group 19807" transform="translate(117.742 0)">
                                     <path id="Path_12441" data-name="Path 12441" d="M125.531,6.963l-6.815-6.8a.571.571,0,1,0-.807.809l6.409,6.391-6.409,6.391a.571.571,0,0,0,.807.809l6.815-6.8a.571.571,0,0,0,0-.809Z" transform="translate(-117.742 0)" fill="#ccc" stroke="#ccc" stroke-width="1"></path>
@@ -95,15 +95,15 @@
                         </svg>
                     </h3>
                 </div>
-                <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <div itemscope="" itemprop="acceptedAnswer" itemtype="">
                     <p itemprop="text" class="comm-desc-analyse" style="display: none;">To ensure client happiness, CHENNEE architecture specialists in Hosur create sustainable buildings by ensuring that the form is consistent with its utility.</p>
                 </div>
             </div>
-            <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-acc accordion-commns arrow rotate">
+            <div itemscope="" itemprop="mainEntity" itemtype="" class="faq-acc accordion-commns arrow rotate">
                 <div class="faq">
                     <h3 itemprop="name">
                         What are the Architectural Design Services Offered by CHENNEE Architects?
-                        <svg class="arrows" xmlns="http://www.w3.org/2000/svg" width="15.798" height="9.022" viewBox="0 0 15.798 9.022">
+                        <svg class="arrows" xmlns="" width="15.798" height="9.022" viewBox="0 0 15.798 9.022">
                             <g id="next" transform="translate(0.565 126.199) rotate(-90)">
                                 <g id="Group_19807" data-name="Group 19807" transform="translate(117.742 0)">
                                     <path id="Path_12441" data-name="Path 12441" d="M125.531,6.963l-6.815-6.8a.571.571,0,1,0-.807.809l6.409,6.391-6.409,6.391a.571.571,0,0,0,.807.809l6.815-6.8a.571.571,0,0,0,0-.809Z" transform="translate(-117.742 0)" fill="#ccc" stroke="#ccc" stroke-width="1"></path>
@@ -112,15 +112,15 @@
                         </svg>
                     </h3>
                 </div>
-                <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <div itemscope="" itemprop="acceptedAnswer" itemtype="">
                     <p itemprop="text" class="comm-desc-analyse" style="display: none;">We undertake the responsibility of inspiring a better living by planning and designing buildings with services like Floor plan, Structural Drawing, Civil Drawings, 3D Elevation & 3D Interior Design. </p>
                 </div>
             </div>
-            <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-acc accordion-commns arrow active-acc">
+            <div itemscope="" itemprop="mainEntity" itemtype="" class="faq-acc accordion-commns arrow active-acc">
                 <div class="faq">
                     <h3 itemprop="name">
                         How Long Does CHENNEE Architects Take to Provide My House Plan?
-                        <svg class="arrows" xmlns="http://www.w3.org/2000/svg" width="15.798" height="9.022" viewBox="0 0 15.798 9.022">
+                        <svg class="arrows" xmlns="" width="15.798" height="9.022" viewBox="0 0 15.798 9.022">
                             <g id="next" transform="translate(0.565 126.199) rotate(-90)">
                                 <g id="Group_19807" data-name="Group 19807" transform="translate(117.742 0)">
                                     <path id="Path_12441" data-name="Path 12441" d="M125.531,6.963l-6.815-6.8a.571.571,0,1,0-.807.809l6.409,6.391-6.409,6.391a.571.571,0,0,0,.807.809l6.815-6.8a.571.571,0,0,0,0-.809Z" transform="translate(-117.742 0)" fill="#ccc" stroke="#ccc" stroke-width="1"></path>
@@ -129,18 +129,18 @@
                         </svg>
                     </h3>
                 </div>
-                <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <div itemscope="" itemprop="acceptedAnswer" itemtype="">
                     <p itemprop="text" class="comm-desc-analyse" style="display: none;">All of our premium projects are adeptly managed by our first-grade experts, who adhere     to a strict deadline and keep a close eye on all phases to deliver your dream home on the proposed day.
                     </p>
                 </div>
             </div>
         </div>
         <div class="faq-accordian-wrapper acc1">
-            <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-acc accordion-commns arrow">
+            <div itemscope="" itemprop="mainEntity" itemtype="" class="faq-acc accordion-commns arrow">
                 <div class="faq">
                     <h3 itemprop="name">
                         What are the Process Followed by CHENNEE Architects to Plan My New Home?
-                        <svg class="arrows" xmlns="http://www.w3.org/2000/svg" width="15.798" height="9.022" viewBox="0 0 15.798 9.022">
+                        <svg class="arrows" xmlns="" width="15.798" height="9.022" viewBox="0 0 15.798 9.022">
                             <g id="next" transform="translate(0.565 126.199) rotate(-90)">
                                 <g id="Group_19807" data-name="Group 19807" transform="translate(117.742 0)">
                                     <path id="Path_12441" data-name="Path 12441" d="M125.531,6.963l-6.815-6.8a.571.571,0,1,0-.807.809l6.409,6.391-6.409,6.391a.571.571,0,0,0,.807.809l6.815-6.8a.571.571,0,0,0,0-.809Z" transform="translate(-117.742 0)" fill="#ccc" stroke="#ccc" stroke-width="1"></path>
@@ -149,16 +149,16 @@
                         </svg>
                     </h3>
                 </div>
-                <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <div itemscope="" itemprop="acceptedAnswer" itemtype="">
                     <p itemprop="text" class="comm-desc-analyse" style="display: none;">When we begin, CHENNEE’s top team of architecting expertise in Hosur will accompany you through all stages of raising building, architecture planning, and interior designs to witness the unfolding of your dream home.
                     </p>
                 </div>
             </div>
-            <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-acc accordion-commns arrow">
+            <div itemscope="" itemprop="mainEntity" itemtype="" class="faq-acc accordion-commns arrow">
                 <div class="faq">
                     <h3 itemprop="name">
                         What are the Types of Residential Buildings  Designed by CHENNEE Architects?
-                        <svg class="arrows" xmlns="http://www.w3.org/2000/svg" width="15.798" height="9.022" viewBox="0 0 15.798 9.022">
+                        <svg class="arrows" xmlns="" width="15.798" height="9.022" viewBox="0 0 15.798 9.022">
                             <g id="next" transform="translate(0.565 126.199) rotate(-90)">
                                 <g id="Group_19807" data-name="Group 19807" transform="translate(117.742 0)">
                                     <path id="Path_12441" data-name="Path 12441" d="M125.531,6.963l-6.815-6.8a.571.571,0,1,0-.807.809l6.409,6.391-6.409,6.391a.571.571,0,0,0,.807.809l6.815-6.8a.571.571,0,0,0,0-.809Z" transform="translate(-117.742 0)" fill="#ccc" stroke="#ccc" stroke-width="1"></path>
@@ -167,16 +167,16 @@
                         </svg>
                     </h3>
                 </div>
-                <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <div itemscope="" itemprop="acceptedAnswer" itemtype="">
                     <p itemprop="text" class="comm-desc-analyse" style="display: none;">The range of buildings we strategize to build with style starts from simple residences, grand villas, magnificent bungalows, chic apartments to spacious duplex houses and aligned row houses
                     </p>
                 </div>
             </div>
-            <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question" class="faq-acc accordion-commns arrow">
+            <div itemscope="" itemprop="mainEntity" itemtype="" class="faq-acc accordion-commns arrow">
                 <div class="faq">
                     <h3 itemprop="name">
                         Why You Should Choose CHENNEE Architects to Design Your Dream Home?
-                        <svg class="arrows" xmlns="http://www.w3.org/2000/svg" width="15.798" height="9.022" viewBox="0 0 15.798 9.022">
+                        <svg class="arrows" xmlns="" width="15.798" height="9.022" viewBox="0 0 15.798 9.022">
                             <g id="next" transform="translate(0.565 126.199) rotate(-90)">
                                 <g id="Group_19807" data-name="Group 19807" transform="translate(117.742 0)">
                                     <path id="Path_12441" data-name="Path 12441" d="M125.531,6.963l-6.815-6.8a.571.571,0,1,0-.807.809l6.409,6.391-6.409,6.391a.571.571,0,0,0,.807.809l6.815-6.8a.571.571,0,0,0,0-.809Z" transform="translate(-117.742 0)" fill="#ccc" stroke="#ccc" stroke-width="1"></path>
@@ -185,7 +185,7 @@
                         </svg>
                     </h3>
                 </div>
-                <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <div itemscope="" itemprop="acceptedAnswer" itemtype="">
                     <p itemprop="text" class="comm-desc-analyse" style="display: none;">With classic examples of creativity CHENNE Architects crafts your dream home with major pluses like superior design, on time delivery, quality, transparency & much more.  They are well known for the strength of the best residential architects in Hosur.
                     </p>
                 </div>
@@ -202,7 +202,7 @@
     <div class="contact-info">
         <ul>
             <li>
-                <svg xmlns="https://www.w3.org/2000/svg" width="52.393" height="52.393" viewBox="0 0 52.393 52.393">
+                <svg xmlns="" width="52.393" height="52.393" viewBox="0 0 52.393 52.393">
                     <defs>
                         <style>.absw{fill:#1a232c;}.bbsw{fill:#fff;}</style>
                     </defs>
@@ -217,7 +217,7 @@
                 <span><a href="mailto:info@chennee.in">info@chennee.in</a></span>
             </li>
             <li>
-                <svg xmlns="https://www.w3.org/2000/svg" width="51.976" height="51.976" viewBox="0 0 51.976 51.976">
+                <svg xmlns="" width="51.976" height="51.976" viewBox="0 0 51.976 51.976">
                     <defs>
                         <style>.vikd{fill:#25d366;}</style>
                     </defs>
@@ -228,7 +228,7 @@
                 <span><a target="blank" href="https://wa.me/919600442776?text=Hi%20I%20have%20a%20plot%20in">+91 96004 42776</a></span>
             </li>
             <li>
-                <svg xmlns="https://www.w3.org/2000/svg" width="51.975" height="51.976" viewBox="0 0 51.975 51.976">
+                <svg xmlns="" width="51.975" height="51.976" viewBox="0 0 51.975 51.976">
                     <defs>
                         <style>.agt{fill:#1a232c;}</style>
                     </defs>

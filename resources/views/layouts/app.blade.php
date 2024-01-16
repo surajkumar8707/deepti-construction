@@ -10,21 +10,21 @@
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="white"/>
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.chennee.in/architects-in-hosur.php" />
+    <meta property="og:url" content="{{ asset('architects.in.hosur') }}" />
     <meta property="og:site_name" content="chennee"/>
     <meta property="og:image" content="{{ asset('assets/images/CHENNEE-OG-logo-large.png') }}" />
     <meta property="og:image" content="{{ asset('assets/images/CHENNEE-OG-logo-small.png') }}" />
     <meta property="og:title" content="Top Rated Residential Architects and Designers in Hosur For Your Dream House" />
     <meta property="og:description" content="Looking for the best architects in hosur? CHENNEE Architects is one of top and best architecture firms in hosur providing architectural design services like floor plan, 3D elevation, structural drawing, civil drawing and 3D interiors for residential buildings at affordable prices" />
     <meta property="twitter:card" content="summary_large_image"/>
-    <meta property="twitter:url" content="https://www.chennee.in/architects-in-hosur.php"/>
+    <meta property="twitter:url" content="{{ asset('architects.in.hosur') }}"/>
     <meta name="twitter:title" content="Top Rated Residential Architects and Designers in Hosur For Your Dream House"/>
     <meta name="twitter:description" content="Looking for the best architects in hosur? CHENNEE Architects is one of top and best architecture firms in hosur providing architectural design services like floor plan, 3D elevation, structural drawing, civil drawing and 3D interiors for residential buildings at affordable prices"/>
     <meta name="twitter:image"  content="{{ asset('assets/images/CHENNEE-OG-logo-large.png') }}"/>
     <meta name="twitter:creator" content="@chenneeofficial" />
     <meta name="twitter:site" content="@chenneeofficial" />
     <meta name="robots" content="index,follow">
-    <link rel="canonical" href="https://www.chennee.in/architects-in-hosur.php" />
+    <link rel="canonical" href="{{ asset('architects.in.hosur') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/common.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/fonts.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/header.css') }}" />
@@ -40,10 +40,10 @@
             "itemReviewed": {
                 "@type": "LocalBusiness",
                 "name": "Architects in Hosur",
-                "image": "https://www.chennee.in/{{ asset('assets/images/CHENNEE-OG-logo-large.png') }}",
+                "image": "{{ asset('assets/images/CHENNEE-OG-logo-large.png') }}",
                 "description": "CHENNEE Architects is the best architects in Hosur that offers the excellent architectural house plans & design services for all types of residential buildings within your budget including floor plans, 3D elevations, structural drawings, civil drawings, and 3D interiors.",
                 "telephone": "9600442776",
-                "url": "https://www.chennee.in/architects-in-hosur.php",
+                "url": "{{ route('architects.in.hosur') }}",
                 "pricerange": "Contact 9600442776 | Customize Pricing Package"
             },
             "author": "Users",
@@ -635,7 +635,7 @@
         @media screen and (min-width:768px){ .floating-cta{display:none}}.whatsapp-footer{transition:all ease .3s;}@media screen and (max-width:768px){footer {padding-bottom: 75px;}.whatsapp-footer.show{bottom:70px;}.floating-cta.show{bottom:0;}.floating-cta{position:fixed;width:100%;display:flex;align-items:center;justify-content:center;padding:8px 20px;background:#fff;-webkit-box-shadow:0 -2px 4px 0 rgb(173 173 173 / 30%);-moz-box-shadow:0 -2px 4px 0 rgb(173 173 173 / 30%);box-shadow:0 -2px 4px 0 rgb(173 173 173 / 30%);transition: all ease .3s;bottom: -70px;z-index:9999;}.floating-cta a{height:48px;display:inline-block;background:white;border-radius:3px;color:#000;text-align:center;font-size:16px;font-family: "proxima-nova", sans-serif;font-weight: 700;line-height:48px;padding:0 30px;border:none;transition:all .3s cubic-bezier(.25,.8,.25,1);position:relative;z-index:1;width:auto;}}@media screen and (max-width:641px){.floating-cta a{width:100%;}}
     </style>
     <div class="floating-cta">
-        <a rel="nofollow" id="sales-header" href="https://www.chennee.in/get-quote.php" title="Get a free quote">Get A Free Quote</a>
+        <a rel="nofollow" id="sales-header" href="{{ asset('get.quote') }}" title="Get a free quote">Get A Free Quote</a>
     </div>
     @include('layouts.footer')
 </body>

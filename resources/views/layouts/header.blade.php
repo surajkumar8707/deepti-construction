@@ -70,7 +70,7 @@
                       </a>
                    </li>
                    <li>
-                      <a href="https://www.facebook.com/CHENNEE-Architects-and-Construction-109874754708822/" rel="nofollow" target="_blank">
+                      <a href="#" rel="nofollow" target="_blank">
                          <svg xmlns="https://www.w3.org/2000/svg" width="24.981" height="24.981" viewBox="0 0 24.981 24.981">
                             <defs>
                                <style>.iron{fill:#1a232c;}.b{fill:#ffc30e;}</style>
@@ -81,7 +81,7 @@
                       </a>
                    </li>
                    <li>
-                      <a href="https://www.instagram.com/chenneeofficial/" rel="nofollow" target="_blank">
+                      <a href="#" rel="nofollow" target="_blank">
                          <svg xmlns="https://www.w3.org/2000/svg" width="25.225" height="25.225" viewBox="0 0 25.225 25.225">
                             <defs>
                                <style>.inji{fill:#1a232c;}.linji{fill:#ffc30e;}</style>
@@ -98,7 +98,7 @@
                       </a>
                    </li>
                    <li>
-                      <a href="https://www.linkedin.com/company/chenneeofficial/" rel="nofollow" target="_blank">
+                      <a href="#" rel="nofollow" target="_blank">
                          <svg xmlns="https://www.w3.org/2000/svg" width="24.981" height="24.981" viewBox="0 0 24.981 24.981">
                             <defs>
                                <style>.linky{fill:#1a232c;}</style>
@@ -108,7 +108,7 @@
                       </a>
                    </li>
                    <li>
-                      <a href="https://www.youtube.com/channel/UC9nL4P77oon84s-fmeCys-g" rel="nofollow" target="_blank">
+                      <a href="#" rel="nofollow" target="_blank">
                          <svg xmlns="https://www.w3.org/2000/svg" width="29.779" height="24.981" viewBox="0 0 29.779 24.981">
                             <defs>
                                <style>.brom{fill:#1a232c;}.bromb{fill:#ffc30e;}</style>
@@ -130,7 +130,7 @@
     <section class="navigation">
        <div class="nav-container">
           <div class="brand">
-             <a href="https://www.chennee.in/">
+             <a href="{{ route('home') }}">
              <img width="200" height="57" src="{{ asset('assets/images/header-logo.png') }}" alt="">
              </a>
           </div>
@@ -213,8 +213,8 @@
                    </ul>
                 </li>
                 <li class="nav_actions">
-                   <a href="./contact-sales.php" type="button" class="nav_quote">Contact Us</a>
-                   <a href="./get-quote.php" class="nav_contact cap" type="button" data-wow-delay="0.6s">Get a free quote</a>
+                   <a href="{{ route('contact.sales') }}" type="button" class="nav_quote">Contact Us</a>
+                   <a href="{{ route('get.quote') }}" class="nav_contact cap" type="button" data-wow-delay="0.6s">Get a free quote</a>
                 </li>
              </ul>
           </nav>
@@ -223,10 +223,10 @@
     <section class="sticky-footer">
        <div class="sticky-wrap">
           <div class="whatsapps-us">
-             <a href="./contact-sales.php" class="nav_quote cap" type="button" data-wow-delay="0.6s">Contact Us</a>
+             <a href="{{ route('contact.sales') }}" class="nav_quote cap" type="button" data-wow-delay="0.6s">Contact Us</a>
           </div>
           <div class="get-quotes">
-             <a href="./get-quote.php" class="nav_quote cap" type="button" data-wow-delay="0.6s">Get a free quote</a>
+             <a href="{{ route('get.quote') }}" class="nav_quote cap" type="button" data-wow-delay="0.6s">Get a free quote</a>
           </div>
        </div>
     </section>

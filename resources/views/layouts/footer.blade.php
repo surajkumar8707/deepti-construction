@@ -10,8 +10,8 @@
              We are a one stop solution for all your architectural planning, construction and interior design needs.
           </p>
           <div class="footer-btn">
-             <a class="demo" href="./contact-sales.php">Talk to us</a>
-             <a class="sales" href="./get-quote.php">Get a quote</a>
+             <a class="demo" href="{{ route('contact.sales') }}">Talk to us</a>
+             <a class="sales" href="{{ route('get.quote') }}">Get a quote</a>
           </div>
        </div>
        <div class="footmenu-column responsive">
@@ -20,8 +20,8 @@
              <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.hosur') }}" title="Architects in Hosur">Architects in Hosur</a></li>
              <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.hosur') }}" title="Building Contractors in Hosur">Building Contractors in Hosur</a></li>
              <li itemprop="name"><a itemprop="url" href="{{ route('interior.designers.in.hosur') }}" title="Interior Designers in Hosur">Interior Designers in Hosur</a></li>
-             <li itemprop="name"><a itemprop="url" href="https://www.chennee.in/renovation-contractors-in-hosur.php" title="Renovation Contractors in Hosur">Renovation Contractors in Hosur</a></li>
-             <li itemprop="name"><a itemprop="url" href="https://www.chennee.in/house-construction-company-in-hosur.php" title="House Construction Company in Hosur">House Construction Company in Hosur</a></li>
+             <li itemprop="name"><a itemprop="url" href="#" title="Renovation Contractors in Hosur">Renovation Contractors in Hosur</a></li>
+             <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Hosur">House Construction Company in Hosur</a></li>
           </ul>
        </div>
        <div class="footmenu-column responsive">
@@ -30,8 +30,8 @@
              <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.bangalore') }}" title="Architects in Bangalore">Architects in Bangalore</a></li>
              <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.bangalore') }}" title="Building Contractors in Bangalore">Building Contractors in Bangalore</a></li>
              <li itemprop="name"><a itemprop="url" href="https{{ route('interior.designers.in.bangalore') }}" title="Interior Designers in Bangalore">Interior Designers in Bangalore</a></li>
-             <li itemprop="name"><a itemprop="url" href="https://www.chennee.in/house-renovation-contractors-bangalore.php" title="Renovation Contractors in Bangalore">Renovation Contractors in Bangalore</a></li>
-             <li itemprop="name"><a itemprop="url" href="https://www.chennee.in/house-construction-company-in-bangalore.php" title="House Construction Company in Bangalore">House Construction Company in Bangalore</a></li>
+             <li itemprop="name"><a itemprop="url" href="#" title="Renovation Contractors in Bangalore">Renovation Contractors in Bangalore</a></li>
+             <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Bangalore">House Construction Company in Bangalore</a></li>
           </ul>
        </div>
        <div class="footmenu-column responsive">
@@ -40,18 +40,18 @@
              <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.chennai') }}" title="Architects in Chennai">Architects in Chennai</a></li>
              <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.chennai') }}" title="Building Contractors in Chennai">Building Contractors in Chennai</a></li>
              <li itemprop="name"><a itemprop="url" href="{{ route('interior.designers.in.chennai') }}" title="Interior Designers in Chennai">Interior Designers in Chennai</a></li>
-             <li itemprop="name"><a itemprop="url" href="https://www.chennee.in/house-renovation-contractors-chennai.php" title="Renovation Contractors in Chennai">Renovation Contractors in Chennai</a></li>
-             <li itemprop="name"><a itemprop="url" href="https://www.chennee.in/house-construction-company-in-chennai.php" title="House Construction Company in Chennai">House Construction Company in Chennai</a></li>
+             <li itemprop="name"><a itemprop="url" href="#" title="Renovation Contractors in Chennai">Renovation Contractors in Chennai</a></li>
+             <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Chennai">House Construction Company in Chennai</a></li>
           </ul>
        </div>
        <div class="footmenu-column responsive pd">
           <h6>Company</h6>
           <ul>
-             <li itemprop="name"><a itemprop="url" href="./about-us.php" title="About Us">About Us</a></li>
+             <li itemprop="name"><a itemprop="url" href="{{ route('about.us') }}" title="About Us">About Us</a></li>
              <li itemprop="name"><a itemprop="url" href="#" title="Careers">Careers</a></li>
-             <li itemprop="name"><a itemprop="url" href="./contact-sales.php" title="Contact Us">Contact Us</a></li>
-             <li itemprop="name"><a itemprop="url" href="./get-quote.php" title="Get a Quote">Get a Quote</a></li>
-             <li itemprop="name"><a itemprop="url" href="https://www.chennee.in/blog/" title="Blog">Blog</a></li>
+             <li itemprop="name"><a itemprop="url" href="{{ route('contact.sales') }}" title="Contact Us">Contact Us</a></li>
+             <li itemprop="name"><a itemprop="url" href="{{ route('get.quote') }}" title="Get a Quote">Get a Quote</a></li>
+             <li itemprop="name"><a itemprop="url" href="#" title="Blog">Blog</a></li>
           </ul>
        </div>
        <div class="footmenu-column">
@@ -69,7 +69,7 @@
                 </a>
              </li>
              <li>
-                <a href="https://www.facebook.com/CHENNEE-Architects-and-Construction-109874754708822/" rel="nofollow" target="_blank">
+                <a href="#" rel="nofollow" target="_blank">
                    <svg xmlns="https://www.w3.org/2000/svg" width="29.481" height="29.481" viewBox="0 0 29.481 29.481">
                       <defs>
                          <style>.fbook{fill:#dca937;}.fbookb{fill:#1a232c;}</style>
@@ -80,7 +80,7 @@
                 </a>
              </li>
              <li>
-                <a href="https://www.instagram.com/chenneeofficial/" rel="nofollow" target="_blank">
+                <a href="#" rel="nofollow" target="_blank">
                    <svg xmlns="https://www.w3.org/2000/svg" width="29.769" height="29.769" viewBox="0 0 29.769 29.769">
                       <defs>
                          <style>.inins{fill:#dca937;}.ininsb{fill:#1a232c;}</style>
@@ -97,7 +97,7 @@
                 </a>
              </li>
              <li>
-                <a href="https://www.linkedin.com/company/chenneeofficial/" rel="nofollow" target="_blank">
+                <a href="#" rel="nofollow" target="_blank">
                    <svg xmlns="https://www.w3.org/2000/svg" width="29.481" height="29.481" viewBox="0 0 29.481 29.481">
                       <defs>
                          <style>.in{fill:#dca937;}</style>
@@ -107,7 +107,7 @@
                 </a>
              </li>
              <li>
-                <a href="https://www.youtube.com/channel/UC9nL4P77oon84s-fmeCys-g" rel="nofollow" target="_blank">
+                <a href="#" rel="nofollow" target="_blank">
                    <svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" width="35.144" height="29.481" viewBox="0 0 35.144 29.481">
                       <defs>
                          <style>.tube{fill:#dca937;}.tubeb{opacity:0.47;fill:url(#a);}.tubec{fill:#1a232c;}</style>
@@ -125,23 +125,11 @@
                    </svg>
                 </a>
              </li>
-             <!-- <li>
-                <a href="" rel="noreferrer" target="_blank">
-                    <svg id="insta" xmlns="https://www.w3.org/2000/svg" width="22.39" height="22.39" viewBox="0 0 22.39 22.39">
-                    <path id="Path_14449" data-name="Path 14449" d="M224.113,214.179l5.33-3.07-5.33-3.07Zm0,0" transform="translate(-215.161 -199.914)"></path>
-                    <path id="Path_14450" data-name="Path 14450" d="M11.2,0a11.2,11.2,0,1,0,11.2,11.2A11.2,11.2,0,0,0,11.2,0Z"></path>
-                    <g id="instagram" transform="translate(1.746 1.748)">
-                        <path id="Path_14451" data-name="Path 14451" d="M215.438,213.219A2.219,2.219,0,1,1,213.219,211,2.219,2.219,0,0,1,215.438,213.219Zm0,0" transform="translate(-203.259 -203.256)" fill="#fff"></path>
-                        <path id="Path_14452" data-name="Path 14452" d="M130.454,120h-7.5A2.962,2.962,0,0,0,120,122.959v7.5a2.962,2.962,0,0,0,2.959,2.959h7.5a2.962,2.962,0,0,0,2.959-2.959v-7.5A2.962,2.962,0,0,0,130.454,120Zm-3.748,10.4a3.7,3.7,0,1,1,3.7-3.7A3.7,3.7,0,0,1,126.706,130.4Zm4.241-7.2a.74.74,0,1,1,.74-.74A.74.74,0,0,1,130.947,123.205Zm0,0" transform="translate(-116.746 -116.747)" fill="#fff"></path>
-                    </g>
-                    </svg>
-
-                </a></li> -->
           </ul>
        </div>
     </div>
     <div class="footer-bottom">
-       <span class="copyrights">©  2023 All Rights Reserved</span>
+       <span class="copyrights">&copy;  2023 All Rights Reserved</span>
     </div>
     </a>
  </footer>
@@ -158,7 +146,7 @@
                 <img width="200" height="177" id="off" src="{{ asset('assets/images/offer.png') }}" alt=""/>
                 <h5>Book a Home Construction Today!</h5>
                 <p>Get an <b>Architectural Plan</b> & <b>Interior Design</b> For Exclusively <b style="color:#ffc30e;">FREE!!</b></p>
-                <a href="https://www.chennee.in/get-quote.php?utm_source=getquote&utm_medium=banner&utm_campaign=popup" class="nav_quote cap" type="button" data-wow-delay="0.6s">Get a free quote</a>
+                <a href="{{ route('get.quote') }}?utm_source=getquote&utm_medium=banner&utm_campaign=popup" class="nav_quote cap" type="button" data-wow-delay="0.6s">Get a free quote</a>
                 <img width="700" height="312"  id="popup-img" src="{{ asset('assets/images/popup-img.webp') }}" alt=""/>
              </div>
           </div>
