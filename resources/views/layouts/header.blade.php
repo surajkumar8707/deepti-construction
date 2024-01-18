@@ -213,7 +213,7 @@
                    </ul>
                 </li>
                 <li>
-                    <a>Renovation Construction</a>
+                    <a>Construction</a>
                     <ul class="navbar-dropdown">
                        <li>
                           <a href="{{ route('renovation.contractors.in.hosur') }}">Renovation Contractors in Hosur</a>
@@ -226,10 +226,10 @@
                        </li>
                     </ul>
                  </li>
-                {{-- <li class="nav_actions">
-                   <a href="{{ route('contact.sales') }}" type="button" class="nav_quote">Contact Us</a>
-                   <a href="{{ route('get.quote') }}" class="nav_contact cap" type="button" data-wow-delay="0.6s">Get a free quote</a>
-                </li> --}}
+                <li class="nav_actions">
+                   {{-- <a href="{{ route('contact.sales') }}" type="button" class="nav_quote">Contact Us</a> --}}
+                   <a href="{{ route('admin.login') }}" class="nav_quote" type="button" data-wow-delay="0.6s">Login</a>
+                </li>
              </ul>
           </nav>
        </div>
