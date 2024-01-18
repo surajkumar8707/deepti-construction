@@ -14,7 +14,7 @@ class HomeController extends Controller
     {
         ViewShare::share('nav', 'Dashboard');
     }
-
+    
     public function index(): View
     {
         $viewData = array();

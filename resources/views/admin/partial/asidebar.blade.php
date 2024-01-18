@@ -4,7 +4,7 @@
     <a href="#" class="brand-link elevation-1">
         <img src="{{ URL::asset('/images/avatar.png') }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-1"
             style="opacity: 1.0">
-        <span class="brand-text font-weight-light">AfterMe</span>
+        <span class="brand-text font-weight-light">Name</span>
     </a>
 
     <!-- Sidebar -->

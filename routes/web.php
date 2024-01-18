@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\Admin\HomeController as AdminHomeController;
+use App\Http\Controllers\Admin\Auth\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +16,28 @@ use App\Http\Controllers\HomeController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+
+Route::group(['prefix' => 'admin', 'as' => 'admin.'], function() {
+    Route::group(["middleware" => ["guest:admin"]], function() {
+        Route::controller(LoginController::class)->group(function() {
+            Route::get('/login', 'showAdminLoginForm')->name('login_page');
+            Route::post('/login', 'adminLogin')->name('login');
+        });
+    });
+    Route::group(["middleware" => "auth:admin"], function () {
+        Route::controller(AdminHomeController::class)->group(function() {
+            Route::get("/dashboard", "index")->name("dashboard");
+        });
+        Route::post('/logout', [LoginController::class, 'adminLogout'])->name('logout');
+        //---users---
+        Route::group(['prefix' => 'users', 'as' => 'users.'], function () {
+            Route::controller(UserController::class)->group(function() {
+                Route::get("/", "index")->name("index");
+            });
+        });
+    });
+});
 
 Route::get('/',[HomeController::class, 'index'])->name('home');
 Route::get('architects-in-hosur',[HomeController::class, 'architectsInHosur'])->name('architects.in.hosur');
