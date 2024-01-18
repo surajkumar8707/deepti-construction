@@ -52,6 +52,9 @@ Route::get('interior-designers-in-chennai',[HomeController::class, 'interiorDesi
 Route::get('house-construction-company-in-hosur',[HomeController::class, 'houseConstructionCompanyInHosur'])->name('house.construction.company.in.hosur');
 Route::get('house-construction-company-in-bangalore',[HomeController::class, 'houseConstructionCompanyInBangalore'])->name('house.construction.company.in.bangalore');
 Route::get('house-construction-company-in-chennai',[HomeController::class, 'houseConstructionCompanyInChennai'])->name('house.construction.company.in.chennai');
+Route::get('renovation-contractors-in-hosur',[HomeController::class, 'renovationContractorsInHosur'])->name('renovation.contractors.in.hosur');
+Route::get('house-renovation-contractors-bangalore',[HomeController::class, 'houseRenovationContractorsBangalore'])->name('house.renovation.contractors.bangalore');
+Route::get('house-renovation-contractors-chennai',[HomeController::class, 'houseRenovationContractorsChennai'])->name('house.renovation.contractors.chennai');
 Route::get('contact-sales',[HomeController::class, 'contactSales'])->name('contact.sales');
 Route::get('about-us',[HomeController::class, 'aboutUs'])->name('about.us');
 Route::get('get-quote',[HomeController::class, 'getQuote'])->name('get.quote');

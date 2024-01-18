@@ -20,8 +20,8 @@
              <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.hosur') }}" title="Architects in Hosur">Architects in Hosur</a></li>
              <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.hosur') }}" title="Building Contractors in Hosur">Building Contractors in Hosur</a></li>
              <li itemprop="name"><a itemprop="url" href="{{ route('interior.designers.in.hosur') }}" title="Interior Designers in Hosur">Interior Designers in Hosur</a></li>
-             <li itemprop="name"><a itemprop="url" href="#" title="Renovation Contractors in Hosur">Renovation Contractors in Hosur</a></li>
-             <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Hosur">House Construction Company in Hosur</a></li>
+             <li itemprop="name"><a itemprop="url" href="{{ route('renovation.contractors.in.hosur') }}" title="Renovation Contractors in Hosur">Renovation Contractors in Hosur</a></li>
+             {{-- <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Hosur">House Construction Company in Hosur</a></li> --}}
           </ul>
        </div>
        <div class="footmenu-column responsive">
@@ -30,8 +30,8 @@
              <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.bangalore') }}" title="Architects in Bangalore">Architects in Bangalore</a></li>
              <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.bangalore') }}" title="Building Contractors in Bangalore">Building Contractors in Bangalore</a></li>
              <li itemprop="name"><a itemprop="url" href="https{{ route('interior.designers.in.bangalore') }}" title="Interior Designers in Bangalore">Interior Designers in Bangalore</a></li>
-             <li itemprop="name"><a itemprop="url" href="#" title="Renovation Contractors in Bangalore">Renovation Contractors in Bangalore</a></li>
-             <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Bangalore">House Construction Company in Bangalore</a></li>
+             <li itemprop="name"><a itemprop="url" href="{{ route('house.renovation.contractors.bangalore') }}" title="Renovation Contractors in Bangalore">Renovation Contractors in Bangalore</a></li>
+             {{-- <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Bangalore">House Construction Company in Bangalore</a></li> --}}
           </ul>
        </div>
        <div class="footmenu-column responsive">
@@ -40,8 +40,8 @@
              <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.chennai') }}" title="Architects in Chennai">Architects in Chennai</a></li>
              <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.chennai') }}" title="Building Contractors in Chennai">Building Contractors in Chennai</a></li>
              <li itemprop="name"><a itemprop="url" href="{{ route('interior.designers.in.chennai') }}" title="Interior Designers in Chennai">Interior Designers in Chennai</a></li>
-             <li itemprop="name"><a itemprop="url" href="#" title="Renovation Contractors in Chennai">Renovation Contractors in Chennai</a></li>
-             <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Chennai">House Construction Company in Chennai</a></li>
+             <li itemprop="name"><a itemprop="url" href="{{ route('house.renovation.contractors.chennai') }}" title="Renovation Contractors in Chennai">Renovation Contractors in Chennai</a></li>
+             {{-- <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Chennai">House Construction Company in Chennai</a></li> --}}
           </ul>
        </div>
        <div class="footmenu-column responsive pd">
@@ -51,7 +51,7 @@
              <li itemprop="name"><a itemprop="url" href="#" title="Careers">Careers</a></li>
              <li itemprop="name"><a itemprop="url" href="{{ route('contact.sales') }}" title="Contact Us">Contact Us</a></li>
              <li itemprop="name"><a itemprop="url" href="{{ route('get.quote') }}" title="Get a Quote">Get a Quote</a></li>
-             <li itemprop="name"><a itemprop="url" href="#" title="Blog">Blog</a></li>
+             {{-- <li itemprop="name"><a itemprop="url" href="#" title="Blog">Blog</a></li> --}}
           </ul>
        </div>
        <div class="footmenu-column">

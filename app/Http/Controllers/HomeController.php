@@ -53,6 +53,18 @@ class HomeController extends Controller
         return view('house_construction_company_in_chennai');
     }
 
+    public function renovationContractorsInHosur(){
+        return view('renovation_contractors_in_hosur');
+    }
+
+    public function houseRenovationContractorsBangalore(){
+        return view('house_renovation_contractors_bangalore');
+    }
+
+    public function houseRenovationContractorsChennai(){
+        return view('house_renovation_contractors_chennai');
+    }
+
 
     public function contactSales(){
         return view('contact_sales');

@@ -212,10 +212,24 @@
                       </li>
                    </ul>
                 </li>
-                <li class="nav_actions">
+                <li>
+                    <a>Renovation Construction</a>
+                    <ul class="navbar-dropdown">
+                       <li>
+                          <a href="{{ route('renovation.contractors.in.hosur') }}">Renovation Contractors in Hosur</a>
+                       </li>
+                       <li>
+                          <a href="{{ route('house.renovation.contractors.bangalore') }}">Renovation Cenovation in Bangalore</a>
+                       </li>
+                       <li>
+                          <a href="{{ route('house.renovation.contractors.chennai') }}">Renovation Cenovation in Chennai</a>
+                       </li>
+                    </ul>
+                 </li>
+                {{-- <li class="nav_actions">
                    <a href="{{ route('contact.sales') }}" type="button" class="nav_quote">Contact Us</a>
                    <a href="{{ route('get.quote') }}" class="nav_contact cap" type="button" data-wow-delay="0.6s">Get a free quote</a>
-                </li>
+                </li> --}}
              </ul>
           </nav>
        </div>
@@ -223,10 +237,10 @@
     <section class="sticky-footer">
        <div class="sticky-wrap">
           <div class="whatsapps-us">
-             <a href="{{ route('contact.sales') }}" class="nav_quote cap" type="button" data-wow-delay="0.6s">Contact Us</a>
+             {{-- <a href="{{ route('contact.sales') }}" class="nav_quote cap" type="button" data-wow-delay="0.6s">Contact Us</a> --}}
           </div>
           <div class="get-quotes">
-             <a href="{{ route('get.quote') }}" class="nav_quote cap" type="button" data-wow-delay="0.6s">Get a free quote</a>
+             {{-- <a href="{{ route('get.quote') }}" class="nav_quote cap" type="button" data-wow-delay="0.6s">Get a free quote</a> --}}
           </div>
        </div>
     </section>
