@@ -4,7 +4,7 @@
     <div class="footer-menus wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s;">
        <div class="footmenu-column">
           <a itemprop="url" href="./" class="footer-logo" title="chennee">
-          <img src="{{ asset('assets/images/footer-logo.png') }}" width="210" height="61" class="footer-logo LoadImg" alt="chennee logo" style="">
+          <img src="{{ asset($settings?->header_image) }}" width="210" height="61" class="footer-logo LoadImg" alt="chennee logo" style="">
           </a>
           <p class="footer-content">
              We are a one stop solution for all your architectural planning, construction and interior design needs.
@@ -69,7 +69,7 @@
                 </a>
              </li>
              <li>
-                <a href="#" rel="nofollow" target="_blank">
+                <a href="{{ $socialMediaLinks?->facebook ? $socialMediaLinks->facebook : '#' }}" rel="nofollow" target="_blank">
                    <svg xmlns="https://www.w3.org/2000/svg" width="29.481" height="29.481" viewBox="0 0 29.481 29.481">
                       <defs>
                          <style>.fbook{fill:#dca937;}.fbookb{fill:#1a232c;}</style>
@@ -80,7 +80,7 @@
                 </a>
              </li>
              <li>
-                <a href="#" rel="nofollow" target="_blank">
+                <a href="{{ $socialMediaLinks?->instagram ? $socialMediaLinks->instagram : '#' }}" rel="nofollow" target="_blank">
                    <svg xmlns="https://www.w3.org/2000/svg" width="29.769" height="29.769" viewBox="0 0 29.769 29.769">
                       <defs>
                          <style>.inins{fill:#dca937;}.ininsb{fill:#1a232c;}</style>
@@ -97,7 +97,7 @@
                 </a>
              </li>
              <li>
-                <a href="#" rel="nofollow" target="_blank">
+                <a href="{{ $socialMediaLinks?->linkedin ? $socialMediaLinks->linkedin : '#' }}" rel="nofollow" target="_blank">
                    <svg xmlns="https://www.w3.org/2000/svg" width="29.481" height="29.481" viewBox="0 0 29.481 29.481">
                       <defs>
                          <style>.in{fill:#dca937;}</style>
@@ -107,7 +107,7 @@
                 </a>
              </li>
              <li>
-                <a href="#" rel="nofollow" target="_blank">
+                <a href="{{ $socialMediaLinks?->youTube ? $socialMediaLinks->youTube : '#' }}" rel="nofollow" target="_blank">
                    <svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" width="35.144" height="29.481" viewBox="0 0 35.144 29.481">
                       <defs>
                          <style>.tube{fill:#dca937;}.tubeb{opacity:0.47;fill:url(#a);}.tubec{fill:#1a232c;}</style>

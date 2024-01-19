@@ -5,6 +5,8 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Admin\HomeController as AdminHomeController;
 use App\Http\Controllers\Admin\Auth\LoginController;
+use App\Http\Controllers\Admin\SocialMediaLinkController;
+use App\Http\Controllers\Admin\AppSettingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,12 +32,28 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function() {
             Route::get("/dashboard", "index")->name("dashboard");
         });
         Route::post('/logout', [LoginController::class, 'adminLogout'])->name('logout');
-        //---users---
-        Route::group(['prefix' => 'users', 'as' => 'users.'], function () {
-            Route::controller(UserController::class)->group(function() {
-                Route::get("/", "index")->name("index");
+
+        // ---Social Media Links---
+        Route::group(['prefix' => 'social-media', 'as' => 'social.media.'], function () {
+            Route::controller(SocialMediaLinkController::class)->group(function() {
+                Route::get("/show", "show")->name("show");
+                Route::get("/create", "create")->name("create");
+                Route::post("/storeOrUpdate", "storeOrUpdate")->name("storeOrUpdate");
             });
         });
+        Route::group(['prefix' => 'app', 'as' => 'app.'], function () {
+            Route::controller(AppSettingController::class)->group(function() {
+                Route::get("/setting", "setting")->name("setting");
+                Route::post("/setting-update", "settingUpdate")->name("setting.update");
+            });
+        });
+
+        //---users---
+        // Route::group(['prefix' => 'users', 'as' => 'users.'], function () {
+        //     Route::controller(UserController::class)->group(function() {
+        //         Route::get("/", "index")->name("index");
+        //     });
+        // });
     });
 });
 

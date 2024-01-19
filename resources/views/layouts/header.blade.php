@@ -18,7 +18,7 @@
                       </a>
                    </li>
                    <li>
-                      <a href="tel:+919324394183">
+                      <a href="tel:{{ $settings?->contact }}">
                          <i>
                             <svg xmlns="https://www.w3.org/2000/svg" width="32.499" height="32.499" viewBox="0 0 32.499 32.499">
                                <defs>
@@ -31,11 +31,11 @@
                                </g>
                             </svg>
                          </i>
-                         +91 96004 42776
+                         {{ $settings?->contact }}
                       </a>
                    </li>
                    <li>
-                      <a href="mailto:info@chennee.in">
+                      <a href="mailto:{{ $settings?->email }}">
                          <i>
                             <svg xmlns="https://www.w3.org/2000/svg" width="32.76" height="32.761" viewBox="0 0 32.76 32.761">
                                <defs>
@@ -50,7 +50,7 @@
                                </g>
                             </svg>
                          </i>
-                         constructiontechnology.lko@gmail.com
+                         {{ $settings?->email }}
                       </a>
                    </li>
                 </ul>
@@ -70,7 +70,7 @@
                       </a>
                    </li>
                    <li>
-                      <a href="#" rel="nofollow" target="_blank">
+                      <a href="{{ $socialMediaLinks?->facebook ? $socialMediaLinks->facebook : '#' }}" rel="nofollow" target="_blank">
                          <svg xmlns="https://www.w3.org/2000/svg" width="24.981" height="24.981" viewBox="0 0 24.981 24.981">
                             <defs>
                                <style>.iron{fill:#1a232c;}.b{fill:#ffc30e;}</style>
@@ -81,7 +81,7 @@
                       </a>
                    </li>
                    <li>
-                      <a href="#" rel="nofollow" target="_blank">
+                      <a href="{{ $socialMediaLinks?->instagram ? $socialMediaLinks->instagram : '#' }}" rel="nofollow" target="_blank">
                          <svg xmlns="https://www.w3.org/2000/svg" width="25.225" height="25.225" viewBox="0 0 25.225 25.225">
                             <defs>
                                <style>.inji{fill:#1a232c;}.linji{fill:#ffc30e;}</style>
@@ -98,7 +98,7 @@
                       </a>
                    </li>
                    <li>
-                      <a href="#" rel="nofollow" target="_blank">
+                      <a href="{{ $socialMediaLinks?->linkedin ? $socialMediaLinks->linkedin : '#' }}" rel="nofollow" target="_blank">
                          <svg xmlns="https://www.w3.org/2000/svg" width="24.981" height="24.981" viewBox="0 0 24.981 24.981">
                             <defs>
                                <style>.linky{fill:#1a232c;}</style>
@@ -108,7 +108,7 @@
                       </a>
                    </li>
                    <li>
-                      <a href="#" rel="nofollow" target="_blank">
+                      <a href="{{ $socialMediaLinks?->youTube ? $socialMediaLinks->youTube : '#' }}" rel="nofollow" target="_blank">
                          <svg xmlns="https://www.w3.org/2000/svg" width="29.779" height="24.981" viewBox="0 0 29.779 24.981">
                             <defs>
                                <style>.brom{fill:#1a232c;}.bromb{fill:#ffc30e;}</style>
@@ -131,7 +131,7 @@
        <div class="nav-container">
           <div class="brand">
              <a href="{{ route('home') }}">
-             <img width="200" height="57" src="{{ asset('assets/images/header-logo.png') }}" alt="">
+             <img width="200" height="57" src="{{ asset($settings?->header_image) }}" alt="">
              </a>
           </div>
           <div class="nav-mobile">

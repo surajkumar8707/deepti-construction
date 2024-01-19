@@ -21,6 +21,8 @@ class DatabaseSeeder extends Seeder
         $this->call([
             AdminSeeder::class,
             UserSeeder::class,
+            SocialMediaLinksTableSeeder::class,
+            SettingSeeder::class,
         ]);
     }
 }

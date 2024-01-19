@@ -1,3 +1,8 @@
+@php
+    $socialMediaLinks = \App\Models\SocialMediaLink::first();
+    $settings = \App\Models\Setting::first();
+    // dd($socialMediaLinks->toArray(), $settings->toArray());
+@endphp
 <html lang="en">
 <head>
     <meta http-equiv=Content-Type content="text/html; charset=UTF-8">

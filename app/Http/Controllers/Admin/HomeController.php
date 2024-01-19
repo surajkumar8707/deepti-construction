@@ -14,12 +14,12 @@ class HomeController extends Controller
     {
         ViewShare::share('nav', 'Dashboard');
     }
-    
+
     public function index(): View
     {
         $viewData = array();
         $viewData['user_count'] = User::count();
 
-        return view('home', $viewData);
+        return view('admin.dashboard', $viewData);
     }
 }
