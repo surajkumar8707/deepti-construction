@@ -10,7 +10,7 @@
     <!-- Sidebar -->
     <div class="sidebar">
         <!-- Sidebar Menu -->
-        <nav class="mt-2">
+        <nav class="mt-2 mb-5">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
                 data-accordion="false">
                 <!-- Add icons to the links using the .nav-icon class with font-awesome or any other icon font library -->
@@ -22,6 +22,22 @@
                             <p>Dashboard</p>
                         </a>
                     </li>
+                    <li class="nav-item mt-2">
+                        <a href="{{ route('admin.dashboard') }}"
+                            class="{{ $nav == 'Dashboard' ? 'active' : '' }} nav-link">
+                            <i class="nav-icon fas fa-tachometer-alt"></i>
+                            <p>Frontend Content</p>
+                        </a>
+                    </li>
+                    {{-- @for($i = 0; $i < 15; $i++)
+                    <li class="nav-item mt-2">
+                        <a href="{{ route('admin.dashboard') }}"
+                            class="{{ $nav == 'Dashboard' ? 'active' : '' }} nav-link">
+                            <i class="nav-icon fas fa-tachometer-alt"></i>
+                            <p>Dashboard {{ $i }}</p>
+                        </a>
+                    </li>
+                    @endfor --}}
                     <li class="nav-item mt-2">
                         <a href="#" class="nav-link {{ (($nav == 'social-media-link') or ($nav == 'app-setting')) ? 'menu-is-opening menu-open' : '' }}">
                             <i class="nav-icon fas fa-cogs"></i>

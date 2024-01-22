@@ -7,6 +7,7 @@ use App\Http\Controllers\Admin\HomeController as AdminHomeController;
 use App\Http\Controllers\Admin\Auth\LoginController;
 use App\Http\Controllers\Admin\SocialMediaLinkController;
 use App\Http\Controllers\Admin\AppSettingController;
+use App\Http\Controllers\Admin\ManageFrontEndContentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -41,10 +42,18 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function() {
                 Route::post("/storeOrUpdate", "storeOrUpdate")->name("storeOrUpdate");
             });
         });
+
         Route::group(['prefix' => 'app', 'as' => 'app.'], function () {
             Route::controller(AppSettingController::class)->group(function() {
                 Route::get("/setting", "setting")->name("setting");
                 Route::post("/setting-update", "settingUpdate")->name("setting.update");
+            });
+        });
+
+        Route::group(['prefix' => 'manage-front-end-content', 'as' => 'manage.front.end.content.'], function () {
+            Route::controller(ManageFrontEndContentController::class)->group(function() {
+                Route::get("/", "index")->name("index");
+                Route::post("/update", "createUpdate")->name("update");
             });
         });
 
