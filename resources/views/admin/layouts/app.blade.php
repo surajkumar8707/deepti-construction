@@ -28,7 +28,7 @@
         var base_url = "{{ url('admin/') }}";
     </script>
     @vite('resources/js/app.js')
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="{{ asset('js/adminlte.min.js') }}" defer></script>
     <script src="{{ asset('js/datatables.min.js') }}" defer></script>
     <script src="{{ asset('js/sweetalert2.min.js') }}" defer></script>

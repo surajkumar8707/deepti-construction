@@ -53,6 +53,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function() {
         Route::group(['prefix' => 'manage-front-end-content', 'as' => 'manage.front.end.content.'], function () {
             Route::controller(ManageFrontEndContentController::class)->group(function() {
                 Route::get("/", "index")->name("index");
+                Route::get("/get-page-detail/{page}", "getPageDetail")->name("get.page.detail");
                 Route::post("/update", "createUpdate")->name("update");
             });
         });

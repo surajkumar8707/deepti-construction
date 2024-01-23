@@ -23,8 +23,8 @@
                         </a>
                     </li>
                     <li class="nav-item mt-2">
-                        <a href="{{ route('admin.dashboard') }}"
-                            class="{{ $nav == 'Dashboard' ? 'active' : '' }} nav-link">
+                        <a href="{{ route('admin.manage.front.end.content.index') }}"
+                            class="{{ $nav == 'manage-front-end-content' ? 'active' : '' }} nav-link">
                             <i class="nav-icon fas fa-tachometer-alt"></i>
                             <p>Frontend Content</p>
                         </a>
