@@ -18,25 +18,23 @@
                             </div>
                             <div class="card-body">
                                 <div class="container">
-                                    <form class="manage-content-form" action="" method="POST">
-                                        <div class="form-group">
-                                            <label for="page_type">Select Page</label>
-                                            {{-- @dd(config('enums.page_type')) --}}
-                                            <select class="form-control" id="page_type" name="page_type">
-                                                <option value="">-- Select Page --</option>
-                                                @if(count(config('enums.page_type')) > 0)
-                                                    @forelse (config('enums.page_type') as $key => $page_type)
-                                                        <option value="{{ $key }}">{{ $page_type }}</option>
-                                                    @empty
-                                                    @endforelse
-                                                @endif
-                                            </select>
-                                        </div>
+                                    <div class="form-group">
+                                        <label for="page_type">Select Page</label>
+                                        {{-- @dd(config('enums.page_type')) --}}
+                                        <select class="form-control" id="page_type" name="page_type">
+                                            <option value="">-- Select Page --</option>
+                                            @if(count(config('enums.page_type')) > 0)
+                                                @forelse (config('enums.page_type') as $key => $page_type)
+                                                    <option value="{{ $key }}">{{ $page_type }}</option>
+                                                @empty
+                                                @endforelse
+                                            @endif
+                                        </select>
+                                    </div>
 
-                                        <div class="show-content">
+                                    <div class="show-content">
 
-                                        </div>
-                                    </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +49,7 @@
 @push('scripts')
 <script>
     $(document).ready(function(){
-        $('form.manage-content-form #page_type').change(function(){
+        $('#page_type').change(function(){
             var $this = $(this);
             const page_type = $(this).val();
             const base_url = '{{ url('') }}';
@@ -59,19 +57,19 @@
                 type:'GET',
                 url: base_url + '/admin/manage-front-end-content/get-page-detail/' + page_type,
                 beforeSend: function(){
-
+                    $('div.main-loader-please-wait').show();
                 },
-                complete: function(response){
+                success: function(response){
                     console.log(response);
                     if(response.status == 'success'){
-                        $("form.manage-content-form div.show-content");
+                        $("div.show-content").html(response.html);
                     }
                     else{
                         alert(response.message);
                     }
                 },
                 complete: function(){
-
+                    $('div.main-loader-please-wait').hide();
                 },
             });
         });

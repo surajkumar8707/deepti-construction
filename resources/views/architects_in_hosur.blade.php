@@ -7,14 +7,14 @@
             <div class="banner-content banner-left animate">
                 <div class="banner-title">
                     <h1 class="section-title wow fadeInUp" style="visibility: visible;">
-                        <span class="in">Architecture  |  Interiors  |  Construction</span>
-                        Get Your Dream Home
-                        <p>Designed &amp; Built in One Place</p>
-                        <span class="banner-text wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Our in-hand experts help you to have a complete furnished house right from planning, constructing &amp; interior designing and let you unfold your sweetest dream into reality.</span>
+                        <span class="in">CHENNEE ARCHITECTS</span>
+                        A Leading Innovative
+                        <p>Architecture Firm in Hosur</p>
+                        <span class="banner-text wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Get Your Dream House Design Plans With The Hands of Best Architects in Hosur at Low Cost</span>
                     </h1>
                 </div>
-                <a href="contact-sales.php" class="secondary_button cap" type="button" data-wow-delay="0.6s">Talk to Us</a>
-                <a href="get-quote.php" class="action_buttons cap" type="button" data-wow-delay="0.6s">Get a quote</a>
+                {{-- <a href="contact-sales.php" class="secondary_button cap" type="button" data-wow-delay="0.6s">Talk to Us</a>
+                <a href="get-quote.php" class="action_buttons cap" type="button" data-wow-delay="0.6s">Get a quote</a> --}}
             </div>
         </div>
     </div>

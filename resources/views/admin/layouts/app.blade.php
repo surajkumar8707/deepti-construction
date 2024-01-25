@@ -13,10 +13,61 @@
     <link rel="stylesheet" href="{{ asset('css/sweetalert2.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/select2.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}" />
+    <style>
+        .main-loader-please-wait {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #000000d6;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 999999999;
+        }
+
+        .main-loader-please-wait .loader-container {
+            text-align: center;
+            position: absolute;
+        }
+
+        .main-loader-please-wait .loader-container .loader {
+            border: 4px solid rgba(0, 0, 0, 0.3);
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+
+        .main-loader-please-wait .loader-container .loading-message {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        @keyframes  spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
     @stack('styles')
 </head>
 
 <body class="hold-transition sidebar-mini">
+    <div class="main-loader-please-wait" style="display: none;">
+        <div class="loader-container">
+            <div class="loader"></div>
+            <p class="loading-message text-white">Please Wait ...</p>
+        </div>
+    </div>
     <div class="wrapper" style="position: unset;">
         @include('admin.partial.top-navbar')
         @include('admin.partial.asidebar')

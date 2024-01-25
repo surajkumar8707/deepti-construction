@@ -41,4 +41,12 @@ class ManageFrontEndContentController extends Controller
         }
     }
 
+    public function store(Request $request){
+        dd($request->all());
+    }
+
+    public function update(Request $request){
+        dd($request->all());
+    }
+
 }
