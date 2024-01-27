@@ -213,7 +213,7 @@
                    </ul>
                 </li>
                 <li>
-                    <a>Construction</a>
+                    <a>Renovation</a>
                     <ul class="navbar-dropdown">
                        <li>
                           <a href="{{ route('renovation.contractors.in.hosur') }}">Renovation Contractors in Hosur</a>

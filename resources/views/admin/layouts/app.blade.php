@@ -57,6 +57,12 @@
                 transform: rotate(360deg);
             }
         }
+
+        .content-wrapper>.content{
+            padding: 0 0.5rem;
+            height: 90vh !important;
+            overflow: auto;
+        }
     </style>
     @stack('styles')
 </head>
