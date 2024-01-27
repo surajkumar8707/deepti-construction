@@ -60,9 +60,9 @@
                     $('div.main-loader-please-wait').show();
                 },
                 success: function(response){
-                    console.log(response);
                     if(response.status == 'success'){
                         $("div.show-content").html(response.html);
+                        $("form.manage-content-form").append(`<input type="hidden" name="page_type" value="`+ page_type +`">`);
                     }
                     else{
                         alert(response.message);

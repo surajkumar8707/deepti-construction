@@ -54,8 +54,9 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function() {
             Route::controller(ManageFrontEndContentController::class)->group(function() {
                 Route::get("/", "index")->name("index");
                 Route::get("/get-page-detail/{page}", "getPageDetail")->name("get.page.detail");
+                Route::get("/delete-faq-detail/{faq_id}", "deleteFaqDetail")->name("delete.faq.detail");
                 Route::post("/store", "store")->name("store");
-                Route::post("/update", "update")->name("update");
+                Route::put("/update/{id}", "update")->name("update");
             });
         });
 

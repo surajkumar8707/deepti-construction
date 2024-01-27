@@ -64,6 +64,11 @@
             }
         }
     </script>
+    <style>
+        .faq-accordian-wrapper {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <!-- Google Tag Manager -->

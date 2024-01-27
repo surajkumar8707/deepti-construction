@@ -133,7 +133,7 @@
     </div>
     </a>
  </footer>
- <div class="popup popup_fl" id="popup-deposit">
+ {{-- <div class="popup popup_fl" id="popup-deposit">
     <div class="flex-center">
        <div class="popup__content LoadImg" preload="none">
           <a class="popup__close js-close-popup">
@@ -152,7 +152,7 @@
           </div>
        </div>
     </div>
- </div>
+ </div> --}}
  <a class="whatsapp-footer" href="https://wa.me/919600442776?text=Hi%20I%20have%20a%20plot%20in" target="blank">
     <svg xmlns="https://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37">
        <defs>

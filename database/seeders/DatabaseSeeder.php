@@ -23,6 +23,7 @@ class DatabaseSeeder extends Seeder
             UserSeeder::class,
             SocialMediaLinksTableSeeder::class,
             SettingSeeder::class,
+            ManageFrontEndContentSeeder::class,
         ]);
     }
 }

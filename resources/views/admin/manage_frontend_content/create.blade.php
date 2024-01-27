@@ -1,4 +1,5 @@
 <form class="manage-content-form" action="{{ route('admin.manage.front.end.content.store')}}" method="POST" enctype="multipart/form-data">
+    @csrf
     <div class="row">
         <div class="col-md-6">
             <div class="form-group">
@@ -73,12 +74,6 @@
             $('.faq_container' + delete_id).remove();
         });
     });
-
-    // $('.delete-faq').click(function () {
-    //     var delete_id = $(this).data('id');
-    //     alert(delete_id);
-    //     $('.faq_container' + delete_id).remove();
-    // });
     </script>
 
 </form>

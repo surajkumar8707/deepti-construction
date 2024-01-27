@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Faq;
 use Illuminate\Http\Request;
+use App\Models\FrontendImage;
+use App\Models\ManageFrontEndContent;
 
 class HomeController extends Controller
 {
@@ -11,58 +14,73 @@ class HomeController extends Controller
     }
 
     public function architectsInHosur(){
-        return view('architects_in_hosur');
+        $manage_content = ManageFrontEndContent::with(['frontendImages', 'faqs'])->where('page_type', 'architects_in_hosur')->first();
+        return view('architects_in_hosur', compact('manage_content'));
     }
     public function architectsInBangalore(){
-        return view('architects_in_bangalore');
+        $manage_content = ManageFrontEndContent::with(['frontendImages', 'faqs'])->where('page_type', 'architects_in_bangalore')->first();
+        return view('architects_in_bangalore', compact('manage_content'));
     }
     public function architectsInChennai(){
-        return view('architects_in_chennai');
+        $manage_content = ManageFrontEndContent::with(['frontendImages', 'faqs'])->where('page_type', 'architects_in_chennai')->first();
+        return view('architects_in_chennai', compact('manage_content'));
     }
 
 
     public function buildingConstructionContractorsHosur(){
-        return view('building_construction_contractors_hosur');
+        $manage_content = ManageFrontEndContent::with(['frontendImages', 'faqs'])->where('page_type', 'building_construction_contractors_hosur')->first();
+        return view('building_construction_contractors_hosur', compact('manage_content'));
     }
     public function buildingConstructionContractorsBangalore(){
-        return view('building_construction_contractors_bangalore');
+        $manage_content = ManageFrontEndContent::with(['frontendImages', 'faqs'])->where('page_type', 'building_construction_contractors_bangalore')->first();
+        return view('building_construction_contractors_bangalore', compact('manage_content'));
     }
     public function buildingConstructionContractorsChennai(){
-        return view('building_construction_contractors_chennai');
+        $manage_content = ManageFrontEndContent::with(['frontendImages', 'faqs'])->where('page_type', 'building_construction_contractors_chennai')->first();
+        return view('building_construction_contractors_chennai', compact('manage_content'));
     }
 
 
     public function interiorDesignersInHosur(){
-        return view('interior_designers_in_hosur');
+        $manage_content = ManageFrontEndContent::with(['frontendImages', 'faqs'])->where('page_type', 'interior_designers_in_hosur')->first();
+        return view('interior_designers_in_hosur', compact('manage_content'));
     }
     public function interiorDesignersInBangalore(){
-        return view('interior_designers_in_bangalore');
+        $manage_content = ManageFrontEndContent::with(['frontendImages', 'faqs'])->where('page_type', 'interior_designers_in_bangalore')->first();
+        return view('interior_designers_in_bangalore', compact('manage_content'));
     }
     public function interiorDesignersInChennai(){
-        return view('interior_designers_in_chennai');
+        $manage_content = ManageFrontEndContent::with(['frontendImages', 'faqs'])->where('page_type', 'interior_designers_in_chennai')->first();
+        return view('interior_designers_in_chennai', compact('manage_content'));
     }
 
 
     public function houseConstructionCompanyInHosur(){
-        return view('house_construction_company_in_hosur');
+        $manage_content = ManageFrontEndContent::with(['frontendImages', 'faqs'])->where('page_type', 'house_construction_company_in_hosur')->first();
+        return view('house_construction_company_in_hosur', compact('manage_content'));
     }
     public function houseConstructionCompanyInBangalore(){
-        return view('house_construction_company_in_bangalore');
+        $manage_content = ManageFrontEndContent::with(['frontendImages', 'faqs'])->where('page_type', 'house_construction_company_in_bangalore')->first();
+        return view('house_construction_company_in_bangalore', compact('manage_content'));
     }
     public function houseConstructionCompanyInChennai(){
-        return view('house_construction_company_in_chennai');
+        $manage_content = ManageFrontEndContent::with(['frontendImages', 'faqs'])->where('page_type', 'house_construction_company_in_chennai')->first();
+        return view('house_construction_company_in_chennai', compact('manage_content'));
     }
 
     public function renovationContractorsInHosur(){
-        return view('renovation_contractors_in_hosur');
+        $manage_content = ManageFrontEndContent::with(['frontendImages', 'faqs'])->where('page_type', 'renovation_contractors_in_hosur')->first();
+        return view('renovation_contractors_in_hosur', compact('manage_content'));
     }
 
     public function houseRenovationContractorsBangalore(){
-        return view('house_renovation_contractors_bangalore');
+        $manage_content = ManageFrontEndContent::with(['frontendImages', 'faqs'])->where('page_type', 'house_renovation_contractors_bangalore')->first();
+        return view('house_renovation_contractors_bangalore', compact('manage_content'));
     }
 
     public function houseRenovationContractorsChennai(){
-        return view('house_renovation_contractors_chennai');
+        $manage_content = ManageFrontEndContent::with(['frontendImages', 'faqs'])->where('page_type', 'house_renovation_contractors_chennai')->first();
+        return view('house_renovation_contractors_chennai', compact('manage_content'));
     }
 
 
