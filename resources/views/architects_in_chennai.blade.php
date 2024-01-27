@@ -15,9 +15,9 @@
                 <div class="banner-title">
                     <h1 class="section-title wow fadeInUp" style="visibility: visible;">
                         <span class="in">CHENNEE ARCHITECTS</span>
-                        A Leading Innovative
-                        <p>Architecture Firm in Hosur</p>
-                        <span class="banner-text wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Get Your Dream House Design Plans With The Hands of Best Architects in Hosur at Low Cost</span>
+                        <p>The Most Reputed</p>
+                        Architecture Firm in Chennai
+                        <span class="banner-text wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Get the Best Customized Floor Plan, Elevation & Structural Design For Residential House With Unlimited Changes at Affordable Price.</span>
                     </h1>
                 </div>
                 {{-- <a href="contact-sales.php" class="secondary_button cap" type="button" data-wow-delay="0.6s">Talk to Us</a>

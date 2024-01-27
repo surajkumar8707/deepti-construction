@@ -15,9 +15,9 @@
                 <div class="banner-title">
                     <h1 class="section-title wow fadeInUp" style="visibility: visible;">
                         <span class="in">CHENNEE ARCHITECTS</span>
-                        A Leading Innovative
-                        <p>Architecture Firm in Hosur</p>
-                        <span class="banner-text wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Get Your Dream House Design Plans With The Hands of Best Architects in Hosur at Low Cost</span>
+                        <p>Upgrade Your Lifestyle With</p>
+                        Best Interior Designers in Hosur
+                        <span class="banner-text wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Your Search For The Perfect Home Interiors & Exteriors Ends Now! Get Your Customized Home Designs Within Your Budget.</span>
                     </h1>
                 </div>
                 {{-- <a href="contact-sales.php" class="secondary_button cap" type="button" data-wow-delay="0.6s">Talk to Us</a>

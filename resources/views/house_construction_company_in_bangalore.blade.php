@@ -15,9 +15,9 @@
                 <div class="banner-title">
                     <h1 class="section-title wow fadeInUp" style="visibility: visible;">
                         <span class="in">CHENNEE ARCHITECTS</span>
-                        A Leading Innovative
-                        <p>Architecture Firm in Hosur</p>
-                        <span class="banner-text wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Get Your Dream House Design Plans With The Hands of Best Architects in Hosur at Low Cost</span>
+                        <p>Top Most Trusted</p>
+                        House Construction Company in Bangalore
+                        <span class="banner-text wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Offering the Best Affordable and Transparent Construction Services for Residential Buildings in Bangalore.</span>
                     </h1>
                 </div>
                 {{-- <a href="contact-sales.php" class="secondary_button cap" type="button" data-wow-delay="0.6s">Talk to Us</a>
