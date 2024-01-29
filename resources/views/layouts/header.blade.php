@@ -159,13 +159,13 @@
                    <a>Architecture</a>
                    <ul class="navbar-dropdown">
                       <li>
-                         <a href="{{ route('architects.in.hosur') }}">Architects in Hosur</a>
+                         <a href="{{ route('architects.in.hosur') }}">Architects in Lucknow</a>
                       </li>
                       <li>
-                         <a href="{{ route('architects.in.bangalore') }}">Architects in Bangalore</a>
+                         <a href="{{ route('architects.in.bangalore') }}">Architects in Gorakpur</a>
                       </li>
                       <li>
-                         <a href="{{ route('architects.in.chennai') }}">Architects in Chennai</a>
+                         <a href="{{ route('architects.in.chennai') }}">Architects in Allahabaad</a>
                       </li>
                       </li>
                    </ul>
@@ -174,13 +174,13 @@
                    <a>Construction</a>
                    <ul class="navbar-dropdown">
                       <li>
-                         <a href="{{ route('building.construction.contractors.hosur') }}">Building Contractors in Hosur</a>
+                         <a href="{{ route('building.construction.contractors.hosur') }}">Building Contractors in Lucknow</a>
                       </li>
                       <li>
-                         <a href="{{ route('building.construction.contractors.bangalore') }}">Building Contractors in Bangalore</a>
+                         <a href="{{ route('building.construction.contractors.bangalore') }}">Building Contractors in Gorakpur</a>
                       </li>
                       <li>
-                         <a href="{{ route('building.construction.contractors.chennai') }}">Building Contractors in Chennai</a>
+                         <a href="{{ route('building.construction.contractors.chennai') }}">Building Contractors in Allahabaad</a>
                       </li>
                    </ul>
                 </li>
@@ -188,13 +188,13 @@
                    <a>Interior Design</a>
                    <ul class="navbar-dropdown">
                       <li>
-                         <a href="{{ route('interior.designers.in.hosur') }}">Interior Designers in Hosur</a>
+                         <a href="{{ route('interior.designers.in.hosur') }}">Interior Designers in Lucknow</a>
                       </li>
                       <li>
-                         <a href="{{ route('interior.designers.in.bangalore') }}">Interior Designers in Bangalore</a>
+                         <a href="{{ route('interior.designers.in.bangalore') }}">Interior Designers in Gorakpur</a>
                       </li>
                       <li>
-                         <a href="{{ route('interior.designers.in.chennai') }}">Interior Designers in Chennai</a>
+                         <a href="{{ route('interior.designers.in.chennai') }}">Interior Designers in Allahabaad</a>
                       </li>
                    </ul>
                 </li>
@@ -202,13 +202,13 @@
                    <a>Home Builders</a>
                    <ul class="navbar-dropdown">
                       <li>
-                         <a href="{{ route('house.construction.company.in.hosur') }}">Home Builders in Hosur</a>
+                         <a href="{{ route('house.construction.company.in.hosur') }}">Home Builders in Lucknow</a>
                       </li>
                       <li>
-                         <a href="{{ route('house.construction.company.in.bangalore') }}">Home Builders in Bangalore</a>
+                         <a href="{{ route('house.construction.company.in.bangalore') }}">Home Builders in Gorakpur</a>
                       </li>
                       <li>
-                         <a href="{{ route('house.construction.company.in.chennai') }}">Home Builders in Chennai</a>
+                         <a href="{{ route('house.construction.company.in.chennai') }}">Home Builders in Allahabaad</a>
                       </li>
                    </ul>
                 </li>
@@ -216,13 +216,13 @@
                     <a>Renovation</a>
                     <ul class="navbar-dropdown">
                        <li>
-                          <a href="{{ route('renovation.contractors.in.hosur') }}">Renovation Contractors in Hosur</a>
+                          <a href="{{ route('renovation.contractors.in.hosur') }}">Renovation Contractors in Lucknow</a>
                        </li>
                        <li>
-                          <a href="{{ route('house.renovation.contractors.bangalore') }}">Renovation Cenovation in Bangalore</a>
+                          <a href="{{ route('house.renovation.contractors.bangalore') }}">Renovation Cenovation in Gorakpur</a>
                        </li>
                        <li>
-                          <a href="{{ route('house.renovation.contractors.chennai') }}">Renovation Cenovation in Chennai</a>
+                          <a href="{{ route('house.renovation.contractors.chennai') }}">Renovation Cenovation in Allahabaad</a>
                        </li>
                     </ul>
                  </li>
