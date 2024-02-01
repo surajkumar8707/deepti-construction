@@ -12,7 +12,7 @@
             <div class="banner-content banner-left animate">
                 <div class="banner-title">
                     <h1 class="section-title wow fadeInUp" style="visibility: visible;">
-                        <span class="in">Architecture  |  Interiors  |  Construction</span>
+                        <span class="in">Architecture  |  Construction  |  Interiors</span>
                         Get Your Dream Home
                         <p>Designed &amp; Built in One Place</p>
                         <span class="banner-text wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Our in-hand experts help you to have a complete furnished house right from planning, constructing &amp; interior designing and let you unfold your sweetest dream into reality.</span>
