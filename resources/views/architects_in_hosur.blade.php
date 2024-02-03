@@ -270,6 +270,69 @@ Customers may visualise the interiors &amp; exteriors with this approach.
     </div>
  </section>
 
+ <section class="section_container packages">
+    <div class="container">
+          <div class="section-head">
+             <h3 class="section-title wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s;">Choose The Best Architectural Design Packages</h3>
+             <h4 class="section-subtitle wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Build Happiness Using Experts To Sketch Your Inventive Designs</h4>
+          </div>
+          <div class="packages-wrapper">
+             <div class="packages-cont">
+                <div class="package-type">
+                <img src="assets/images/gallery/architecture-design-cost-standard.png" alt="Architecture Design Cost">
+                   <span>Standard</span>
+                </div>
+                <ul>
+                   <li>2D Floor Plan - Vasthu</li>
+                   <li>3D Elevation</li>
+                   <li>Floor Plan Revision Upto 3 Times</li>
+                   <li>Electrical Design</li>
+                   <li>Facade Type - Standard Design</li>
+                   <a href="get-quote.php" class="nav_quote cap" type="button" data-wow-delay="0.6s">Get a free quote</a>
+                </ul>
+             </div>
+             <div class="packages-cont">
+                   <div class="package-type">
+                   <img src="assets/images/gallery/home-architecture-design-cost-premium.png" alt="Home Architecture Design Cost">
+                      <span>Premium</span>
+                   </div>
+                <ul>
+                   <li>2D Floor Plan - Vasthu</li>
+                   <li>3D Elevation</li>
+                   <li>Floor Plan Revision Upto 10 Times</li>
+                   <li>Structural Design</li>
+                   <li>Plumbing Design</li>
+                   <li>Electrical Design</li>
+                   <li>Furniture Layout</li>
+                   <li>Civil Drawings</li>
+                   <li>Site Visits by Architects Upto 2 Times</li>
+                   <a href="get-quote.php" class="nav_quote cap" type="button" data-wow-delay="0.6s">Get a free quote</a>
+                </ul>
+             </div>
+             <div class="packages-cont">
+                <div class="package-type">
+                <img src="assets/images/gallery/architecture-interior-design-cost-elite.png" alt="Architecture Interior Design Cost">
+                   <span>Elite</span>
+                </div>
+                <ul>
+                   <li>2D Floor Plan - Vasthu</li>
+                   <li>3D Floor Plan - Vasthu</li>
+                   <li>3D Elevation</li>
+                   <li>2D Elevation</li>
+                   <li>3D Walkthrough</li>
+                   <li>Floor Plan Revision Unlimited</li>
+                   <li>Structural Design</li>
+                   <li>Civil Drawings</li>
+                   <li>Plumbing Design</li>
+                   <li>Electrical Design</li>
+                   <li>Furniture Layout</li>
+                   <li>Site Visits by Architects Upto 5 Times</li>
+                   <a href="get-quote.php" class="nav_quote cap" type="button" data-wow-delay="0.6s">Get a free quote</a>
+                </ul>
+             </div>
+          </div>
+    </div>
+ </section>
 
  <section class="section_container clearfix our-process">
     <div class="container">
@@ -301,6 +364,154 @@ Customers may visualise the interiors &amp; exteriors with this approach.
           </div>
     </div>
     <svg class="patterns" xmlns="http://www.w3.org/2000/svg" width="303.477" height="455.412" viewBox="0 0 303.477 455.412"><defs><style>.wqa{opacity:0.15;}.wqb{fill:#ffc30e;}</style></defs><g class="wqa" transform="translate(303.477) rotate(90)"><path class="wqb" d="M227.71,303.477C102.152,303.477,0,201.334,0,75.775A226.5,226.5,0,0,1,12.973,0H82.43a162.861,162.861,0,0,0-18.6,75.775c0,90.363,73.513,163.877,163.876,163.877S391.587,166.139,391.587,75.775A162.848,162.848,0,0,0,372.991,0h69.448a226.5,226.5,0,0,1,12.973,75.775C455.412,201.334,353.27,303.477,227.71,303.477Z"></path></g></svg>
+ </section>
+
+ <section class="section_container clearfix multifaceted">
+    <div class="container">
+       <div class="section-head">
+          <h3 class="section-title wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s;">Reasons Why Customers Love Us To Design Their Dream House</h3>
+          <h4 class="section-subtitle wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Get Prompt Service &amp; Accurate Partnership with Best Residential Architects in Hosur</h4>
+       </div>
+       <div class="gallery-wrapper">
+          <ul>
+             <li>
+                <img loading="lazy" src="assets/images/architects/superior-design.png" alt="Superior Design" title="Superior Design">
+                <span>Superior Design</span>
+             </li>
+             <li>
+                <img loading="lazy" src="assets/images/architects/on-time-delivery.png" alt="On-Time Delivery" title="On-Time Delivery">
+                <span>On-time Delivery</span>
+             </li>
+             <li>
+                <img loading="lazy" src="assets/images/architects/quality.png" alt="Quality" title="Quality">
+                <span>Quality</span>
+             </li>
+             <li>
+                <img loading="lazy" src="assets/images/architects/delivered-several-designs.png" alt="Delivered Several Designs" title="Delivered Several Designs">
+                <span>Delivered 100+ Designs</span>
+             </li>
+             <li>
+                <img loading="lazy" src="assets/images/architects/transparency.png" alt="Transparency" title="Transparency">
+                <span>Transparency</span>
+             </li>
+             <li>
+                <img loading="lazy" src="assets/images/architects/customer-satisfication.png" alt="Customer Satisfaction" title="Customer Satisfaction">
+                <span>Customer Satisfaction</span>
+             </li>
+          </ul>
+       </div>
+    </div>
+ </section>
+
+ <section class="section_container clearfix">
+    <div class="container">
+          <div class="section-head">
+             <h3 class="section-title wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s;">Our Accomplishments - Latest Projects</h3>
+             <h5 class="section-subtitle wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Transforming Lives With Innovative House Architects in Hosur</h5>
+          </div>
+          <!-- <div class="tab-section-wrapper">
+             <ul class="tab-head wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s;">
+                <li>
+                   <a href="javascript:void(0);" class="upload-video-Single active" target="1">
+                   All Projects
+                   </a>
+                </li>
+                <li>
+                   <a href="javascript:void(0);" class="upload-video-Single" target="2">
+                   Architecture
+                   </a>
+                </li>
+                <li>
+                   <a href="javascript:void(0);" class="upload-video-Single" target="3">
+                   Interior
+                   </a>
+                </li>
+                <li>
+                   <a href="javascript:void(0);" class="upload-video-Single" target="3">
+                   Construction
+                   </a>
+                </li>
+             </ul>
+          </div> -->
+          <div class="gallery-tab">
+             <div id="upload-content1" class="active target-div">
+             <ul class="owl-carousel owl-loaded owl-drag">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2881px, 0px, 0px); transition: all 0.25s ease 0s; width: 8964px;"><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-8.png" alt="">
+                   </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-9.png" alt="">
+                   </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-10.png" alt="">
+                   </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-11.png" alt="">
+                   </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-12.png" alt="">
+                   </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-13.png" alt="">
+                   </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-14.png" alt="">
+                   </li></div><div class="owl-item" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-1.png" alt="">
+                   </li></div><div class="owl-item" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-2.png" alt="">
+                   </li></div><div class="owl-item active" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-3.png" alt="">
+                   </li></div><div class="owl-item active" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-4.png" alt="">
+                   </li></div><div class="owl-item active" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-5.png" alt="">
+                   </li></div><div class="owl-item" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-6.png" alt="">
+                   </li></div><div class="owl-item" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-7.png" alt="">
+                   </li></div><div class="owl-item" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-8.png" alt="">
+                   </li></div><div class="owl-item" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-9.png" alt="">
+                   </li></div><div class="owl-item" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-10.png" alt="">
+                   </li></div><div class="owl-item" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-11.png" alt="">
+                   </li></div><div class="owl-item" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-12.png" alt="">
+                   </li></div><div class="owl-item" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-13.png" alt="">
+                   </li></div><div class="owl-item" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-14.png" alt="">
+                   </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-1.png" alt="">
+                   </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-2.png" alt="">
+                   </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-3.png" alt="">
+                   </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-4.png" alt="">
+                   </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-5.png" alt="">
+                   </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-6.png" alt="">
+                   </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
+                   <img loading="lazy" src="assets/images/gallery/gallery-7.png" alt="">
+                   </li></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button></div></ul>
+             </div>
+          </div>
+    </div>
  </section>
 
 <section class="section_container">
