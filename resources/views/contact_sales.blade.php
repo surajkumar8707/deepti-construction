@@ -37,8 +37,9 @@
                   <h2 class="section-title wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s;">Tell Us About Your Dream Project</h2>
                   <!-- <h4 class="section-subtitle wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Here's a few of our favourite projects showcasing our varied work</h4> -->
               </div>
-                  <form class="contact-page " action="includes/contact_us_mail.php?mail_type=hubspot" method="post" id="">
-                      <input type="hidden" name="token" value="xYk6PuTDmk5bF2Qi3BunPrHh8lr_tEF7OGXfq5Hea3c,">
+                  <form class="contact-page " action="" method="post" id="">
+                        @csrf
+                      {{-- <input type="hidden" name="token" value="xYk6PuTDmk5bF2Qi3BunPrHh8lr_tEF7OGXfq5Hea3c,"> --}}
                       <ul>
                           <li class="name text-cont-error" id="div-name">
                           <label>First Name*</label>
@@ -89,20 +90,20 @@
                               <span style="display: none;" id="errorinterested_in">This field is required</span>
                           </li>
                           <li class="contact-message msg-cont-error" id="div-message">
-                          <label>Message*</label>
-                          <textarea name="message" rows="3" id="message" placeholder="Your Message..."></textarea>
-                          <span style="display: none;" id="errormessage">Please enter your requirements</span>
+                            <label>Message*</label>
+                            <textarea name="message" rows="3" id="message" placeholder="Your Message..."></textarea>
+                            <span style="display: none;" id="errormessage">Please enter your requirements</span>
                           </li>
                           <li class="policy">
-                          <p>By clicking the submit button, you agree with CHENNEE to store &amp; progress the information for contact purposes.</p>
+                            <p>By clicking the submit button, you agree with CHENNEE to store &amp; progress the information for contact purposes.</p>
                           </li>
-                          <li class="captchas">
-                          <div id="recaptcha-rel"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-f1yo0jvnf5c" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcruOUbAAAAAOjGGnAx5VjfVzsxD9jpavy9dHn7&amp;co=aHR0cHM6Ly93d3cuY2hlbm5lZS5pbjo0NDM.&amp;hl=en&amp;v=MHBiAvbtvk5Wb2eTZHoP1dUd&amp;size=normal&amp;cb=huv018hpdgj0"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
-                          </li>
+                          {{-- <li class="captchas">
+                            <div id="recaptcha-rel"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-f1yo0jvnf5c" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcruOUbAAAAAOjGGnAx5VjfVzsxD9jpavy9dHn7&amp;co=aHR0cHM6Ly93d3cuY2hlbm5lZS5pbjo0NDM.&amp;hl=en&amp;v=MHBiAvbtvk5Wb2eTZHoP1dUd&amp;size=normal&amp;cb=huv018hpdgj0"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+                          </li> --}}
                           <li id="button-submit">
-                          <!-- onclick="formSubmit()" -->
-                          <button onclick="formSubmit(event)" type="button" id="submit-button" class="form-submission contact-submit button">Submit</button>
-                          <span id="ajx-loader"><img src="assets/images/ajax_loader.gif" alt="loader"></span>
+                            <!-- onclick="formSubmit()" -->
+                            <button onclick="formSubmit(event)" type="button" id="submit-button" class="form-submission contact-submit button">Submit</button>
+                            <span id="ajx-loader"><img src="assets/images/ajax_loader.gif" alt="loader"></span>
                           </li>
                       </ul>
                   </form>
@@ -150,6 +151,255 @@
     </div>
 </section>
 
+<section class="discovery-popup" style="opacity: 0; visibility: hidden;">
+    <div class="discovery-form">
+       <div class="discovery-header">
+          <h3 id="popup-title">Thank You <span>Suraj</span>!!</h3>
+          <p>Just spend 20 more seconds with us to get the perfect tailor-made solution. </p>
+       </div>
+       <div class="discovery-content">
+          <form action="includes/discover_mail_us.php?mail_type=discover_us" method="post" id="discovery-top">
+            @csrf
+            <ul>
+             <li id="site_areas">
+                   <p>1. Where is your site location?</p>
+                   <div class="checkbox-set">
+                      <label class="radio">
+                      <input id="application-type-yek" type="radio" onfocus="removemessage('site_areas')" name="site_areas" value="1000">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>Lucknow
+                      </label>
+                      <label class="radio">
+                      <input id="application-type-dho" type="radio" onfocus="removemessage('site_areas')" name="site_areas" value="2000">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>Gorakhpur
+                      </label>
+                      <label class="radio">
+                      <input id="application-type-cha" type="radio" onfocus="removemessage('site_areas')" name="site_areas" value="3000">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>Allahabaad
+                      </label>
+                      <label class="radio">
+                      <input id="application-type-theen" type="radio" onfocus="removemessage('site_areas')" name="site_areas" value="4000">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>Other Location
+                      </label>
+                   </div>
+                   <p class="discover-error">Please select your site area</p>
+                </li>
+                <li id="site_area">
+                   <p>2. What is the your site area?</p>
+                   <div class="checkbox-set">
+                      <label class="radio">
+                      <input id="application-type-one" type="radio" onfocus="removemessage('site_area')" name="site_area" value="1000">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>Lesser Than 1000 sqft
+                      </label>
+                      <label class="radio">
+                      <input id="application-type-two" type="radio" onfocus="removemessage('site_area')" name="site_area" value="2000">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>Lesser Than 2000 sqft
+                      </label>
+                      <label class="radio">
+                      <input id="application-type-three" type="radio" onfocus="removemessage('site_area')" name="site_area" value="3000">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>Lesser Than 3000 sqft
+                      </label>
+                      <label class="radio">
+                      <input id="application-type-three" type="radio" onfocus="removemessage('site_area')" name="site_area" value="4000">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>Greater Than 4000 sqft
+                      </label>
+                   </div>
+                   <p class="discover-error">Please select your site area</p>
+                </li>
+                <li id="building_type">
+                   <p>3. What type of residential building would you like to construct?</p>
+                   <div class="checkbox-set">
+                      <label class="radio">
+                      <input id="live-stream-four" type="radio" onfocus="removemessage('building_type')" name="building_type" value="Simplex">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>Simplex
+                      </label>
+                      <label class="radio">
+                      <input id="live-stream-two" type="radio" onfocus="removemessage('building_type')" name="building_type" value="Duplex">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>Duplex
+                      </label>
+                      <label class="radio">
+                      <input id="live-stream-one" type="radio" onfocus="removemessage('building_type')" name="building_type" value="Rental">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>Rental House
+                      </label>
+                      <label class="radio">
+                      <input id="live-stream-three" type="radio" onfocus="removemessage('building_type')" name="building_type" value="Apartment">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>Apartment
+                      </label>
+                   </div>
+                   <p class="discover-error">Please select your building type</p>
+                </li>
+                <li id="bedrooms">
+                   <p>4. How many bedrooms required?</p>
+                   <div class="checkbox-set">
+                      <label class="radio">
+                      <input id="apply-type-one" type="radio" onfocus="removemessage('bedrooms')" name="bedrooms" value="1BHK">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>1 BHK
+                      </label>
+                      <label class="radio">
+                      <input id="apply-type-two" type="radio" onfocus="removemessage('bedrooms')" name="bedrooms" value="2BHK">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>2 BHK
+                      </label>
+                      <label class="radio">
+                      <input id="apply-type-three" type="radio" onfocus="removemessage('bedrooms')" name="bedrooms" value="3BHK">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>3 BHK
+                      </label>
+                      <label class="radio">
+                      <input id="apply-type-four" type="radio" onfocus="removemessage('bedrooms')" name="bedrooms" value="4BHK">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>More than 4 BHK
+                      </label>
+                   </div>
+                   <p class="discover-error">Please select your bedrooms</p>
+                </li>
+                <li id="material">
+                   <p>5. What is the required material?</p>
+                   <div class="checkbox-set">
+                      <label class="radio">
+                      <input id="development-one" type="radio" onfocus="removemessage('material')" name="material" value="Red">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>Red Brick
+                      </label>
+                      <label class="radio">
+                      <input id="development-two" type="radio" onfocus="removemessage('material')" name="material" value="Solid">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>Solid Block
+                      </label>
+                      <label class="radio">
+                      <input id="development-one" type="radio" onfocus="removemessage('material')" name="material" value="AAC">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>AAC Block
+                      </label>
+                   </div>
+                   <p class="discover-error">Please select your material</p>
+                </li>
+                <li id="execution_time">
+                   <p>6. When you are planning for execution?</p>
+                   <div class="checkbox-set">
+                      <label class="radio">
+                      <input id="techType-one" type="radio" onfocus="removemessage('execution_time')" name="execution_time" value="Immediate">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>Immediate
+                      </label>
+                      <label class="radio">
+                      <input id="techType-two" type="radio" onfocus="removemessage('execution_time')" name="execution_time" value="1WEEk">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>After One Week
+                      </label>
+
+                      <label class="radio">
+                      <input id="techType-two" type="radio" onfocus="removemessage('execution_time')" name="execution_time" value="1month">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>After One Month
+                      </label>
+
+                      <label class="radio">
+                      <input id="techType-two" type="radio" onfocus="removemessage('execution_time')" name="execution_time" value="6month">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>Within 6 Months
+                      </label>
+                   </div>
+                   <p class="discover-error">Please select your execution time</p>
+                </li>
+                <li id="call_time">
+                   <p>7. What time we can call you back?</p>
+                   <div class="checkbox-set">
+                      <label class="radio">
+                      <input id="techieType-one" type="radio" onfocus="removemessage('call_time')" name="call_time" value="Immediately">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>Immediately
+                      </label>
+                      <label class="radio">
+                      <input id="techieType-two" type="radio" onfocus="removemessage('call_time')" name="call_time" value="Anytime">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>Anytime Today
+                      </label>
+
+                      <label class="radio">
+                      <input id="techieType-two" type="radio" onfocus="removemessage('call_time')" name="call_time" value="9amto2pm">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>Tomorrow, 9:00 AM to 2:00 PM
+                      </label>
+
+                      <label class="radio">
+                      <input id="techieType-two" type="radio" onfocus="removemessage('call_time')" name="call_time" value="3pmto8pm">
+                      <span class="outer">
+                      <span class="inner"></span>
+                      </span>Tomorrow, 3:00 PM to 8:00 PM
+                      </label>
+                   </div>
+                   <p class="discover-error">Please select your execution time</p>
+                </li>
+                <li class="policies">
+                   <p>The information collected by CHENNEE is solely for the purpose to understand and serve you a better service. CHENNEE is committed to the protection of your Personal Data, including Communicating data for internal Business purposes only. For more information, Please read our Privacy Policy.</p>
+                </li>
+                <li id="discover-load">
+                   <input type="hidden" name="txtname" id="txtname-discover">
+                   <input type="hidden" name="txtlname" id="txtlname-discover">
+                   <input type="hidden" name="txtphone" id="txtphone-discover">
+                   <input type="hidden" name="txtemail" id="txtemail-discover">
+                   <input type="hidden" name="country" id="country-discover">
+                   <input type="hidden" name="geocountry" id="geocountry-discover">
+                   <input type="hidden" name="txtcompany" id="txtcompany-discover">
+                   <input type="hidden" name="message" id="message-discover">
+                   <input type="hidden" name="solution" id="solution-discover">
+                   <button type="button" onclick="return discoverFormSubmit()" id="discover-submit-button" class="button">Submit</button>
+                   <span id="ajx-loader"><img src="assets/images/ajax_loader.gif" alt="loader"></span>
+                </li>
+             </ul>
+             <input type="hidden" name="txtname" class="popup-name">
+             <input type="hidden" name="email" class="popup-email">
+          </form>
+       </div>
+       <i onclick="exitForm()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="246.2" height="246.2" viewBox="0 0 246.2 246.2">
+             <g id="Group_1" data-name="Group 1" transform="translate(-0.65 0.02)">
+                <path id="Shape_1" data-name="Shape 1" d="M123.1,0A123.1,123.1,0,1,1,0,123.1,123.1,123.1,0,0,1,123.1,0Z" transform="translate(0.65 -0.02)" fill="#fff"></path>
+                <path id="Forma_1" data-name="Forma 1" d="M130.031,123.362l36.214-35.711a5.62,5.62,0,0,0,0-8.03,5.812,5.812,0,0,0-8.144,0l-36.214,35.711L85.671,79.621a5.813,5.813,0,0,0-8.144,0,5.62,5.62,0,0,0,0,8.03l36.216,35.711L77.527,159.074a5.62,5.62,0,0,0,0,8.03,5.813,5.813,0,0,0,8.144,0l36.216-35.711L158.1,167.1a5.813,5.813,0,0,0,8.144,0,5.62,5.62,0,0,0,0-8.03Z" fill="#1A232C"></path>
+             </g>
+          </svg>
+       </i>
+    </div>
+ </section>
 <!-- Last published date  -->
 <div class="container">
     <style>
@@ -413,7 +663,7 @@ function formSubmit(){
        function discoverFormSubmit(){
           console.log("form");
            $.ajax({
-                 url: "quotes.php",
+                 url: "{{ route('contact.save') }}",
                  type: "POST",
                  data: {
                      firstName: $("#txtname").val(),
@@ -433,7 +683,8 @@ function formSubmit(){
                      brick: $('input[name="material"]:checked').val(),
                      plan: $('input[name="execution_time"]:checked').val(),
                      call: $('input[name="call_time"]:checked').val(),
-                     subt: 'Contact Sales'
+                     subt: 'Contact Sales',
+                     _token: '{{ csrf_token() }}',
                  },
                  dataType: "JSON",
                  success: function (jsonStr) {
@@ -448,7 +699,7 @@ function formSubmit(){
              window.setTimeout(function(){
               $(".discovery-popup").css({"opacity": "0", "visibility": "hidden"});
               // Move to a new location or you can do something else
-              window.location.href = "thankyou.php";
+              window.location.href = "{{ route('thank.you') }}";
 
               }, 2000);
 

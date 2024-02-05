@@ -8,6 +8,8 @@ use App\Http\Controllers\Admin\Auth\LoginController;
 use App\Http\Controllers\Admin\SocialMediaLinkController;
 use App\Http\Controllers\Admin\AppSettingController;
 use App\Http\Controllers\Admin\ManageFrontEndContentController;
+use App\Http\Controllers\Admin\ContactUsController;
+use App\Http\Controllers\Admin\QuoteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -60,6 +62,18 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function() {
             });
         });
 
+        Route::group(['prefix' => 'contact-us', 'as' => 'contact.us.'], function () {
+            Route::controller(ContactUsController::class)->group(function() {
+                Route::get("/", "index")->name("index");
+            });
+        });
+
+        Route::group(['prefix' => 'quote', 'as' => 'quote.'], function () {
+            Route::controller(QuoteController::class)->group(function() {
+                Route::get("/", "index")->name("index");
+            });
+        });
+
         //---users---
         // Route::group(['prefix' => 'users', 'as' => 'users.'], function () {
         //     Route::controller(UserController::class)->group(function() {
@@ -86,5 +100,8 @@ Route::get('renovation-contractors-in-hosur',[HomeController::class, 'renovation
 Route::get('house-renovation-contractors-bangalore',[HomeController::class, 'houseRenovationContractorsBangalore'])->name('house.renovation.contractors.bangalore');
 Route::get('house-renovation-contractors-chennai',[HomeController::class, 'houseRenovationContractorsChennai'])->name('house.renovation.contractors.chennai');
 Route::get('contact-sales',[HomeController::class, 'contactSales'])->name('contact.sales');
+Route::post('contact-save',[HomeController::class, 'contactSave'])->name('contact.save');
+Route::get('thank-you',[HomeController::class, 'thankYou'])->name('thank.you');
 Route::get('about-us',[HomeController::class, 'aboutUs'])->name('about.us');
 Route::get('get-quote',[HomeController::class, 'getQuote'])->name('get.quote');
+Route::post('quote-save',[HomeController::class, 'quoteSave'])->name('quote.save');

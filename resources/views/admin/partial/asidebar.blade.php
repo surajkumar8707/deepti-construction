@@ -29,6 +29,21 @@
                             <p>Frontend Content</p>
                         </a>
                     </li>
+                    <li class="nav-item mt-2">
+                        <a href="{{ route('admin.contact.us.index') }}"
+                            class="{{ $nav == 'contact-us' ? 'active' : '' }} nav-link">
+                            <i class="nav-icon fas fa-tachometer-alt"></i>
+                            <p>Contacts</p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item mt-2">
+                        <a href="{{ route('admin.quote.index') }}"
+                            class="{{ $nav == 'quote' ? 'active' : '' }} nav-link">
+                            <i class="nav-icon fas fa-tachometer-alt"></i>
+                            <p>Quote Request</p>
+                        </a>
+                    </li>
                     {{-- @for($i = 0; $i < 15; $i++)
                     <li class="nav-item mt-2">
                         <a href="{{ route('admin.dashboard') }}"
