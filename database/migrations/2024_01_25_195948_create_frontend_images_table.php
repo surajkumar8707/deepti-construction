@@ -15,6 +15,8 @@ return new class extends Migration
         Schema::create('frontend_images', function (Blueprint $table) {
             $table->id();
             $table->foreignIdFor(ManageFrontEndContent::class);
+            $table->string('title');
+            $table->string('description');
             $table->string('photo');
             $table->timestamps();
         });

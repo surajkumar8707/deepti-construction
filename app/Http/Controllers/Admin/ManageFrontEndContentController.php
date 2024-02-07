@@ -72,7 +72,10 @@ class ManageFrontEndContentController extends Controller
         $request->validate([
             'main_heading' => 'required|string',
             'sub_heading' => 'required|string',
-            'photo.*' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048', // Assuming you want to store images
+            // 'photo.*' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048', // Assuming you want to store images
+            'img_title.*' => 'required|string',
+            'img_description.*' => 'required|string',
+            'img_images.*' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             'question.*' => 'required|string',
             'description.*' => 'required|string',
         ]);
@@ -84,9 +87,19 @@ class ManageFrontEndContentController extends Controller
             'page_type' => $request->input('page_type'), // Make sure to add this field to your form
         ]);
 
+        // dd($content);
+
         // // Upload and associate images with frontend_images
-        // foreach ($request->file('photo') as $photo) {
-        //     $path = $photo->store('your-upload-path');
+        // foreach ($request->file('photo') as $key => $photo) {
+        //     $path = $photo->storeAs('gallery_img', $photo->getClientOriginalName(), 'public');
+        //     // Generate a unique name for the file
+        //     $fileName = rand().time() . '_' . $photo->getClientOriginalName();
+
+        //     // Move the file to the public folder
+        //     $photo->move(public_path('gallery_img'), $fileName);
+
+        //     // Save the file path to the database
+        //     $path = 'gallery_img/' . $fileName;
         //     FrontendImage::create([
         //         'manage_front_end_content_id' => $content->id,
         //         'photo' => $path,
@@ -94,29 +107,38 @@ class ManageFrontEndContentController extends Controller
         // }
 
         // Upload and associate images with frontend_images
-        foreach ($request->file('photo') as $photo) {
-            $path = $photo->storeAs('gallery_img', $photo->getClientOriginalName(), 'public');
-            // Generate a unique name for the file
-            $fileName = rand().time() . '_' . $photo->getClientOriginalName();
+        if(($request->file('img_images')) and (count($request->file('img_images')) > 0)){
+            foreach ($request->file('img_images') as $key => $photo) {
+                // $path = $image->store('gallery_img', 'public');
 
-            // Move the file to the public folder
-            $photo->move(public_path('gallery_img'), $fileName);
+                $path = $photo->storeAs('gallery_img', $photo->getClientOriginalName(), 'public');
+                // Generate a unique name for the file
+                $fileName = rand().time() . '_' . $photo->getClientOriginalName();
 
-            // Save the file path to the database
-            $path = 'gallery_img/' . $fileName;
-            FrontendImage::create([
-                'manage_front_end_content_id' => $content->id,
-                'photo' => $path,
-            ]);
+                // Move the file to the public folder
+                $photo->move(public_path('gallery_img'), $fileName);
+
+                // Save the file path to the database
+                $path = 'gallery_img/' . $fileName;
+
+                FrontendImage::create([
+                    'manage_front_end_content_id' => $content->id,
+                    'photo' => $path,
+                    'title' => $request->input('img_title')[$key],
+                    'description' => $request->input('img_description')[$key],
+                ]);
+            }
         }
 
         // Store FAQs
-        foreach ($request->input('question') as $key => $question) {
-            Faq::create([
-                'manage_front_end_content_id' => $content->id,
-                'question' => $question,
-                'description' => $request->input('description')[$key],
-            ]);
+        if(($request->input('question')) and (count($request->input('question')) > 0)){
+            foreach ($request->input('question') as $key => $question) {
+                Faq::create([
+                    'manage_front_end_content_id' => $content->id,
+                    'question' => $question,
+                    'description' => $request->input('description')[$key],
+                ]);
+            }
         }
 
         // Redirect or return a response as needed

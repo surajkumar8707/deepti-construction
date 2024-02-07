@@ -17,6 +17,7 @@ class HomeController extends Controller
 
     public function architectsInHosur(){
         $manage_content = ManageFrontEndContent::with(['frontendImages', 'faqs'])->where('page_type', 'architects_in_lucknow')->first();
+        // dd($manage_content);
         return view('architects_in_hosur', compact('manage_content'));
     }
     public function architectsInBangalore(){

@@ -12,5 +12,7 @@ class FrontendImage extends Model
     protected $fillable = [
         'manage_front_end_content_id',
         'photo',
+        'title',
+        'description',
     ];
 }

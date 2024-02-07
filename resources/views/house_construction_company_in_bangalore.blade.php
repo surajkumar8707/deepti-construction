@@ -38,12 +38,12 @@
             <ul>
                 @forelse ($manage_content?->frontendImages as $images)
                     <li>
-                        <img src="{{ asset($images->photo) }}" alt="Residential Architects in Hosur" title="Residential Architects in Hosur">
-                        {{-- <span>Residences</span>
+                        <img src="{{ asset($images?->photo) }}" alt="Residential Architects in Hosur" title="Residential Architects in Hosur">
+                        <span>{{ $images?->title }}</span>
                         <div class="hover-cont">
-                            <h6>Residences</h6>
-                            <p>We build residences with ideas based on providing greenery &amp; space designed with top architects in hosur keeping your privacy in mind </p>
-                        </div> --}}
+                            <h6>{{ $images?->title }}</h6>
+                            <p>{{ $images?->description }}</p>
+                        </div>
                     </li>
                 @empty
                 @endforelse
