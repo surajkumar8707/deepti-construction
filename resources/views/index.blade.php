@@ -8,10 +8,10 @@
 <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
       <title>#1 Architect & Construction Firm in Hosur, Bangalore & Chennai</title>
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3">
-      <meta name="description" content="CHENNEE Architects and Construction delivers a one-stop solution for all your construction needs including architectural planning and interior designing in Bangalore, Chennai & Hosur with good experience in residential projects." />
+      <meta name="description" content="and Construction delivers a one-stop solution for all your construction needs including architectural planning and interior designing in Bangalore, Chennai & Hosur with good experience in residential projects." />
       <meta name="keywords" content="Construction company in bangalore, civil company in bangalore, architecture and construction firm, civil construction company in bangalore" />
-      <link rel="icon" sizes="192x192" href="{{ asset('assets/images/favicon.png') }}">
-        <link rel="apple-touch-icon" href="{{ asset('assets/images/favicon.png') }}">
+      <link rel="icon" sizes="192x192" href="{{ $settings?->header_image }}">
+        <link rel="apple-touch-icon" href="{{ $settings?->header_image }}">
       <link rel="manifest" href="manifest.json">
       <meta name="theme-color" content="#FFC30E"/>
       <meta property="og:type" content="website" />
@@ -25,15 +25,15 @@
       <meta property="twitter:url" content="{{ url('') }}"/>
       <meta name="twitter:title" content="A Leading Architectural & Construction Services Company in Chennai, Hosur & Bangalore"/>
       <meta name="twitter:description" content="{{ $settings?->app_name }} and Construction, is one of the top trusted construction company in Hosur, Chennai & Bangalore that engages in a broad range of services including architectural design, house construction & interior decoration in an affordable budget."/>
-      <meta name="twitter:image"  content="assets/images/CHENNEE-OG-logo-large.png"/>
-      <meta name="twitter:creator" content="@chenneeofficial" />
-      <meta name="twitter:site" content="@chenneeofficial" />
+      <meta name="twitter:image"  content="{{ $settings?->header_image }}"/>
+      <meta name="twitter:creator" content="@ {{ $settings?->app_name }}" />
+      <meta name="twitter:site" content="@ {{ $settings?->app_name }}" />
       <meta name="robots" content="index,follow">
-      <link rel="canonical" href="https://www.chennee.in" />
+      <link rel="canonical" href="{{ url('') }}" />
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"Organization","name":"CHENNEE Architects and Construction","url":"https://www.chennee.in","logo":"https://www.chennee.in/assets/images/CHENNEE-OG-logo-large.png","sameAs":["https://www.facebook.com/CHENNEE-Architects-and-Construction-109874754708822/","https://www.instagram.com/chenneeofficial/","https://www.youtube.com/channel/UC9nL4P77oon84s-fmeCys-g","https://www.linkedin.com/company/chenneeofficial/"]}
+    {"@context":"https://schema.org","@type":"Organization","name":"{{ $settings?->app_name }}","url":"{{ url('') }}","logo":"{{ $settings?->app_name }}","sameAs":["{{ $socialMediaLinks?->facebook ? $socialMediaLinks?->facebook : '' }}","{{ $socialMediaLinks?->instagram ? $socialMediaLinks?->instagram : '' }}","{{ $socialMediaLinks?->youTube ? $socialMediaLinks->youTube : '' }}","{{ $socialMediaLinks?->linkedin ? $socialMediaLinks->linkedin : '' }}"]}
 </script>
 
 <style>
@@ -51,8 +51,8 @@
 @include('layouts.header')
 
 <script>
-  
-  
+
+
 // if ($(window).width() < 768) {
 //     $(window).scroll(function() {
 //         var scroll = $(window).scrollTop();
@@ -73,10 +73,10 @@
 //         }
 //     });
 // }
-    	(function($) { 
-  $(function() { 
+    	(function($) {
+  $(function() {
 
-    //  open and close nav 
+    //  open and close nav
     $('#navbar-toggle').click(function() {
       console.log('click');
       $('nav ul').slideToggle();
@@ -102,7 +102,7 @@
     if ($(window).width() <= 1200) {
    $( ".nav-list li" ).click(function() {
       var child = $(this).children('.navbar-dropdown') ,
-           rest = $('.navbar-dropdown:visible').not(child);       
+           rest = $('.navbar-dropdown:visible').not(child);
        child.slideToggle();
        rest.slideUp();
 
@@ -112,8 +112,8 @@
     // $('html').click(function() {
     //   $('.navbar-dropdown').hide();
     // });
-  }); 
-})(jQuery); 
+  });
+})(jQuery);
 
 $('.mobile-call').click(function(){
    $(this).toggleClass('active');
@@ -145,7 +145,7 @@ $('.mobile-call').click(function(){
                   <div class="banner-title">
                      <h1 class="section-title wow fadeInUp" style="visibility: visible;">
                      <span class="in">Architecture  |  Interiors  |  Construction</span>
-                     Get Your Dream Home                   
+                     Get Your Dream Home
                      <p>Designed & Built in One Place</p>
                      <span class="banner-text wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Our in-hand experts help you to have a complete furnished house right from planning, constructing & interior designing and let you unfold your sweetest dream into reality.</span>
                      </h1>
@@ -156,28 +156,28 @@ $('.mobile-call').click(function(){
             </div>
          </div>
       </section>
-     
-   
+
+
       <style>
          .section_container{margin:45px 0;position:relative}.flex-col-right .section-title span{color:#1967d2}.section-head .section-title span{color:#1a232c}.flex-col-container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;flex-wrap:wrap;align-items:center;padding:20px 0 10px 0}.flex-col-container img{display:block;width:100%;height:auto}.flex-col-left{width:50%;margin:0}.flex-col-right{width:50%;text-align:left;margin-left:auto}.contentR{padding-right:60px}.contentL{padding-left:60px}.flex-col-container.img-right .flex-col-right{margin-left:45px;margin-right:0}.flex-col-container.img-right .flex-col-left{margin-left:auto}.flex-col-right .section-head{text-align:left;margin-bottom:20px}.flex-col-right .section-head span{display:block}.flex-col-right .section-head:after{margin:20px 0 0}.flex-col-right .section-head .section-title span{font-family:Nunitobold}.flex-col-container p{font-size:18px}.flex-col-container .flex-title{font-size:30px;color:#1a232c;font-family:sofia_probold;text-transform:capitalize;line-height:40px;margin-bottom:10px;position:relative}.flex-col-container .flex-title:after{content:"";width:60px;height:3px;background:#edb200;position:relative;display:block;margin:10px 0}.flex-col-container .subtext{font-size:18px;color:#1a232c;max-width:800px;margin:auto;font-family:sofia_probold;margin-bottom:20px}.flex-col-container .flex-desc{color:#313131;font-size:16px;line-height:26px;font-family:sofia_proregular;margin-top:10px}.flex-list{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;margin-top:10px}.flex-list li{width:45%;padding:8px 0 8px 15px;position:relative;font-family:sofia_proregular}.flex-list li:before{content:"";position:absolute;width:6px;height:6px;background:#c09432;border-radius:50%;left:0;top:18px}.flex-col-right .nav_quote{border:solid 1px #ffc30e;background:#ffc30e;padding:8px 20px;color:#1a232c;border-radius:5px;text-transform:capitalize;position:relative;text-align:center;display:inline-block;margin-top:20px;font-size:16px;transition:all ease .3s}.we-do-col{padding:40px 0}.cta{margin-top:20px;left:35px;bottom:5%;font-size:17px;font-family:sofia_probold;display:inline-block;color:#c09432}.cta svg{margin-left:0;left:0;vertical-align:middle;transition:all ease .3s;position:relative;fill:#c09432;height:20px;width:16px}.cta:hover svg{left:6px}.cta.center{text-align:center;margin-top:30px;display:block}.cta.ylr{text-align:center;display:block;margin:0 auto}.gallery-wrapper ul{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between}.gallery-wrapper ul li{width:31%;position:relative;margin-bottom:30px}.gallery-wrapper ul li span{font-size:26px;color:#fff;font-family:sofia_probold;text-transform:capitalize;line-height:40px;margin-bottom:10px;position:absolute;bottom:0;text-align:center;width:100%}.tab-section-wrapper .tab-head{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-align-items:center;-moz-align-items:center;-ms-align-items:center;-ms-flex-align:center;align-items:center;-webkit-justify-content:center;-moz-justify-content:center;-ms-justify-content:center;justify-content:center;-ms-flex-pack:center;-webkit-flex-wrap:wrap;-moz-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}.tab-section-wrapper .tab-head li{margin:0 10px;position:relative}.tab-section-wrapper .tab-head li:after{content:"";position:absolute;height:15px;width:1px;right:-10px;background:#000;opacity:.54;top:13px}.tab-section-wrapper .tab-head li:last-child::after{content:none}.tab-section-wrapper .tab-head li a{opacity:.4;display:block;padding:0 10px;line-height:36px;color:#121212;font-family:sofia_probold;font-size:18px;border-bottom:solid 3px transparent;transition:all ease .2s}.tab-section-wrapper .tab-head li a.active,.tab-section-wrapper .tab-head li a:hover{opacity:1;color:#1a232c;border-bottom:solid 3px #ffc30e}.gallery-tab{padding:0 0}.gallery-tab ul li{width:100%!important;padding:0 10px}.gallery-tab .owl-nav{display:block!important}.gallery-tab .owl-nav .owl-prev{position:absolute;left:-20px;top:50%;transform:translateY(-50%);font-size:60px!important;color:#a09e9f!important}.gallery-tab .owl-nav .owl-next{position:absolute;right:-20px;top:50%;transform:translateY(-50%);font-size:60px!important;color:#a09e9f!important}.target-div.active{opacity:1;display:block}.target-div{opacity:0;-webkit-transition:all ease 2s;-o-transition:all ease 2s;transition:all ease 3s;display:none}@media screen and (max-width:641px){.cta{font-size:14px}.gallery-wrapper ul li{width:100%}.flex-col-left{width:100%}.flex-col-right{width:100%;padding:0}.flex-col-container .flex-title{font-size:22px;line-height:33px;margin-top:20px}.flex-col-container .subtext{font-size:16px}.flex-col-container.reverse{flex-direction:column-reverse}}
       </style>
    <div class="body-container">
       <section class="clearfix we-do-col">
          <div class="container">
-            <div class="flex-col-container">  
+            <div class="flex-col-container">
                          <div class="flex-col-left">
                            <img loading="lazy" width="613" height="453" class="transactional-img customwid" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="assets/images/homepage/construction-services.png" alt="Residential Construction Services" title="Residential Construction Services" style="">
-                        </div>                         
+                        </div>
                         <div class="flex-col-right contentL">
                            <div class="flex-head wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s;">
                               <h2 class="flex-title">We Execute Every Phase From Designing to Construction</h2>
                               <p class="subtext">Transform a Dream Home into Reality in 120 days</p>
                            </div>
-                           <p class="flex-desc wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s;">CHENNEE Architects & Construction is a leading construction company in Bangalore, Hosur & Chennai that takes care of your home planning right from contemplating the design structure, elevating into beautiful construction and designing your special interiors. We primarily focus on personalized customer-centric approach, uncompromising business ethics, and utmost transparency.</p>
+                           <p class="flex-desc wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s;">{{ $settings?->app_name }} is a leading construction company in Lucknow, Gorakhpur & Allahabaad that takes care of your home planning right from contemplating the design structure, elevating into beautiful construction and designing your special interiors. We primarily focus on personalized customer-centric approach, uncompromising business ethics, and utmost transparency.</p>
                            {{-- <a href="get-quote.php" class="nav_quote cap" type="button" >Get a quote</a> --}}
-                        </div>                           
+                        </div>
                      </div>
-         </div>               
+         </div>
       </section>
       <section class="section_container clearfix multifaceted">
          <div class="container">
@@ -185,13 +185,13 @@ $('.mobile-call').click(function(){
                <h2 class="section-title wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s;">We Provide Comprehensive Services From Designing to Construction</h2>
                <h4 class="section-subtitle wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;max-width:900px;">From Concept to Creation We Cover The Shortest Distance Between Paradise & Place Called “Home”</h4>
             </div>
-                 <div class="flex-col-container reverse">  
+                 <div class="flex-col-container reverse">
                          <div class="flex-col-right contentR">
                            <div class="flex-head wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s;">
                               <h3 class="flex-title">Architecture & Planning</h3>
                               <p class="subtext">Designing Spaces With Trust and Creativity</p>
                            </div>
-                           <p class="flex-desc">We know it’s never been easy to have the choicest architect to build your dream house. Factors of cost, trust, experience, performance, and reliability all come into play.Through much experience in house raising projects, we’ve grown with Hosur, Bangalore & Chennai—like the city itself! We firmly believe that a good design is all about satisfying a client's personalized needs and  objectives.</p>
+                           <p class="flex-desc">We know it’s never been easy to have the choicest architect to build your dream house. Factors of cost, trust, experience, performance, and reliability all come into play.Through much experience in house raising projects, we’ve grown with Lucknow, Gorakhpur & Allahabaad—like the city itself! We firmly believe that a good design is all about satisfying a client's personalized needs and  objectives.</p>
                            <p class="flex-desc">We have a modern approach towards innovativeness in architecture and planning, yet have a strong foothold in aesthetic conventional designing that has lasting impact.</p>
                            <ul class="flex-list">
                               <li>Floor Plan</li>
@@ -205,22 +205,22 @@ $('.mobile-call').click(function(){
                            <a class="cta" href="https://www.chennee.in/architects-in-bangalore.php">Explore Architectural Services in Bangalore
                            <svg xmlns="https://www.w3.org/2000/svg" width="14.455" height="12.396" viewBox="0 0 14.455 12.396"><defs><style>.apps{fill:#C09432;}</style></defs><g transform="translate(0 0)"><path class="apps" d="M.869,37.025a1.034,1.034,0,0,1,.179-.013h10.2l-.222-.1a2.068,2.068,0,0,1-.584-.414l-2.86-2.86a1.07,1.07,0,0,1-.15-1.37A1.034,1.034,0,0,1,8.98,32.13L14.151,37.3a1.034,1.034,0,0,1,0,1.463h0L8.98,43.936a1.034,1.034,0,0,1-1.551-.1,1.07,1.07,0,0,1,.15-1.37L10.433,39.6a2.068,2.068,0,0,1,.517-.377l.31-.14H1.1a1.07,1.07,0,0,1-1.091-.869A1.034,1.034,0,0,1,.869,37.025Z" transform="translate(0 -31.842)"></path></g></svg>
                            </a> --}}
-                        </div>                         
+                        </div>
                         <div class="flex-col-left mlauto">
                            <img loading="lazy" width="613" height="518" class="advertising-img " src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="assets/images/homepage/architectural-design-services.webp" alt="Architectural Design Services" title="Architectural Design Services" style="">
-                        </div>                          
+                        </div>
                      </div>
-                     <div class="flex-col-container">  
+                     <div class="flex-col-container">
                          <div class="flex-col-left">
                            <img loading="lazy" width="613" height="518" class="transactional-img customwid LoadImg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="assets/images/homepage/home-interior-decorators.png" alt="Home Interior Designers" title="Home Interior Designers" style="">
-                        </div>                         
+                        </div>
                         <div class="flex-col-right contentL">
                            <div class="flex-head wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s;">
                               <h3 class="flex-title">Home Interior Designs</h3>
                               <p class="subtext">One-stop Shop For Classic-Contemporary Home Interiors</p>
                            </div>
-                           <p class="flex-desc wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s;">CHENNEE Architects & Construction specializes in interior design and decor for residential projects, creating spaces reflecting the client's personality and aspirations, truly imprinting their insignia.</p>
-                           <p class="flex-desc wow fadeInUp">Through affordable design solutions and inspired visions we excel in designing Flats, Villas, Bungalows, Independent Residential Properties panning across Bangalore, Hosur & Chennai, testimony to our caliber and diversity in design and implementation</p>
+                           <p class="flex-desc wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s;">{{ $settings?->app_name }} specializes in interior design and decor for residential projects, creating spaces reflecting the client's personality and aspirations, truly imprinting their insignia.</p>
+                           <p class="flex-desc wow fadeInUp">Through affordable design solutions and inspired visions we excel in designing Flats, Villas, Bungalows, Independent Residential Properties panning across Lucknow, Gorakhpur & Allahabaad, testimony to our caliber and diversity in design and implementation</p>
                            <ul class="flex-list">
                               <li>Modular Kitchen</li>
                               <li>Living Room</li>
@@ -233,15 +233,15 @@ $('.mobile-call').click(function(){
                            <a class="cta" href="https://www.chennee.in/home-interior-designers-in-bangalore.php">Explore Interior Designers in Bangalore
                            <svg xmlns="https://www.w3.org/2000/svg" width="14.455" height="12.396" viewBox="0 0 14.455 12.396"><defs><style>.apps{fill:#C09432;}</style></defs><g transform="translate(0 0)"><path class="apps" d="M.869,37.025a1.034,1.034,0,0,1,.179-.013h10.2l-.222-.1a2.068,2.068,0,0,1-.584-.414l-2.86-2.86a1.07,1.07,0,0,1-.15-1.37A1.034,1.034,0,0,1,8.98,32.13L14.151,37.3a1.034,1.034,0,0,1,0,1.463h0L8.98,43.936a1.034,1.034,0,0,1-1.551-.1,1.07,1.07,0,0,1,.15-1.37L10.433,39.6a2.068,2.068,0,0,1,.517-.377l.31-.14H1.1a1.07,1.07,0,0,1-1.091-.869A1.034,1.034,0,0,1,.869,37.025Z" transform="translate(0 -31.842)"></path></g></svg>
                            </a> --}}
-                        </div>                           
+                        </div>
                      </div>
-                     <div class="flex-col-container reverse">  
+                     <div class="flex-col-container reverse">
                          <div class="flex-col-right contentR">
                            <div class="flex-head wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s;">
                               <h3 class="flex-title">Residential Construction</h3>
                               <p class="subtext">We Promise Hassle-free Construction Services</p>
                            </div>
-                           <p class="flex-desc">CHENNEE Architects and Construction have a proven track record of handling an array of projects before the stipulated time within reasonable budget.</p>
+                           <p class="flex-desc">{{ $settings?->app_name }} have a proven track record of handling an array of projects before the stipulated time within reasonable budget.</p>
                            <p class="flex-desc">When it comes to building elevated structures we utilize best-in quality materials added with exceptional customized service during the construction phase with absolute zero compromise.</p>
                            <ul class="flex-list">
                               <li>Villa</li>
@@ -255,22 +255,22 @@ $('.mobile-call').click(function(){
                            <a class="cta" href="https://www.chennee.in/building-construction-contractors-bangalore.php">Explore Construction Services in Bangalore
                            <svg xmlns="https://www.w3.org/2000/svg" width="14.455" height="12.396" viewBox="0 0 14.455 12.396"><defs><style>.apps{fill:#C09432;}</style></defs><g transform="translate(0 0)"><path class="apps" d="M.869,37.025a1.034,1.034,0,0,1,.179-.013h10.2l-.222-.1a2.068,2.068,0,0,1-.584-.414l-2.86-2.86a1.07,1.07,0,0,1-.15-1.37A1.034,1.034,0,0,1,8.98,32.13L14.151,37.3a1.034,1.034,0,0,1,0,1.463h0L8.98,43.936a1.034,1.034,0,0,1-1.551-.1,1.07,1.07,0,0,1,.15-1.37L10.433,39.6a2.068,2.068,0,0,1,.517-.377l.31-.14H1.1a1.07,1.07,0,0,1-1.091-.869A1.034,1.034,0,0,1,.869,37.025Z" transform="translate(0 -31.842)"></path></g></svg>
                            </a> --}}
-                        </div>                         
+                        </div>
                         <div class="flex-col-left mlauto">
                            <img loading="lazy" class="advertising-img " width="613" height="518" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="assets/images/homepage/building-construction-contractors.png" alt="House Construction Contractors" title="House Construction Contractors" style="">
-                        </div>                          
+                        </div>
                      </div>
-                     <div class="flex-col-container">  
+                     <div class="flex-col-container">
                          <div class="flex-col-left">
                            <img loading="lazy" width="613" height="518" class="transactional-img customwid LoadImg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="assets/images/homepage/renovation-services.png" alt="Renovation Contractors" title="Renovation Contractors" style="">
-                        </div>                         
+                        </div>
                         <div class="flex-col-right contentL">
                            <div class="flex-head wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s;">
                               <h3 class="flex-title">Renovation & Remodeling</h3>
                               <p class="subtext">Revive Your Aged Homes to Surrounding That You Plan to Live </p>
                            </div>
                            <p class="flex-desc wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s;">Is your house too old-fashioned? Are you planning to recreate your personalized interior spaces & give a fresh look? Put your worries away!</p>
-                           <p class="flex-desc wow fadeInUp">CHENNEE Architects & Construction help you to remodel your living space & colour your walls of love which you can cherish for lifetime & beyond. Our projects range from sophisticated bath,  kitchen restoration to entire house refurbishment and special additions to new home construction.</p>
+                           <p class="flex-desc wow fadeInUp">{{ $settings?->app_name }} help you to remodel your living space & colour your walls of love which you can cherish for lifetime & beyond. Our projects range from sophisticated bath,  kitchen restoration to entire house refurbishment and special additions to new home construction.</p>
                            <ul class="flex-list">
                               <li>Floor Addition</li>
                               <li>Kitchen Renovation</li>
@@ -283,15 +283,15 @@ $('.mobile-call').click(function(){
                            <a class="cta" href="https://www.chennee.in/house-renovation-contractors-bangalore.php">Explore Renovation Services in Bangalore
                            <svg xmlns="https://www.w3.org/2000/svg" width="14.455" height="12.396" viewBox="0 0 14.455 12.396"><defs><style>.apps{fill:#C09432;}</style></defs><g transform="translate(0 0)"><path class="apps" d="M.869,37.025a1.034,1.034,0,0,1,.179-.013h10.2l-.222-.1a2.068,2.068,0,0,1-.584-.414l-2.86-2.86a1.07,1.07,0,0,1-.15-1.37A1.034,1.034,0,0,1,8.98,32.13L14.151,37.3a1.034,1.034,0,0,1,0,1.463h0L8.98,43.936a1.034,1.034,0,0,1-1.551-.1,1.07,1.07,0,0,1,.15-1.37L10.433,39.6a2.068,2.068,0,0,1,.517-.377l.31-.14H1.1a1.07,1.07,0,0,1-1.091-.869A1.034,1.034,0,0,1,.869,37.025Z" transform="translate(0 -31.842)"></path></g></svg>
                            </a> --}}
-                        </div>                           
+                        </div>
                      </div>
-                     
-                 
+
+
          </div>
       </section>
 
       <section class="section_container middle-cta" data-src="assets/images/mid-bg.webp"  style="background-image: url(assets/images/mid-bg.webp);">
-         <div class=""> 
+         <div class="">
             <svg class="left rm768" xmlns="http://www.w3.org/2000/svg" width="395" height="280" viewBox="0 0 395 280">
             <g id="Group_30200" data-name="Group 30200" transform="translate(4.748 -4876.405)">
                <rect id="Rectangle_12649" data-name="Rectangle 12649" width="178" height="27" rx="13.5" transform="translate(47.252 4876.405)" fill="#ffffff"></rect>
@@ -308,7 +308,7 @@ $('.mobile-call').click(function(){
                   {{-- <a href="get-quote.php" type="button" class="action_buttons" id="experts">Get A Free Quote</a> --}}
                   <h3>Or Give Us Call  <a href="tel:+91 9600442776">+91 96004  42776</a>
                   </h3>
-            </div>   
+            </div>
             <svg class="right rm768" id="Group_30201" data-name="Group 30201" xmlns="http://www.w3.org/2000/svg" width="393" height="280" viewBox="0 0 393 280">
             <rect id="Rectangle_12649" data-name="Rectangle 12649" width="178" height="27" rx="13.5" transform="translate(165 0)" fill="#ffd119"></rect>
             <rect id="Rectangle_12650" data-name="Rectangle 12650" width="228" height="27" rx="13.5" transform="translate(84 164)" fill="#fff"></rect>
@@ -356,7 +356,7 @@ $('.mobile-call').click(function(){
             </div>
          </div>
       </section>
-      
+
         <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css" />
         <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.default.min.css" />
       <section class="section_container clearfix">
@@ -404,7 +404,7 @@ $('.mobile-call').click(function(){
                         <li class="item" style="width:250px">
                         <img loading="lazy" width="382" height="298" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="assets/images/gallery/gallery-4.png" alt="">
                         </li>
-                        
+
                         <li class="item" style="width:250px">
                         <img loading="lazy" width="382" height="298" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="assets/images/gallery/gallery-5.png" alt="">
                         </li>
@@ -416,8 +416,8 @@ $('.mobile-call').click(function(){
                         </li>
                         <li class="item" style="width:250px">
                         <img loading="lazy" width="382" height="298" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="assets/images/gallery/gallery-8.png" alt="">
-                        </li>                      
-                        
+                        </li>
+
                         <li class="item" style="width:250px">
                         <img loading="lazy" width="382" height="298" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="assets/images/gallery/gallery-9.png" alt="">
                         </li>
@@ -440,12 +440,12 @@ $('.mobile-call').click(function(){
    <section class="section_container">
 <div class="container">
                <div class="section-head">
-                  <h3 class="section-title wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s;">See What Customer Says About CHENNEE Architects & Construction</h3>
+                  <h3 class="section-title wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s;">See What Customer Says About {{ $settings?->app_name }}</h3>
                   <h4 class="section-subtitle wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Serving Every Customer According to Niche Preferences is Our Key Objective. Check Out Our Recent Customer Success Stories of Shaping Their Passion Exclusively.</h4>
                </div>
     <div class="testimonials-wrap">
         <div class="testmonial-cont">
-            <p>The transformation from a traditional structure to an urban classic residence was an  ideal blend of contemporary and trendy designs giving a remarkable ideation from CHENNEE property experts.</p>
+            <p>The transformation from a traditional structure to an urban classic residence was an  ideal blend of contemporary and trendy designs giving a remarkable ideation from {{ $settings?->app_name }} property experts.</p>
             <div class="reviewer">
                 <img class="user" width="70" height="72" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="assets/images/user-one.svg" alt="">
                 <span>
@@ -456,7 +456,7 @@ $('.mobile-call').click(function(){
             </div>
         </div>
         <div class="testmonial-cont filled">
-            <p>In every way, CHENNEE Architects and Construction expert’s performance has been amazing. When it comes to material purchases for construction, we appreciate your expertise and attention to our needs, thereby saving us millions! </p>
+            <p>In every way, {{ $settings?->app_name }} expert’s performance has been amazing. When it comes to material purchases for construction, we appreciate your expertise and attention to our needs, thereby saving us millions! </p>
             <div class="reviewer">
                 <img class="user" width="70" height="72" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="assets/images/user-two.svg" alt="">
                 <span>
@@ -467,7 +467,7 @@ $('.mobile-call').click(function(){
             </div>
         </div>
         <div class="testmonial-cont">
-            <p>My family and I couldn't dream of a residence which is so prettily designed. The vibe is & our housing project has the right architecture designed making it so rejuvenating and beautiful. Finally, we enjoy living our dream! Thanks to CHENNE Architects & Construction.</p>
+            <p>My family and I couldn't dream of a residence which is so prettily designed. The vibe is & our housing project has the right architecture designed making it so rejuvenating and beautiful. Finally, we enjoy living our dream! Thanks to {{ $settings?->app_name }}.</p>
             <div class="reviewer">
                 <img class="user" width="70" height="72" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="assets/images/user-three.svg" alt="">
                 <span>
@@ -492,7 +492,7 @@ $('.mobile-call').click(function(){
          }
       </style>
       <div class="publishd-date-wrap" itemscope="" itemtype="http://schema.org/WebPage"><span class="text-tiny">Published:  <span class="published_on" itemprop="datePublished"> 2023-10-02</span></span></div>
-      </div> 
+      </div>
       <!-- Last published date  -->
    <section>
     <div class="bottom-cta">
@@ -504,15 +504,15 @@ $('.mobile-call').click(function(){
         <ul>
             <li>
                 <svg xmlns="https://www.w3.org/2000/svg" width="52.393" height="52.393" viewBox="0 0 52.393 52.393"><defs><style>.absw{fill:#1a232c;}.bbsw{fill:#fff;}</style></defs><ellipse class="absw" cx="26.196" cy="26.197" rx="26.196" ry="26.197" transform="translate(0 0)"/><g transform="translate(11.836 16.316)"><path class="bbsw" d="M27.52,152.656H1.835A1.835,1.835,0,0,0,0,154.491v1.044l14.678,6.216,14.678-6.218v-1.042A1.835,1.835,0,0,0,27.52,152.656Z" transform="translate(0 -152.656)"/><g transform="translate(0 4.871)"><path class="bbsw" d="M15.035,320.841a.908.908,0,0,1-.716,0L0,314.777v13.476a1.835,1.835,0,0,0,1.835,1.835H27.52a1.835,1.835,0,0,0,1.835-1.835V314.777Z" transform="translate(0 -314.777)"/></g></g></svg>
-               <span><a href="mailto:info@chennee.in">info@chennee.in</a></span>
+               <span><a href="mailto:{{ $settings?->email }}">{{ $settings?->email }}</a></span>
             </li>
             <li>
                 <svg xmlns="https://www.w3.org/2000/svg" width="51.976" height="51.976" viewBox="0 0 51.976 51.976"><defs><style>.vikd{fill:#25d366;}</style></defs><g transform="translate(0)"><path class="vikd" d="M25.994,0h-.013A25.972,25.972,0,0,0,4.947,41.22L1.709,50.874,11.7,47.681A25.983,25.983,0,1,0,25.994,0ZM41.116,36.7c-.627,1.77-3.115,3.239-5.1,3.668-1.358.289-3.132.52-9.1-1.956-7.637-3.164-12.555-10.925-12.939-11.428-.367-.5-3.086-4.109-3.086-7.839a8.3,8.3,0,0,1,2.657-6.325,3.776,3.776,0,0,1,2.657-.932c.322,0,.611.016.871.029.763.032,1.147.078,1.65,1.283.627,1.511,2.154,5.24,2.336,5.623a1.547,1.547,0,0,1,.11,1.407,4.491,4.491,0,0,1-.841,1.192c-.383.442-.747.78-1.13,1.254-.351.413-.747.854-.305,1.618a23.067,23.067,0,0,0,4.217,5.24A19.106,19.106,0,0,0,29.2,33.29,1.643,1.643,0,0,0,31.036,33a31.443,31.443,0,0,0,2.03-2.69,1.45,1.45,0,0,1,1.865-.565c.7.244,4.415,2.079,5.178,2.459s1.267.565,1.452.887A6.472,6.472,0,0,1,41.116,36.7Z" transform="translate(0)"/></g></svg>
-                <span><a target="blank" href="https://wa.me/{{ preg_replace('/[^0-9]/', '', $settings->whatsapp) }}?text=Hi%20I%20have%20a%20plot%20in">+91 96004 42776</a></span>
+                <span><a target="blank" href="https://wa.me/{{ preg_replace('/[^0-9]/', '', $settings->whatsapp) }}?text=Hi%20I%20have%20a%20plot%20in">{{ $settings->whatsapp }}</a></span>
             </li>
-            <li>                
+            <li>
                <svg xmlns="https://www.w3.org/2000/svg" width="51.975" height="51.976" viewBox="0 0 51.975 51.976"><defs><style>.agt{fill:#1a232c;}</style></defs><g transform="translate(0 0)"><path class="agt" d="M44.361,7.608a25.988,25.988,0,1,0,7.614,18.373A25.988,25.988,0,0,0,44.361,7.608Zm-5,28.592,0,0V36.2L38.037,37.5a6.93,6.93,0,0,1-6.54,1.871,23.027,23.027,0,0,1-6.687-3,30.9,30.9,0,0,1-5.275-4.253,31.135,31.135,0,0,1-3.941-4.782,24.253,24.253,0,0,1-2.963-5.995,6.93,6.93,0,0,1,1.733-7.077L15.9,12.728a1.1,1.1,0,0,1,1.556,0l0,0L22.332,17.6a1.1,1.1,0,0,1,0,1.556l0,0-2.859,2.859a2.33,2.33,0,0,0-.243,3.032,33.432,33.432,0,0,0,3.422,3.993,33.227,33.227,0,0,0,4.5,3.786,2.347,2.347,0,0,0,3-.26l2.763-2.807a1.1,1.1,0,0,1,1.556,0l0,0,4.877,4.886A1.1,1.1,0,0,1,39.357,36.2Z" transform="translate(0 0)"/></g></svg>
-                <span><a href="tel:+919600442776">+91 96004 42776</a></span>
+                <span><a href="tel:{{ $settings?->contact }}">{{ $settings?->contact }}</a></span>
             </li>
         </ul>
     </div>
@@ -521,7 +521,7 @@ $('.mobile-call').click(function(){
    footer{padding:60px 0 0;background:#1a232c}footer .container{width:1280px}.footer-menus{padding-bottom:40px}.footer-logo{width:210px;display:block;margin-bottom:20px;position:relative}.footer-content{font-size:14px;line-height:24px;font-family:sofia_promedium;margin-bottom:15px;color:#fff;width:100%}.social-links{margin-top:35px;position:relative}ul.social-links:before{content:'';position:absolute;width:38%;height:2px;background:#dfdfdf5e;opacity:.3;left:0;top:50%;transform:translateY(-50%)}ul.social-links:after{content:'';position:absolute;width:38%;height:2px;background:#dfdfdf5e;opacity:.3;right:0;top:50%;transform:translateY(-50%)}.social-links li{display:inline-block;margin:0 5px;width:27px;height:27px}.social-links li a,.social-links li span{padding:0!important}.social-links li a::before{content:none!important}.social-links li a:hover svg{transform:scale(1.1)}.social-links svg{width:100%;height:100%;vertical-align:middle;transition:all ease .2s}.footmenu-column{display:inline-block;vertical-align:top;width:15%;margin:0}.footmenu-column:nth-child(2){width:20%;padding-left:0}.footmenu-column:nth-child(3){padding-left:0;width:22%}.footmenu-column:nth-child(4){width:21%;padding-left:0}.footmenu-column:nth-child(5){width:9%}.footmenu-column:nth-child(6){width:100%!important;text-align:center;padding-left:0}.footmenu-column:first-child{padding-left:0;width:25%}.footmenu-column h6{font-size:18px;position:relative;margin-bottom:15px;font-family:sofia_probold;color:#dca937;margin-top:15px}.footmenu-column ul li a,.footmenu-column ul li span{-webkit-transition:all ease .3s;-o-transition:all ease .3s;transition:all ease .3s;color:#fff;font-size:14px;display:block;margin-bottom:12px;font-family:sofia_promedium;position:relative;padding-left:15px}.footmenu-column .footer-icons a{background:#fff;width:24px;height:24px;border-radius:100%;display:inline-block;position:relative;-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);-webkit-transition:all ease .3s;-o-transition:all ease .3s;transition:all ease .3s}.footmenu-column ul li a:hover{padding-left:20px}.footmenu-column ul li a::before{content:"";position:absolute;left:0;top:6px;height:7px;width:7px;background-image:url(../images/double-arrow-right.svg);background-size:cover}.footmenu-column .footer-icons a:hover{-webkit-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);-webkit-transition:all ease .3s;-o-transition:all ease .3s;transition:all ease .3s}.bottom-footer{background-color:#282929;height:44px}.footer-btn .sales{background:#ffc30e;color:#000;font-size:14px;font-family:sofia_probold;text-align:center;padding:9px 18px;border-radius:5px;display:inline-block;margin-top:15px;-webkit-transition:all ease .4s;-o-transition:all ease .4s;transition:all ease .4s;border:solid 1px transparent;margin-left:5px;text-transform:uppercase}.footer-btn .demo{background:0 0;color:#fff;font-size:14px;font-family:sofia_probold;text-align:center;padding:9px 18px;border-radius:5px;display:inline-block;margin-top:15px;-webkit-transition:all ease .4s;-o-transition:all ease .4s;transition:all ease .4s;border:solid 1px #fff;text-transform:uppercase}.footer-btn .demo:hover{background:#ffc30e;color:#000;border:solid 1px #ffc30e}.copyrights{font-size:14px;font-family:sofia_promedium;color:#fff}.footer-bottom{text-align:center;padding:20px 0}.footer-icons{margin:10px 0}.footer-icons li{display:inline-block;margin-right:10px}.footer-icons li a svg{height:15px;width:15px;vertical-align:middle;fill:#53caaa;position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.footer-icons svg path{fill:#0798d6}section.sticky-footer{position:relative;bottom:0;background:#fff;padding:10px 0;z-index:9;width:100%;display:none}.sticky-wrap{display:flex;align-items:center;justify-content:center;position:relative}.get-quotes{width:50%;text-align:center}.get-quotes:after{content:"";position:absolute;width:2px;height:20px;background:#ffc30e;left:50%;top:50%;transform:translate(-50%,-50%)}.whatsapps-us{width:50%;text-align:center}.whatsapps-us .whatsapp-link svg{width:40px;height:40px;position:absolute;padding:10px;background:#25d366;border-radius:50%;left:-7px;top:-2px}.whatsapps-us .whatsapp-link{background:#000;font-family:sofia_probold;color:#fff;border-radius:10px;padding:6px 20px 6px 40px;display:inline-block;box-shadow:0 3px 6px #00000029;position:relative;border-radius:45px}.nav_quote{background:#ffc30e;padding:8px 13px;color:#1a232c;border:solid 1px #ffc30e;border-radius:5px;text-transform:capitalize;position:relative;text-align:center;display:inline-block;font-size:14px;min-width:135px}.whatsapps-us .nav_quote{background:0 0;border:solid 1px #1a232c;color:#1a232c}.whatsapps-us .nav_quote:hover{background:#ffc30e;border:solid 1px #ffc30e;color:#1a232c}.whatsapp-footer{font-size:18px;background:#25d366;font-family:sofia_probold;color:#fff;border-radius:45px;padding:10px;box-shadow:0 3px 6px #00000029;position:fixed;bottom:4%;right:20px;z-index:999}.whatsapp-link svg{vertical-align:middle;height:25px;width:25px;margin-right:10px}@media screen and (max-width:1281px){.container{width:100%!important;padding:0 20px}}@media screen and (max-width:768px){.nav_actions{display:none!important}.whatsapp-footer{bottom:5%;right:10px}.footer_contact_form .section-head .form-head-bg{width:121px;height:121px}footer{padding-top:35px}.footer-menus{margin:0}.footmenu-column{width:45%!important;padding-left:0!important;margin-bottom:15px}.footmenu-column:nth-child(odd){margin-right:40px}.footmenu-column:nth-last-child(-n+2){margin-bottom:0}section.sticky-footer{display:block;background:#f5f5f5;bottom:1px}.whatsapp-footer{display:block}ul.social-links:before{width:15%}ul.social-links:after{width:15%}}@media screen and (max-width:641px){.footmenu-column h6{font-size:15px!important}.footmenu-column ul li a,.footmenu-column ul li span{font-size:12px!important}.footmenu-column ul li a:hover{padding-left:15px!important}.footmenu-column{width:100%!important}.footmenu-column:nth-child(odd){margin-right:0}.footmenu-column:last-child{margin-top:15px}.footmenu-column.responsive{width:49%!important;margin-top:15px}.footmenu-column.responsive.pd{padding-left:10px!important}.footer-content{width:100%}}@media screen and (max-width:341px){.nav_quote{font-size:13px}}
 </style>
 <style>
-    
+
 .popup__content{background-image:url(assets/images/popup-bg.png);background-repeat:no-repeat;background-size:cover;width:700px;height:auto;display:flex;flex-direction:column;justify-content:center;align-items:center;position:relative;border-radius:17px}.popup__close{background-color:#ddd!important;height:30px;width:30px;line-height:30px;text-align:center;border-radius:50%;position:absolute;right:-10px;top:-10px;display:flex;align-items:center;justify-content:center;cursor:pointer}.popup-cont h5{font-family:sofia_probold;font-size:42px;line-height:55px;color:#ffc30e;margin:0;position:relative;padding-bottom:35px}.popup-cont #off{position:absolute;right:5%;top:35px;display:block;width:200px;height:auto}.popup-cont h5:before{content:"";width:100px;height:2px;background:#fff;display:block;position:absolute;bottom:10px;left:0;right:0;margin:0}.popup-cont p{font-size:22px;line-height:32px;color:#fff;max-width:800px;margin:auto; font-family: sofia_prolight;padding-top:10px}.popup-cont p b{font-family:sofia_probold}.popup-cont a{margin-top:20px}.popup-cont{width:70%;padding:60px 30px 145px 30px}#popup-img{position:absolute!important;width:100%;right:0;bottom:0}#popup-img img{border-bottom-right-radius:17px;border-bottom-left-radius:17px}.popup-cont .nav_quote{font-size:16px;z-index:99}@media screen and (max-width:640px){.popup__content{width:340px;position:relative}.popup-cont{width:80%;padding:80px 15px 70px 16px}.popup-cont #off{right:5%;top:14px;display:block;width:105px!important}.popup-cont h5{font-size:21px;line-height:30px;padding-bottom:20px}.popup-cont p{font-size:13px;line-height:24px}.popup-cont .nav_quote{font-size:12px;min-width:inherit;padding:5px 9px}#popup-img{height:40%;width:100%;bottom:0;right:0}}@media screen and (max-width:340px){.popup__content{width:310px;position:relative}.popup-cont{width:80%;padding:80px 15px 70px 16px}}
 @media screen and (min-width:768px){ .floating-cta{display:none}}.whatsapp-footer{transition:all ease .3s;}@media screen and (max-width:768px){footer {padding-bottom: 75px;}.whatsapp-footer.show{bottom:70px;}.floating-cta.show{bottom:0;}.floating-cta{position:fixed;width:100%;display:flex;align-items:center;justify-content:center;padding:8px 20px;background:#fff;-webkit-box-shadow:0 -2px 4px 0 rgb(173 173 173 / 30%);-moz-box-shadow:0 -2px 4px 0 rgb(173 173 173 / 30%);box-shadow:0 -2px 4px 0 rgb(173 173 173 / 30%);transition: all ease .3s;bottom: -70px;z-index:9999;}.floating-cta a{height:48px;display:inline-block;background:#ffc30e;border-radius:3px;color:#000;text-align:center;font-size:16px;font-family: "proxima-nova", sans-serif;font-weight: 700;line-height:48px;padding:0 30px;border:none;transition:all .3s cubic-bezier(.25,.8,.25,1);position:relative;z-index:1;width:auto;}}@media screen and (max-width:641px){.floating-cta a{width:100%;}}</style>
 <div class="floating-cta">
@@ -532,13 +532,13 @@ $('.mobile-call').click(function(){
         <div class="top-footer clearfix">
             <div class="footer-menus wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s;">
                 <div class="footmenu-column">
-                    <a itemprop="url" href="./" class="footer-logo" title="chennee">
-                       
-                <img src="assets/images/footer-logo.png" width="210" height="61" class="footer-logo LoadImg" alt="chennee logo" style="">     
+                    <a itemprop="url" href="./" class="footer-logo" title="{{ $settings?->app_name }}">
+
+                <img src="{{ $settings?->header_image }}" width="210" height="61" class="footer-logo LoadImg" alt="chennee logo" style="">
             </a>
                     <p class="footer-content">
                     We are a one stop solution for all your architectural planning, construction and interior design needs.
-                </p>   
+                </p>
                 <div class="footer-btn">
                     {{-- <a class="demo" href="./contact-sales.php">Talk to us</a>
                     <a class="sales" href="./get-quote.php">Get a quote</a> --}}
@@ -546,33 +546,33 @@ $('.mobile-call').click(function(){
                 </div>
 
                 <div class="footmenu-column responsive">
-                    <h6>Services in Hosur</h6>
+                    <h6>Services in Lucknow</h6>
                     <ul>
-                       <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.hosur') }}" title="Architects in Hosur">Architects in Hosur</a></li>
-                       <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.hosur') }}" title="Building Contractors in Hosur">Building Contractors in Hosur</a></li>
-                       <li itemprop="name"><a itemprop="url" href="{{ route('interior.designers.in.hosur') }}" title="Interior Designers in Hosur">Interior Designers in Hosur</a></li>
-                       <li itemprop="name"><a itemprop="url" href="{{ route('renovation.contractors.in.hosur') }}" title="Renovation Contractors in Hosur">Renovation Contractors in Hosur</a></li>
-                       {{-- <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Hosur">House Construction Company in Hosur</a></li> --}}
+                       <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.hosur') }}" title="Architects in Hosur">Architects in Lucknow</a></li>
+                       <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.hosur') }}" title="Building Contractors in Hosur">Building Contractors in Lucknow</a></li>
+                       <li itemprop="name"><a itemprop="url" href="{{ route('interior.designers.in.hosur') }}" title="Interior Designers in Hosur">Interior Designers in Lucknow</a></li>
+                       <li itemprop="name"><a itemprop="url" href="{{ route('renovation.contractors.in.hosur') }}" title="Renovation Contractors in Hosur">Renovation Contractors in Lucknow</a></li>
+                       {{-- <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Hosur">House Construction Company in Lucknow</a></li> --}}
                     </ul>
                     </div>
                     <div class="footmenu-column responsive">
-                        <h6>Services in Bangalore</h6>
+                        <h6>Services in Gorakpur</h6>
                         <ul>
-                        <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.bangalore') }}" title="Architects in Bangalore">Architects in Bangalore</a></li>
-                        <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.bangalore') }}" title="Building Contractors in Bangalore">Building Contractors in Bangalore</a></li>
-                        <li itemprop="name"><a itemprop="url" href="https{{ route('interior.designers.in.bangalore') }}" title="Interior Designers in Bangalore">Interior Designers in Bangalore</a></li>
-                        <li itemprop="name"><a itemprop="url" href="{{ route('house.renovation.contractors.bangalore') }}" title="Renovation Contractors in Bangalore">Renovation Contractors in Bangalore</a></li>
-                        {{-- <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Bangalore">House Construction Company in Bangalore</a></li> --}}
+                        <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.bangalore') }}" title="Architects in Bangalore">Architects in Gorakpur</a></li>
+                        <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.bangalore') }}" title="Building Contractors in Bangalore">Building Contractors in Gorakpur</a></li>
+                        <li itemprop="name"><a itemprop="url" href="https{{ route('interior.designers.in.bangalore') }}" title="Interior Designers in Bangalore">Interior Designers in Gorakpur</a></li>
+                        <li itemprop="name"><a itemprop="url" href="{{ route('house.renovation.contractors.bangalore') }}" title="Renovation Contractors in Bangalore">Renovation Contractors in Gorakpur</a></li>
+                        {{-- <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Bangalore">House Construction Company in Gorakpur</a></li> --}}
                         </ul>
                     </div>
                     <div class="footmenu-column responsive">
-                        <h6>Services in Chennai</h6>
+                        <h6>Services in Allahabaad</h6>
                         <ul>
-                        <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.chennai') }}" title="Architects in Chennai">Architects in Chennai</a></li>
-                        <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.chennai') }}" title="Building Contractors in Chennai">Building Contractors in Chennai</a></li>
-                        <li itemprop="name"><a itemprop="url" href="{{ route('interior.designers.in.chennai') }}" title="Interior Designers in Chennai">Interior Designers in Chennai</a></li>
-                        <li itemprop="name"><a itemprop="url" href="{{ route('house.renovation.contractors.chennai') }}" title="Renovation Contractors in Chennai">Renovation Contractors in Chennai</a></li>
-                        {{-- <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Chennai">House Construction Company in Chennai</a></li> --}}
+                        <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.chennai') }}" title="Architects in Chennai">Architects in Allahabaad</a></li>
+                        <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.chennai') }}" title="Building Contractors in Chennai">Building Contractors in Allahabaad</a></li>
+                        <li itemprop="name"><a itemprop="url" href="{{ route('interior.designers.in.chennai') }}" title="Interior Designers in Chennai">Interior Designers in Allahabaad</a></li>
+                        <li itemprop="name"><a itemprop="url" href="{{ route('house.renovation.contractors.chennai') }}" title="Renovation Contractors in Chennai">Renovation Contractors in Allahabaad</a></li>
+                        {{-- <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Chennai">House Construction Company in Allahabaad</a></li> --}}
                         </ul>
                     </div>
                     <div class="footmenu-column responsive pd">
@@ -670,7 +670,7 @@ $('.mobile-call').click(function(){
       <div class="popup__content LoadImg" preload="none">
          <a class="popup__close js-close-popup">
          <svg viewBox="0 0 384 512" style="display:block;height:18px;width:18px"><path d="M231.6 256l130.1-130.1c4.7-4.7 4.7-12.3 0-17l-22.6-22.6c-4.7-4.7-12.3-4.7-17 0L192 216.4 61.9 86.3c-4.7-4.7-12.3-4.7-17 0l-22.6 22.6c-4.7 4.7-4.7 12.3 0 17L152.4 256 22.3 386.1c-4.7 4.7-4.7 12.3 0 17l22.6 22.6c4.7 4.7 12.3 4.7 17 0L192 295.6l130.1 130.1c4.7 4.7 12.3 4.7 17 0l22.6-22.6c4.7-4.7 4.7-12.3 0-17L231.6 256z"></path></svg>
-         </a> 
+         </a>
             <div class="popup-wrap">
                 <div class="popup-cont">
                 <img width="200" height="177" id="off" src="assets/images/offer.png" alt=""/>
@@ -679,7 +679,7 @@ $('.mobile-call').click(function(){
                 <a href="https://www.chennee.in/get-quote.php?utm_source=getquote&utm_medium=banner&utm_campaign=popup" class="nav_quote cap" type="button" data-wow-delay="0.6s">Get a free quote</a>
                 <img width="700" height="312"  id="popup-img" src="assets/images/popup-img.webp" alt=""/>
                 </div>
-                
+
             </div>
        </div>
    </div>
@@ -696,14 +696,14 @@ $('.mobile-call').click(function(){
  </a>
 
     <script>
-        $placeholderImg = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="; 
+        $placeholderImg = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=";
     $(function() {
         $('.LoadImg').lazy({
             combined: true,
             placeholder: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
         });
     });
-    
+
 </script>
 <script>
 window.addEventListener('scroll', function() {
@@ -712,7 +712,7 @@ window.addEventListener('scroll', function() {
     if (scroll >= 110) {
         document.querySelector(".floating-cta").classList.add("show");
         document.querySelector(".whatsapp-footer").classList.add("show");
-        
+
     } else {
         document.querySelector(".floating-cta").classList.add("show");
         document.querySelector(".whatsapp-footer").classList.remove("show");
@@ -720,14 +720,14 @@ window.addEventListener('scroll', function() {
 });
 </script>
 <script>
-  $(window).scroll(function() {    
-                    var scroll = $(window).scrollTop();         
-                    if (scroll >=110) { 
+  $(window).scroll(function() {
+                    var scroll = $(window).scrollTop();
+                    if (scroll >=110) {
                     $(".floating-cta").addClass("show");
                     } else {
                     $(".floating-cta").removeClass("show");
                     }
-                });   
+                });
 </script>
 <script>
      $(document).ready(function ()
@@ -841,7 +841,7 @@ $('.stop').on('click',function(){
       });
 </script>
 <script>
-  // for animation 
+  // for animation
 
 $(document).ready(function(){
   $('.pp-quote').click(function(){
@@ -851,138 +851,138 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    
+
        // hide-top
 
-        $('.li-quote-1').click(function(e){ 
+        $('.li-quote-1').click(function(e){
             e.stopPropagation();
             $(".show").addClass('hide-top');
             $(".hide-top").removeClass('show');
             $('.quote-text-1').addClass('show');
-            $('.quote-text-1').removeClass('hide-bottom');             
+            $('.quote-text-1').removeClass('hide-bottom');
         });
 
-        $('.li-quote-2').click(function(e){ 
+        $('.li-quote-2').click(function(e){
             e.stopPropagation();
             $(".show").addClass('hide-top');
             $(".hide-top").removeClass('show');
-            $('.quote-text-2').addClass('show');             
+            $('.quote-text-2').addClass('show');
             $('.quote-text-2').removeClass('hide-bottom');
         });
 
-        $('.li-quote-3').click(function(e){ 
+        $('.li-quote-3').click(function(e){
             e.stopPropagation();
             $(".show").addClass('hide-top');
-            $(".hide-top").removeClass('show');         
-            $('.quote-text-3').addClass('show');             
+            $(".hide-top").removeClass('show');
+            $('.quote-text-3').addClass('show');
             $('.quote-text-3').removeClass('hide-bottom');
         });
-        $('.li-quote-4').click(function(e){ 
+        $('.li-quote-4').click(function(e){
             e.stopPropagation();
             $(".show").addClass('hide-top');
-            $(".hide-top").removeClass('show');      
-            $('.quote-text-4').addClass('show');             
+            $(".hide-top").removeClass('show');
+            $('.quote-text-4').addClass('show');
             $('.quote-text-4').removeClass('hide-bottom');
         });
-        $('.li-quote-5').click(function(e){ 
+        $('.li-quote-5').click(function(e){
             e.stopPropagation();
             $(".show").addClass('hide-top');
-            $(".hide-top").removeClass('show');      
-            $('.quote-text-5').addClass('show');             
+            $(".hide-top").removeClass('show');
+            $('.quote-text-5').addClass('show');
             $('.quote-text-5').removeClass('hide-bottom');
         });
-        $('.li-quote-6').click(function(e){ 
+        $('.li-quote-6').click(function(e){
             e.stopPropagation();
             $(".show").addClass('hide-top');
-            $(".hide-top").removeClass('show');      
-            $('.quote-text-6').addClass('show');             
+            $(".hide-top").removeClass('show');
+            $('.quote-text-6').addClass('show');
             $('.quote-text-6').removeClass('hide-bottom');
         });
-        $('.li-quote-7').click(function(e){ 
+        $('.li-quote-7').click(function(e){
             e.stopPropagation();
             $(".show").addClass('hide-top');
-            $(".hide-top").removeClass('show');      
-            $('.quote-text-7').addClass('show');             
+            $(".hide-top").removeClass('show');
+            $('.quote-text-7').addClass('show');
             $('.quote-text-7').removeClass('hide-bottom');
         });
-        $('.li-quote-8').click(function(e){ 
+        $('.li-quote-8').click(function(e){
             e.stopPropagation();
             $(".show").addClass('hide-top');
-            $(".hide-top").removeClass('show');      
-            $('.quote-text-8').addClass('show');             
+            $(".hide-top").removeClass('show');
+            $('.quote-text-8').addClass('show');
             $('.quote-text-8').removeClass('hide-bottom');
         });
-           
-    
+
+
 });
 
 
 $(document).ready(function(){
-    
+
        // hide-top
 
-        $('.li-quote-1').click(function(e){ 
+        $('.li-quote-1').click(function(e){
             e.stopPropagation();
             $(".look").addClass('hide-dp-top');
             $(".hide-dp-top").removeClass('look');
             $('.dp-name-1').addClass('look');
-            $('.dp-name-1').removeClass('hide-dp-bottom');             
+            $('.dp-name-1').removeClass('hide-dp-bottom');
         });
 
-        $('.li-quote-2').click(function(e){ 
+        $('.li-quote-2').click(function(e){
             e.stopPropagation();
             $(".look").addClass('hide-dp-top');
             $(".hide-dp-top").removeClass('look');
             $('.dp-name-2').addClass('look');
-            $('.dp-name-2').removeClass('hide-dp-bottom');             
+            $('.dp-name-2').removeClass('hide-dp-bottom');
         });
 
-        $('.li-quote-3').click(function(e){ 
+        $('.li-quote-3').click(function(e){
             e.stopPropagation();
             $(".look").addClass('hide-dp-top');
             $(".hide-dp-top").removeClass('look');
             $('.dp-name-3').addClass('look');
-            $('.dp-name-3').removeClass('hide-dp-bottom');             
+            $('.dp-name-3').removeClass('hide-dp-bottom');
         });
-		$('.li-quote-4').click(function(e){ 
+		$('.li-quote-4').click(function(e){
             e.stopPropagation();
             $(".look").addClass('hide-dp-top');
             $(".hide-dp-top").removeClass('look');
             $('.dp-name-4').addClass('look');
-            $('.dp-name-4').removeClass('hide-dp-bottom');             
+            $('.dp-name-4').removeClass('hide-dp-bottom');
         });
-		
-        $('.li-quote-5').click(function(e){ 
+
+        $('.li-quote-5').click(function(e){
             e.stopPropagation();
             $(".look").addClass('hide-dp-top');
             $(".hide-dp-top").removeClass('look');
             $('.dp-name-5').addClass('look');
-            $('.dp-name-5').removeClass('hide-dp-bottom');             
+            $('.dp-name-5').removeClass('hide-dp-bottom');
         });
-		
-        $('.li-quote-6').click(function(e){ 
+
+        $('.li-quote-6').click(function(e){
             e.stopPropagation();
             $(".look").addClass('hide-dp-top');
             $(".hide-dp-top").removeClass('look');
             $('.dp-name-6').addClass('look');
-            $('.dp-name-6').removeClass('hide-dp-bottom');             
+            $('.dp-name-6').removeClass('hide-dp-bottom');
         });
-        $('.li-quote-7').click(function(e){ 
+        $('.li-quote-7').click(function(e){
             e.stopPropagation();
             $(".look").addClass('hide-dp-top');
             $(".hide-dp-top").removeClass('look');
             $('.dp-name-7').addClass('look');
-            $('.dp-name-7').removeClass('hide-dp-bottom');             
+            $('.dp-name-7').removeClass('hide-dp-bottom');
         });
-        $('.li-quote-8').click(function(e){ 
+        $('.li-quote-8').click(function(e){
             e.stopPropagation();
             $(".look").addClass('hide-dp-top');
             $(".hide-dp-top").removeClass('look');
             $('.dp-name-8').addClass('look');
-            $('.dp-name-8').removeClass('hide-dp-bottom');             
+            $('.dp-name-8').removeClass('hide-dp-bottom');
         });
-           
-    
+
+
 });
 </script>
 
