@@ -15,33 +15,33 @@
           </div>
        </div>
        <div class="footmenu-column responsive">
-          <h6>Services in Hosur</h6>
+          <h6>Services in Luckow</h6>
           <ul>
-             <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.hosur') }}" title="Architects in Hosur">Architects in Hosur</a></li>
-             <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.hosur') }}" title="Building Contractors in Hosur">Building Contractors in Hosur</a></li>
-             <li itemprop="name"><a itemprop="url" href="{{ route('interior.designers.in.hosur') }}" title="Interior Designers in Hosur">Interior Designers in Hosur</a></li>
-             <li itemprop="name"><a itemprop="url" href="{{ route('renovation.contractors.in.hosur') }}" title="Renovation Contractors in Hosur">Renovation Contractors in Hosur</a></li>
+             <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.hosur') }}" title="Architects in Hosur">Architects in Lucknow</a></li>
+             <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.hosur') }}" title="Building Contractors in Lucknow">Building Contractors in Lucknow</a></li>
+             <li itemprop="name"><a itemprop="url" href="{{ route('interior.designers.in.hosur') }}" title="Interior Designers in Lucknow">Interior Designers in Lucknow</a></li>
+             <li itemprop="name"><a itemprop="url" href="{{ route('renovation.contractors.in.hosur') }}" title="Renovation Contractors in Lucknow">Renovation Contractors in Lucknow</a></li>
              {{-- <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Hosur">House Construction Company in Hosur</a></li> --}}
           </ul>
        </div>
        <div class="footmenu-column responsive">
-          <h6>Services in Bangalore</h6>
+          <h6>Services in Gorakpur</h6>
           <ul>
-             <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.bangalore') }}" title="Architects in Bangalore">Architects in Bangalore</a></li>
-             <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.bangalore') }}" title="Building Contractors in Bangalore">Building Contractors in Bangalore</a></li>
-             <li itemprop="name"><a itemprop="url" href="https{{ route('interior.designers.in.bangalore') }}" title="Interior Designers in Bangalore">Interior Designers in Bangalore</a></li>
-             <li itemprop="name"><a itemprop="url" href="{{ route('house.renovation.contractors.bangalore') }}" title="Renovation Contractors in Bangalore">Renovation Contractors in Bangalore</a></li>
-             {{-- <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Bangalore">House Construction Company in Bangalore</a></li> --}}
+             <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.bangalore') }}" title="Architects in Gorakpur">Architects in Gorakpur</a></li>
+             <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.bangalore') }}" title="Building Contractors in Gorakpur">Building Contractors in Gorakpur</a></li>
+             <li itemprop="name"><a itemprop="url" href="https{{ route('interior.designers.in.bangalore') }}" title="Interior Designers in Gorakpur">Interior Designers in Gorakpur</a></li>
+             <li itemprop="name"><a itemprop="url" href="{{ route('house.renovation.contractors.bangalore') }}" title="Renovation Contractors in Gorakpur">Renovation Contractors in Gorakpur</a></li>
+             {{-- <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Gorakpur">House Construction Company in Gorakpur</a></li> --}}
           </ul>
        </div>
        <div class="footmenu-column responsive">
-          <h6>Services in Chennai</h6>
+          <h6>Services in Allahabad</h6>
           <ul>
-             <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.chennai') }}" title="Architects in Chennai">Architects in Chennai</a></li>
-             <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.chennai') }}" title="Building Contractors in Chennai">Building Contractors in Chennai</a></li>
-             <li itemprop="name"><a itemprop="url" href="{{ route('interior.designers.in.chennai') }}" title="Interior Designers in Chennai">Interior Designers in Chennai</a></li>
-             <li itemprop="name"><a itemprop="url" href="{{ route('house.renovation.contractors.chennai') }}" title="Renovation Contractors in Chennai">Renovation Contractors in Chennai</a></li>
-             {{-- <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Chennai">House Construction Company in Chennai</a></li> --}}
+             <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.chennai') }}" title="Architects in Allahabad">Architects in Allahabad</a></li>
+             <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.chennai') }}" title="Building Contractors in Allahabad">Building Contractors in Allahabad</a></li>
+             <li itemprop="name"><a itemprop="url" href="{{ route('interior.designers.in.chennai') }}" title="Interior Designers in Allahabad">Interior Designers in Allahabad</a></li>
+             <li itemprop="name"><a itemprop="url" href="{{ route('house.renovation.contractors.chennai') }}" title="Renovation Contractors in Allahabad">Renovation Contractors in Allahabad</a></li>
+             {{-- <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Allahabad">House Construction Company in Allahabad</a></li> --}}
           </ul>
        </div>
        <div class="footmenu-column responsive pd">
