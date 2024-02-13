@@ -18,7 +18,7 @@ class SettingSeeder extends Seeder
 
         // Seed new data
         Setting::create([
-            'app_name' => 'Construction',
+            'app_name' => 'Construction Technology',
             'email' => 'constructiontechnology.lko@gmail.com',
             'whatsapp' => '+91 96004 42776',
             'contact' => '+91 96004 42776',
