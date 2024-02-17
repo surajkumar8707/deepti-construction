@@ -306,7 +306,7 @@ $('.mobile-call').click(function(){
                   <h3>Contact Us For Your <b>Free Consultation.</b>
                   </h3>
                   {{-- <a href="get-quote.php" type="button" class="action_buttons" id="experts">Get A Free Quote</a> --}}
-                  <h3>Or Give Us Call  <a href="tel:+91 9600442776">+91 96004  42776</a>
+                  <h3>Or Give Us Call  <a href="tel:{{ $settings?->contact }}">{{ $settings?->contact }}</a>
                   </h3>
             </div>
             <svg class="right rm768" id="Group_30201" data-name="Group 30201" xmlns="http://www.w3.org/2000/svg" width="393" height="280" viewBox="0 0 393 280">
