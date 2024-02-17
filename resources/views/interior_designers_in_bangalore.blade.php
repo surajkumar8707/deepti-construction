@@ -14,7 +14,7 @@
             <div class="banner-content banner-left animate">
                 <div class="banner-title">
                     <h1 class="section-title wow fadeInUp" style="visibility: visible;">
-                        <span class="in">CHENNEE ARCHITECTS</span>
+                        <span class="in">{{ $settings->app_name }}</span>
                         A Leading Innovative
                         <p>Architecture Firm in Gorakpur</p>
                         <span class="banner-text wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Get Your Dream House Design Plans With The Hands of Best Architects in Gorakpur at Low Cost</span>

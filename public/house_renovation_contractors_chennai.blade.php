@@ -14,10 +14,10 @@
             <div class="banner-content banner-left animate">
                 <div class="banner-title">
                     <h1 class="section-title wow fadeInUp" style="visibility: visible;">
-                        <span class="in">{{ $settings->app_name }}</span>
+                        <span class="in">{{ $settings?->app_name }}</span>
                         A Leading Innovative
-                        <p>Architecture Firm in Lucknow</p>
-                        <span class="banner-text wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Get Your Dream House Design Plans With The Hands of Best Architects in Lucknow at Low Cost</span>
+                        <p>Architecture Firm in Hosur</p>
+                        <span class="banner-text wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Get Your Dream House Design Plans With The Hands of Best Architects in Hosur at Low Cost</span>
                     </h1>
                 </div>
                 {{-- <a href="contact-sales.php" class="secondary_button cap" type="button" data-wow-delay="0.6s">Talk to Us</a>
@@ -35,19 +35,19 @@
        </div>
        <div class="gallery-wrapper hover">
 
-            <ul>
-                @forelse ($manage_content?->frontendImages as $images)
-                    <li>
-                        <img src="{{ asset($images?->photo) }}" alt="Residential Architects in Lucknow" title="Residential Architects in Lucknow">
-                        <span>{{ $images?->title }}</span>
-                        <div class="hover-cont">
-                            <h6>{{ $images?->title }}</h6>
-                            <p>{{ $images?->description }}</p>
-                        </div>
-                    </li>
-                @empty
-                @endforelse
-            </ul>
+        <ul>
+            @forelse ($manage_content?->frontendImages as $images)
+                <li>
+                    <img src="{{ asset($images?->photo) }}" alt="Residential Architects in Hosur" title="Residential Architects in Hosur">
+                    <span>{{ $images?->title }}</span>
+                    <div class="hover-cont">
+                        <h6>{{ $images?->title }}</h6>
+                        <p>{{ $images?->description }}</p>
+                    </div>
+                </li>
+            @empty
+            @endforelse
+        </ul>
        </div>
     </div>
  </section>
@@ -85,7 +85,7 @@
 <section class="section_container usecases clearfix">
     <div class="container">
        <div class="section-head">
-          <h2 class="section-title wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s;">Get a Range of Architectural Services For Your Residences in Lucknow</h2>
+          <h2 class="section-title wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s;">Get a Range of Architectural Services For Your Residences in Hosur</h2>
           <h3 class="section-subtitle wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Connect With Us For Limitless Designs To Build Your Dream Palace</h3>
        </div>
        <div class="tab-section clearfix">
@@ -133,7 +133,7 @@
                 <div class="tab-description wow fadeInUp animated" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s;">
                    <h3>Floor Plan</h3>
                    <!-- <span>From Dreams to Dream Homes in 150 days</span> -->
-                   <p>A well labelled floor plan and schematics provided through our pioneer home architects in Lucknow ensures maximum utilisation of space. Keeping functionality in mind and allowing natural light is the driving factor in the plans. Designed to suit multi-generational living our experts work hand-in-hand to assist you in all stages.</p>
+                   <p>A well labelled floor plan and schematics provided through our pioneer home architects in Allahabaad ensures maximum utilisation of space. Keeping functionality in mind and allowing natural light is the driving factor in the plans. Designed to suit multi-generational living our experts work hand-in-hand to assist you in all stages.</p>
 
                 </div>
              </div>
@@ -162,7 +162,7 @@
                 </div>
                 <div class="tab-description">
                    <h3>Structural Design</h3>
-                   <p>Top architects take pride in providing your planned home with the structural drawings you specify, sticking to foundation, size, &amp; framing details to the letter. Collaborate with {{ $settings->app_name }} skilled designers in Lucknow to produce a structure that will withstand the load for years, giving you the dream home you've always desired.
+                   <p>Top architects take pride in providing your planned home with the structural drawings you specify, sticking to foundation, size, &amp; framing details to the letter. Collaborate with Chenne’s skilled designers in Allahabaad to produce a structure that will withstand the load for years, giving you the dream home you've always desired.
                    </p>
 
                 </div>
@@ -217,12 +217,12 @@
              </h3>
              <div id="tab4" class="tab_content clearfix" style="display: none;">
                 <div class="tab-img">
-                <img class=" lazy-img" src="assets/images/architects/3d-elevation-designers.png" alt="3d Elevation Designers in Lucknow" style="">
+                <img class=" lazy-img" src="assets/images/architects/3d-elevation-designers.png" alt="3d Elevation Designers in Hosur" style="">
 
                 </div>
                 <div class="tab-description">
                    <h3>3D Elevation</h3>
-                   <p>The house's elevation provides a comprehensive 360-degree panoramic picture, demonstrating the physical accuracy of your home. We are the first home architects in Lucknow to offer this service, which allows consumers to see their home in 3D, making decision-making easier.
+                   <p>The house's elevation provides a comprehensive 360-degree panoramic picture, demonstrating the physical accuracy of your home. We are the first home architects in Allahabaad to offer this service, which allows consumers to see their home in 3D, making decision-making easier.
 Customers may visualise the interiors &amp; exteriors with this approach.
                    </p>
 
@@ -253,7 +253,7 @@ Customers may visualise the interiors &amp; exteriors with this approach.
                 </div>
                 <div class="tab-description">
                    <h3>3D Interior Design</h3>
-                   <p>Interior design entails maximising space to make your home more large, pleasant, and appealing to live in. Home experts in {{ $settings->app_name }} architects &amp; construction take care of aesthetic sense &amp; provide you with a lovely home that meets all of your requirements. The resulting atmosphere ensures that it is a palace you will always cherish and value.
+                   <p>Interior design entails maximising space to make your home more large, pleasant, and appealing to live in. Home experts in {{ $settings?->app_name }} architects &amp; construction take care of aesthetic sense &amp; provide you with a lovely home that meets all of your requirements. The resulting atmosphere ensures that it is a palace you will always cherish and value.
                    </p>
                    <!-- <ul>
                       <li><span></span>Smooth Streaming</li>
@@ -370,7 +370,7 @@ Customers may visualise the interiors &amp; exteriors with this approach.
     <div class="container">
        <div class="section-head">
           <h3 class="section-title wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s;">Reasons Why Customers Love Us To Design Their Dream House</h3>
-          <h4 class="section-subtitle wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Get Prompt Service &amp; Accurate Partnership with Best Residential Architects in Lucknow</h4>
+          <h4 class="section-subtitle wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Get Prompt Service &amp; Accurate Partnership with Best Residential Architects in Hosur</h4>
        </div>
        <div class="gallery-wrapper">
           <ul>
@@ -407,7 +407,7 @@ Customers may visualise the interiors &amp; exteriors with this approach.
     <div class="container">
           <div class="section-head">
              <h3 class="section-title wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s;">Our Accomplishments - Latest Projects</h3>
-             <h5 class="section-subtitle wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Transforming Lives With Innovative House Architects in Lucknow</h5>
+             <h5 class="section-subtitle wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">Transforming Lives With Innovative House Architects in Hosur</h5>
           </div>
           <!-- <div class="tab-section-wrapper">
              <ul class="tab-head wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s;">
@@ -522,7 +522,7 @@ Customers may visualise the interiors &amp; exteriors with this approach.
         </div>
         <div class="testimonials-wrap">
             <div class="testmonial-cont">
-                <p>The transformation from a traditional structure to an urban classic residence was an  ideal blend of contemporary and trendy designs giving a remarkable ideation from {{ $settings->app_name }} property experts.</p>
+                <p>The transformation from a traditional structure to an urban classic residence was an  ideal blend of contemporary and trendy designs giving a remarkable ideation from {{ $settings?->app_name }} property experts.</p>
                 <div class="reviewer">
                     <img class="user" src="assets/images/user-one.svg" alt="">
                     <span>
@@ -532,7 +532,7 @@ Customers may visualise the interiors &amp; exteriors with this approach.
                 </div>
             </div>
             <div class="testmonial-cont filled">
-                <p>In every way, {{ $settings->app_name }} expert’s performance has been amazing. When it comes to material purchases for construction, we appreciate your expertise and attention to our needs, thereby saving us millions! </p>
+                <p>In every way, {{ $settings?->app_name }} expert’s performance has been amazing. When it comes to material purchases for construction, we appreciate your expertise and attention to our needs, thereby saving us millions! </p>
                 <div class="reviewer">
                     <img class="user" src="assets/images/user-two.svg" alt="">
                     <span>
@@ -542,7 +542,7 @@ Customers may visualise the interiors &amp; exteriors with this approach.
                 </div>
             </div>
             <div class="testmonial-cont">
-                <p>My family and I couldn't dream of a residence which is so prettily designed. The vibe is & our housing project has the right architecture designed making it so rejuvenating and beautiful. Finally, we enjoy living our dream! Thanks to CHENNE {{ $settings->app_name }} & Construction.</p>
+                <p>My family and I couldn't dream of a residence which is so prettily designed. The vibe is & our housing project has the right architecture designed making it so rejuvenating and beautiful. Finally, we enjoy living our dream! Thanks to {{ $settings?->app_name }}.</p>
                 <div class="reviewer">
                     <img class="user" src="assets/images/user-three.svg" alt="">
                     <span>
@@ -621,7 +621,7 @@ Customers may visualise the interiors &amp; exteriors with this approach.
                         </g>
                     </g>
                 </svg>
-                <span><a href="mailto:{{ $settings->email }}">{{ $settings->email }}</a></span>
+                <span><a href="mailto:{{ $settings?->email }}">{{ $settings?->email }}</a></span>
             </li>
             <li>
                 <svg xmlns="" width="51.976" height="51.976" viewBox="0 0 51.976 51.976">
