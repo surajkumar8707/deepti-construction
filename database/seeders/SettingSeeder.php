@@ -19,9 +19,9 @@ class SettingSeeder extends Seeder
         // Seed new data
         Setting::create([
             'app_name' => 'Construction Technology',
-            'email' => 'constructiontechnology.lko@gmail.com',
-            'whatsapp' => '+91 96004 42776',
-            'contact' => '+91 96004 42776',
+            'email' => 'const.technology62@gmail.com',
+            'whatsapp' => '+91 9324394183',
+            'contact' => '+91 9324394183',
             'header_image' => 'assets/images/header-logo.png',
         ]);
     }

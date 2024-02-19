@@ -40,9 +40,9 @@
                          <h3 class="flex-title">Who Are We</h3>
                          <!-- <p class="subtext">Exhibit High Rated Videos via Premuim OTT App Developer</p> -->
                       </div>
-                      <p class="flex-desc wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s;">{{ $settings?->app_name }} is a recognized growing leader in the real estate and property planners firm in Bangalore.  We mainly focus on residential buildings with key resources to build world-class projects innovatively across every major sector. Our main objective is to provide top notch architectural plan, creative construction, classy interior design and refurbishment services. </p>
+                      <p class="flex-desc wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s;">{{ $settings?->app_name }} is a recognized growing leader in the real estate and property planners firm in Gorakpur.  We mainly focus on residential buildings with key resources to build world-class projects innovatively across every major sector. Our main objective is to provide top notch architectural plan, creative construction, classy interior design and refurbishment services. </p>
                       <p class="flex-desc wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s;">We have a detailed discussion with our customers to understand their desires, goals and lifestyle to help in designing their dream house. Our experts plan your home, keeping in mind the 7 elements of design like space line, form, etc.</p>
-                      <p class="flex-desc wow fadeInUp" data-wow-delay="0.4s">Our primary aim at CHEENEE Architects and Construction is to ensure that we are in sync with nature to create a grandeur that sets your residence apart and reflects your personality.</p>
+                      <p class="flex-desc wow fadeInUp" data-wow-delay="0.4s">Our primary aim at {{ $settings?->app_name }} is to ensure that we are in sync with nature to create a grandeur that sets your residence apart and reflects your personality.</p>
                    </div>
                 </div>
     </div>
@@ -179,7 +179,7 @@
           </div>
       </div>
       <div class="testmonial-cont">
-          <p>My family and I couldn't dream of a residence which is so prettily designed. The vibe is &amp; our housing project has the right architecture designed making it so rejuvenating and beautiful. Finally, we enjoy living our dream! Thanks to CHENNE Architects &amp; Construction.</p>
+          <p>My family and I couldn't dream of a residence which is so prettily designed. The vibe is &amp; our housing project has the right architecture designed making it so rejuvenating and beautiful. Finally, we enjoy living our dream! Thanks to {{ $settings->app_name }}.</p>
           <div class="reviewer">
               <img class="user" src="assets/images/user-three.svg" alt="">
               <span>
@@ -224,7 +224,7 @@
         </div>
         <div class="testimonials-wrap">
             <div class="testmonial-cont">
-                <p>The transformation from a traditional structure to an urban classic residence was an  ideal blend of contemporary and trendy designs giving a remarkable ideation from CHENNEE property experts.</p>
+                <p>The transformation from a traditional structure to an urban classic residence was an  ideal blend of contemporary and trendy designs giving a remarkable ideation from {{ $settings->app_name }} property experts.</p>
                 <div class="reviewer">
                     <img class="user" src="assets/images/user-one.svg" alt="">
                     <span>
@@ -234,7 +234,7 @@
                 </div>
             </div>
             <div class="testmonial-cont filled">
-                <p>In every way, CHENNEE Architects and Construction expert’s performance has been amazing. When it comes to material purchases for construction, we appreciate your expertise and attention to our needs, thereby saving us millions! </p>
+                <p>In every way, {{ $settings->app_name }} expert’s performance has been amazing. When it comes to material purchases for construction, we appreciate your expertise and attention to our needs, thereby saving us millions! </p>
                 <div class="reviewer">
                     <img class="user" src="assets/images/user-two.svg" alt="">
                     <span>
@@ -244,7 +244,7 @@
                 </div>
             </div>
             <div class="testmonial-cont">
-                <p>My family and I couldn't dream of a residence which is so prettily designed. The vibe is & our housing project has the right architecture designed making it so rejuvenating and beautiful. Finally, we enjoy living our dream! Thanks to CHENNE Architects & Construction.</p>
+                <p>My family and I couldn't dream of a residence which is so prettily designed. The vibe is & our housing project has the right architecture designed making it so rejuvenating and beautiful. Finally, we enjoy living our dream! Thanks to {{ $settings->app_name }}.</p>
                 <div class="reviewer">
                     <img class="user" src="assets/images/user-three.svg" alt="">
                     <span>
@@ -281,7 +281,7 @@
             <div itemscope="" itemprop="mainEntity" itemtype="" class="faq-acc accordion-commns rotate arrow">
                 <div class="faq">
                     <h3 itemprop="name">
-                        Why is CHENNEE Architects the Best Architectural Firm in Hosur?
+                        Why is {{ $settings->app_name }} the Best Architectural Firm in Lucknow?
                         <svg class="arrows" xmlns="" width="15.798" height="9.022" viewBox="0 0 15.798 9.022">
                             <g id="next" transform="translate(0.565 126.199) rotate(-90)">
                                 <g id="Group_19807" data-name="Group 19807" transform="translate(117.742 0)">
@@ -292,13 +292,13 @@
                     </h3>
                 </div>
                 <div itemscope="" itemprop="acceptedAnswer" itemtype="">
-                    <p itemprop="text" class="comm-desc-analyse" style="display: none;">To ensure client happiness, CHENNEE architecture specialists in Hosur create sustainable buildings by ensuring that the form is consistent with its utility.</p>
+                    <p itemprop="text" class="comm-desc-analyse" style="display: none;">To ensure client happiness, {{ $settings->app_name }} architecture specialists in Lucknow create sustainable buildings by ensuring that the form is consistent with its utility.</p>
                 </div>
             </div>
             <div itemscope="" itemprop="mainEntity" itemtype="" class="faq-acc accordion-commns arrow rotate">
                 <div class="faq">
                     <h3 itemprop="name">
-                        What are the Architectural Design Services Offered by CHENNEE Architects?
+                        What are the Architectural Design Services Offered by {{ $settings->app_name }} Architects?
                         <svg class="arrows" xmlns="" width="15.798" height="9.022" viewBox="0 0 15.798 9.022">
                             <g id="next" transform="translate(0.565 126.199) rotate(-90)">
                                 <g id="Group_19807" data-name="Group 19807" transform="translate(117.742 0)">
@@ -315,7 +315,7 @@
             <div itemscope="" itemprop="mainEntity" itemtype="" class="faq-acc accordion-commns arrow active-acc">
                 <div class="faq">
                     <h3 itemprop="name">
-                        How Long Does CHENNEE Architects Take to Provide My House Plan?
+                        How Long Does {{ $settings->app_name }} Architects Take to Provide My House Plan?
                         <svg class="arrows" xmlns="" width="15.798" height="9.022" viewBox="0 0 15.798 9.022">
                             <g id="next" transform="translate(0.565 126.199) rotate(-90)">
                                 <g id="Group_19807" data-name="Group 19807" transform="translate(117.742 0)">
@@ -335,7 +335,7 @@
             <div itemscope="" itemprop="mainEntity" itemtype="" class="faq-acc accordion-commns arrow">
                 <div class="faq">
                     <h3 itemprop="name">
-                        What are the Process Followed by CHENNEE Architects to Plan My New Home?
+                        What are the Process Followed by {{ $settings->app_name }} Architects to Plan My New Home?
                         <svg class="arrows" xmlns="" width="15.798" height="9.022" viewBox="0 0 15.798 9.022">
                             <g id="next" transform="translate(0.565 126.199) rotate(-90)">
                                 <g id="Group_19807" data-name="Group 19807" transform="translate(117.742 0)">
@@ -346,14 +346,14 @@
                     </h3>
                 </div>
                 <div itemscope="" itemprop="acceptedAnswer" itemtype="">
-                    <p itemprop="text" class="comm-desc-analyse" style="display: none;">When we begin, CHENNEE’s top team of architecting expertise in Hosur will accompany you through all stages of raising building, architecture planning, and interior designs to witness the unfolding of your dream home.
+                    <p itemprop="text" class="comm-desc-analyse" style="display: none;">When we begin, {{ $settings->app_name }}’s top team of architecting expertise in Lucknow will accompany you through all stages of raising building, architecture planning, and interior designs to witness the unfolding of your dream home.
                     </p>
                 </div>
             </div>
             <div itemscope="" itemprop="mainEntity" itemtype="" class="faq-acc accordion-commns arrow">
                 <div class="faq">
                     <h3 itemprop="name">
-                        What are the Types of Residential Buildings  Designed by CHENNEE Architects?
+                        What are the Types of Residential Buildings  Designed by {{ $settings->app_name }} ?
                         <svg class="arrows" xmlns="" width="15.798" height="9.022" viewBox="0 0 15.798 9.022">
                             <g id="next" transform="translate(0.565 126.199) rotate(-90)">
                                 <g id="Group_19807" data-name="Group 19807" transform="translate(117.742 0)">
@@ -371,7 +371,7 @@
             <div itemscope="" itemprop="mainEntity" itemtype="" class="faq-acc accordion-commns arrow">
                 <div class="faq">
                     <h3 itemprop="name">
-                        Why You Should Choose CHENNEE Architects to Design Your Dream Home?
+                        Why You Should Choose {{ $settings->app_name }} to Design Your Dream Home?
                         <svg class="arrows" xmlns="" width="15.798" height="9.022" viewBox="0 0 15.798 9.022">
                             <g id="next" transform="translate(0.565 126.199) rotate(-90)">
                                 <g id="Group_19807" data-name="Group 19807" transform="translate(117.742 0)">
@@ -382,7 +382,7 @@
                     </h3>
                 </div>
                 <div itemscope="" itemprop="acceptedAnswer" itemtype="">
-                    <p itemprop="text" class="comm-desc-analyse" style="display: none;">With classic examples of creativity CHENNE Architects crafts your dream home with major pluses like superior design, on time delivery, quality, transparency & much more.  They are well known for the strength of the best residential architects in Hosur.
+                    <p itemprop="text" class="comm-desc-analyse" style="display: none;">With classic examples of creativity {{ $settings->app_name }} crafts your dream home with major pluses like superior design, on time delivery, quality, transparency & much more.  They are well known for the strength of the best residential architects in Lucknow.
                     </p>
                 </div>
             </div>
