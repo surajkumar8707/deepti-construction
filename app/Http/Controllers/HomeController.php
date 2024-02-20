@@ -137,6 +137,12 @@ class HomeController extends Controller
     public function aboutUs(){
         return view('about_us');
     }
+    public function privacyPolicy(){
+        return view('privacy_policy');
+    }
+    public function termsConditions(){
+        return view('terms_conditions');
+    }
 
     public function getQuote(){
         $manage_content = ManageFrontEndContent::with(['frontendImages', 'faqs'])->where('page_type', 'house_renovation_contractors_allahabaad')->first();

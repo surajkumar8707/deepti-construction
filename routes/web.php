@@ -103,5 +103,7 @@ Route::get('contact-sales',[HomeController::class, 'contactSales'])->name('conta
 Route::post('contact-save',[HomeController::class, 'contactSave'])->name('contact.save');
 Route::get('thank-you',[HomeController::class, 'thankYou'])->name('thank.you');
 Route::get('about-us',[HomeController::class, 'aboutUs'])->name('about.us');
+Route::get('privacy-policy',[HomeController::class, 'privacyPolicy'])->name('privacy.policy');
+Route::get('terms-conditions',[HomeController::class, 'termsConditions'])->name('terms.conditions');
 Route::get('get-quote',[HomeController::class, 'getQuote'])->name('get.quote');
 Route::post('quote-save',[HomeController::class, 'quoteSave'])->name('quote.save');
