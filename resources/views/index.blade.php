@@ -582,6 +582,8 @@ $('.mobile-call').click(function(){
                         <li itemprop="name"><a itemprop="url" href="#" title="Careers">Careers</a></li>
                         <li itemprop="name"><a itemprop="url" href="{{ route('contact.sales') }}" title="Contact Us">Contact Us</a></li>
                         <li itemprop="name"><a itemprop="url" href="{{ route('get.quote') }}" title="Get a Quote">Get a Quote</a></li>
+                        <li itemprop="name"><a itemprop="url" href="{{ route('terms.conditions') }}" title="Get a Quote">Terms and Condition</a></li>
+                        <li itemprop="name"><a itemprop="url" href="{{ route('privacy.policy') }}" title="Get a Quote">Privacy Policy</a></li>
                         {{-- <li itemprop="name"><a itemprop="url" href="#" title="Blog">Blog</a></li> --}}
                         </ul>
                     </div>
