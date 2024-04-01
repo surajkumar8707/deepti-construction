@@ -1,0 +1,133 @@
+#popup-deposit{
+	display: none !important;
+}
+.thankyou-page{
+    background: #FFEFC0;
+    padding: 30px 0;
+    margin-top: 120px;
+}
+.thanks-wrapper {
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 3px 8px #00000047;
+    border-radius: 10px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    position: relative;
+}
+.thanks-wrapper:after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/flower.svg);
+    background-size: cover;
+    left: 0;
+    top: 0;
+}
+.thanks-wrapper h1{
+    font-size: 36px;
+    color: #1A232C;
+    font-family: 'sofia_probold';
+    text-transform: capitalize;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+.thanks-wrapper p{
+    font-size: 20px;
+    color: #1A232C;
+    max-width: 800px;
+    margin: auto;
+    font-family: 'sofia_prosemibold';
+    margin-bottom: 20px;
+}
+.thanks-wrapper img{
+    width: 90px;
+    margin: 0 auto;
+}
+.thanks-wrapper .back-to-home{
+    background: #FFC30E;
+    padding: 8px 20px;
+    color: #1A232C;
+    border-radius: 5px;
+    text-transform: capitalize;
+    position: relative;
+    border: solid 1px #FFC30E;
+    text-align: center;
+    display: block;
+    width: 170px;
+    margin: 20px auto;
+}
+.quote-wrap{
+    background: #FBF8EE;
+    padding: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.quote {
+    font-size: 20px;
+    line-height: 35px;
+    color: #1A232C;
+    max-width: 800px;
+    margin: auto;
+    font-family: 'sofia_prosemibold';
+    padding: 15px 80px;
+    display: block;
+    border: dashed #ccc;
+    position: relative;
+}
+span.quote:after {
+    content: '';
+    position: absolute;
+    background-image: url(../images/quote.svg);
+    background-size: cover;
+    height: 30px;
+    width: 40px;
+    top: -19px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+}
+span.quote:before {
+    content: '';
+    position: absolute;
+    background: #fbf8ee;
+    height: 30px;
+    width: 60px;
+    top: -19px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 0;
+}
+.quote b{
+    display: block;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .thanks-wrapper h1 {
+        font-size: 30px;
+}
+@media screen and (max-width: 991px) {
+    .thankyou-page {
+        margin-top: 65px;
+    }
+    .thanks-wrapper:after{
+        height: 50px;
+        width: 50px;
+    }
+}
+@media screen and (max-width: 641px) {
+    .thanks-wrapper{max-width: 100%;} 
+    .thanks-wrapper h1 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .thanks-wrapper p {
+        font-size: 14px;
+    }
+    .quote{
+        padding: 20px;
+    }
+}

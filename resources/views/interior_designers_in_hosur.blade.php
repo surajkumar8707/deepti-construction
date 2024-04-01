@@ -127,7 +127,7 @@
              </h3>
              <div id="tab1" class="tab_content clearfix" style="display: block;">
                 <div class="tab-img">
-                <img class=" lazy-img" src="assets/images/architects/floor-plan-architecture-design.png" alt="House Floor Plan Designers" title="House Floor Plan Designers" style="">
+                <img class=" lazy-img" src="public/assets/images/architects/floor-plan-architecture-design.png" alt="House Floor Plan Designers" title="House Floor Plan Designers" style="">
 
                 </div>
                 <div class="tab-description wow fadeInUp animated" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s;">
@@ -157,7 +157,7 @@
              </h3>
              <div id="tab2" class="tab_content clearfix" style="display: none;">
                 <div class="tab-img">
-                <img class=" lazy-img" src="assets/images/architects/structural-design-drawing.png" alt="Structural Design Services" title="Structural Design Services">
+                <img class=" lazy-img" src="public/assets/images/architects/structural-design-drawing.png" alt="Structural Design Services" title="Structural Design Services">
 
                 </div>
                 <div class="tab-description">
@@ -187,7 +187,7 @@
              </h3>
              <div id="tab3" class="tab_content clearfix" style="display: none;">
                 <div class="tab-img">
-                <img class=" lazy-img" src="assets/images/architects/civil-plan-drawing.png" alt="Civil Home Plan Drawing" title="Civil Home Plan Drawing">
+                <img class=" lazy-img" src="public/assets/images/architects/civil-plan-drawing.png" alt="Civil Home Plan Drawing" title="Civil Home Plan Drawing">
 
                 </div>
                 <div class="tab-description">
@@ -217,7 +217,7 @@
              </h3>
              <div id="tab4" class="tab_content clearfix" style="display: none;">
                 <div class="tab-img">
-                <img class=" lazy-img" src="assets/images/architects/3d-elevation-designers.png" alt="3d Elevation Designers in Lucknow" style="">
+                <img class=" lazy-img" src="public/assets/images/architects/3d-elevation-designers.png" alt="3d Elevation Designers in Lucknow" style="">
 
                 </div>
                 <div class="tab-description">
@@ -248,7 +248,7 @@ Customers may visualise the interiors &amp; exteriors with this approach.
              </h3>
              <div id="tab5" class="tab_content clearfix" style="display: none;">
                 <div class="tab-img">
-                <img class=" lazy-img" src="assets/images/architects/3d-interior-design-plan.png" alt="3d Interior Designing Company" title="3d Interior Designing Company">
+                <img class=" lazy-img" src="public/assets/images/architects/3d-interior-design-plan.png" alt="3d Interior Designing Company" title="3d Interior Designing Company">
 
                 </div>
                 <div class="tab-description">
@@ -279,7 +279,7 @@ Customers may visualise the interiors &amp; exteriors with this approach.
           <div class="packages-wrapper">
              <div class="packages-cont">
                 <div class="package-type">
-                <img src="assets/images/gallery/architecture-design-cost-standard.png" alt="Architecture Design Cost">
+                <img src="public/assets/images/gallery/architecture-design-cost-standard.png" alt="Architecture Design Cost">
                    <span>Standard</span>
                 </div>
                 <ul>
@@ -293,7 +293,7 @@ Customers may visualise the interiors &amp; exteriors with this approach.
              </div>
              <div class="packages-cont">
                    <div class="package-type">
-                   <img src="assets/images/gallery/home-architecture-design-cost-premium.png" alt="Home Architecture Design Cost">
+                   <img src="public/assets/images/gallery/home-architecture-design-cost-premium.png" alt="Home Architecture Design Cost">
                       <span>Premium</span>
                    </div>
                 <ul>
@@ -311,7 +311,7 @@ Customers may visualise the interiors &amp; exteriors with this approach.
              </div>
              <div class="packages-cont">
                 <div class="package-type">
-                <img src="assets/images/gallery/architecture-interior-design-cost-elite.png" alt="Architecture Interior Design Cost">
+                <img src="public/assets/images/gallery/architecture-interior-design-cost-elite.png" alt="Architecture Interior Design Cost">
                    <span>Elite</span>
                 </div>
                 <ul>
@@ -375,27 +375,27 @@ Customers may visualise the interiors &amp; exteriors with this approach.
        <div class="gallery-wrapper">
           <ul>
              <li>
-                <img loading="lazy" src="assets/images/architects/superior-design.png" alt="Superior Design" title="Superior Design">
+                <img loading="lazy" src="public/assets/images/architects/superior-design.png" alt="Superior Design" title="Superior Design">
                 <span>Superior Design</span>
              </li>
              <li>
-                <img loading="lazy" src="assets/images/architects/on-time-delivery.png" alt="On-Time Delivery" title="On-Time Delivery">
+                <img loading="lazy" src="public/assets/images/architects/on-time-delivery.png" alt="On-Time Delivery" title="On-Time Delivery">
                 <span>On-time Delivery</span>
              </li>
              <li>
-                <img loading="lazy" src="assets/images/architects/quality.png" alt="Quality" title="Quality">
+                <img loading="lazy" src="public/assets/images/architects/quality.png" alt="Quality" title="Quality">
                 <span>Quality</span>
              </li>
              <li>
-                <img loading="lazy" src="assets/images/architects/delivered-several-designs.png" alt="Delivered Several Designs" title="Delivered Several Designs">
+                <img loading="lazy" src="public/assets/images/architects/delivered-several-designs.png" alt="Delivered Several Designs" title="Delivered Several Designs">
                 <span>Delivered 100+ Designs</span>
              </li>
              <li>
-                <img loading="lazy" src="assets/images/architects/transparency.png" alt="Transparency" title="Transparency">
+                <img loading="lazy" src="public/assets/images/architects/transparency.png" alt="Transparency" title="Transparency">
                 <span>Transparency</span>
              </li>
              <li>
-                <img loading="lazy" src="assets/images/architects/customer-satisfication.png" alt="Customer Satisfaction" title="Customer Satisfaction">
+                <img loading="lazy" src="public/assets/images/architects/customer-satisfication.png" alt="Customer Satisfaction" title="Customer Satisfaction">
                 <span>Customer Satisfaction</span>
              </li>
           </ul>
@@ -453,61 +453,61 @@ Customers may visualise the interiors &amp; exteriors with this approach.
 
 
                 <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2881px, 0px, 0px); transition: all 0.25s ease 0s; width: 8964px;"><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-8.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-8.png" alt="">
                    </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-9.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-9.png" alt="">
                    </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-10.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-10.png" alt="">
                    </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-11.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-11.png" alt="">
                    </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-12.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-12.png" alt="">
                    </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-13.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-13.png" alt="">
                    </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-14.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-14.png" alt="">
                    </li></div><div class="owl-item" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-1.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-1.png" alt="">
                    </li></div><div class="owl-item" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-2.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-2.png" alt="">
                    </li></div><div class="owl-item active" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-3.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-3.png" alt="">
                    </li></div><div class="owl-item active" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-4.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-4.png" alt="">
                    </li></div><div class="owl-item active" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-5.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-5.png" alt="">
                    </li></div><div class="owl-item" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-6.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-6.png" alt="">
                    </li></div><div class="owl-item" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-7.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-7.png" alt="">
                    </li></div><div class="owl-item" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-8.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-8.png" alt="">
                    </li></div><div class="owl-item" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-9.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-9.png" alt="">
                    </li></div><div class="owl-item" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-10.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-10.png" alt="">
                    </li></div><div class="owl-item" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-11.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-11.png" alt="">
                    </li></div><div class="owl-item" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-12.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-12.png" alt="">
                    </li></div><div class="owl-item" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-13.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-13.png" alt="">
                    </li></div><div class="owl-item" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-14.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-14.png" alt="">
                    </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-1.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-1.png" alt="">
                    </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-2.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-2.png" alt="">
                    </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-3.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-3.png" alt="">
                    </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-4.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-4.png" alt="">
                    </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-5.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-5.png" alt="">
                    </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-6.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-6.png" alt="">
                    </li></div><div class="owl-item cloned" style="width: 310.133px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img loading="lazy" src="assets/images/gallery/gallery-7.png" alt="">
+                   <img loading="lazy" src="public/assets/images/gallery/gallery-7.png" alt="">
                    </li></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button></div></ul>
              </div>
           </div>
@@ -524,30 +524,30 @@ Customers may visualise the interiors &amp; exteriors with this approach.
             <div class="testmonial-cont">
                 <p>The transformation from a traditional structure to an urban classic residence was an  ideal blend of contemporary and trendy designs giving a remarkable ideation from {{ $settings->app_name }} property experts.</p>
                 <div class="reviewer">
-                    <img class="user" src="assets/images/user-one.svg" alt="">
+                    <img class="user" src="public/assets/images/user-one.svg" alt="">
                     <span>
                         Athithan
-                        <img class="rating" src="assets/images/rating-four.svg" alt="">
+                        <img class="rating" src="public/assets/images/rating-four.svg" alt="">
                     </span>
                 </div>
             </div>
             <div class="testmonial-cont filled">
                 <p>In every way, {{ $settings->app_name }} expert’s performance has been amazing. When it comes to material purchases for construction, we appreciate your expertise and attention to our needs, thereby saving us millions! </p>
                 <div class="reviewer">
-                    <img class="user" src="assets/images/user-two.svg" alt="">
+                    <img class="user" src="public/assets/images/user-two.svg" alt="">
                     <span>
                         Anukeerthana
-                        <img class="rating" src="assets/images/rating-five.svg" alt="">
+                        <img class="rating" src="public/assets/images/rating-five.svg" alt="">
                     </span>
                 </div>
             </div>
             <div class="testmonial-cont">
                 <p>My family and I couldn't dream of a residence which is so prettily designed. The vibe is & our housing project has the right architecture designed making it so rejuvenating and beautiful. Finally, we enjoy living our dream! Thanks to {{ $settings->app_name }}.</p>
                 <div class="reviewer">
-                    <img class="user" src="assets/images/user-three.svg" alt="">
+                    <img class="user" src="public/assets/images/user-three.svg" alt="">
                     <span>
                         Sundar
-                        <img class="rating" src="assets/images/rating-four.svg" alt="">
+                        <img class="rating" src="public/assets/images/rating-four.svg" alt="">
                     </span>
                 </div>
             </div>
@@ -565,7 +565,7 @@ Customers may visualise the interiors &amp; exteriors with this approach.
             font-family: 'sofia_proregular';
         }
     </style>
-    <div class="publishd-date-wrap" itemscope="" itemtype=""><span class="text-tiny">Published:  <span class="published_on" itemprop="datePublished"> 2023-10-02</span></span></div>
+    {{-- <div class="publishd-date-wrap" itemscope="" itemtype=""><span class="text-tiny">Published:  <span class="published_on" itemprop="datePublished"> 2023-10-02</span></span></div> --}}
 </div>
 <!-- Last published date  -->
 <section class="faq-bg" id="faq">

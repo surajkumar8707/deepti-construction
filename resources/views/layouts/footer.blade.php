@@ -4,7 +4,7 @@
     <div class="footer-menus wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s;">
        <div class="footmenu-column">
           <a itemprop="url" href="./" class="footer-logo" title="chennee">
-          <img src="{{ asset($settings?->header_image) }}" width="210" height="61" class="footer-logo LoadImg" alt="chennee logo" style="">
+          <img src="{{ asset('public/'.$settings?->header_image) }}" width="210" height="61" class="footer-logo LoadImg" alt="chennee logo" style="">
           </a>
           <p class="footer-content">
              We are a one stop solution for all your architectural planning, construction and interior design needs.
@@ -48,7 +48,7 @@
           <h6>Company</h6>
           <ul>
              <li itemprop="name"><a itemprop="url" href="{{ route('about.us') }}" title="About Us">About Us</a></li>
-             <li itemprop="name"><a itemprop="url" href="#" title="Careers">Careers</a></li>
+             {{-- <li itemprop="name"><a itemprop="url" href="#" title="Careers">Careers</a></li> --}}
              <li itemprop="name"><a itemprop="url" href="{{ route('contact.sales') }}" title="Contact Us">Contact Us</a></li>
              <li itemprop="name"><a itemprop="url" href="{{ route('get.quote') }}" title="Get a Quote">Get a Quote</a></li>
              <li itemprop="name"><a itemprop="url" href="{{ route('terms.conditions') }}" title="Get a Quote">Terms and Condition</a></li>
@@ -131,7 +131,7 @@
        </div>
     </div>
     <div class="footer-bottom">
-       <span class="copyrights">&copy;  2023 All Rights Reserved</span>
+       <span class="copyrights">&copy;  {{ $settings->app_name }} {{ date('Y') }}</span>
     </div>
     </a>
  </footer>
@@ -145,11 +145,11 @@
           </a>
           <div class="popup-wrap">
              <div class="popup-cont">
-                <img width="200" height="177" id="off" src="{{ asset('assets/images/offer.png') }}" alt=""/>
+                <img width="200" height="177" id="off" src="{{ asset('public/assets/images/offer.png') }}" alt=""/>
                 <h5>Book a Home Construction Today!</h5>
                 <p>Get an <b>Architectural Plan</b> & <b>Interior Design</b> For Exclusively <b style="color:#ffc30e;">FREE!!</b></p>
                 <a href="{{ route('get.quote') }}?utm_source=getquote&utm_medium=banner&utm_campaign=popup" class="nav_quote cap" type="button" data-wow-delay="0.6s">Get a free quote</a>
-                <img width="700" height="312"  id="popup-img" src="{{ asset('assets/images/popup-img.webp') }}" alt=""/>
+                <img width="700" height="312"  id="popup-img" src="{{ asset('public/assets/images/popup-img.webp') }}" alt=""/>
              </div>
           </div>
        </div>
@@ -215,7 +215,7 @@
     });
     });
  </script>
- <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+ <script src="{{ asset('public/assets/js/owl.carousel.min.js') }}"></script>
  <!-- <script>
     $('.multiCarosel').each(function(){
      var number = $(this).data('number');

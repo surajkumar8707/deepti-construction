@@ -6,13 +6,16 @@
     {{-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> --}}
     <title>Title</title>
     <link rel="icon" type="image/x-icon" href="#" />
-    @vite('resources/sass/app.scss')
+    {{-- @vite('resources/sass/app.scss') --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link rel="stylesheet" href="{{ asset('css/adminlte.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/datatables.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/sweetalert2.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/select2.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/custom.css') }}" />
+    <link rel="stylesheet" href="{{ asset('public/css/adminlte.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('public/css/datatables.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('public/css/sweetalert2.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('public/css/select2.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('public/css/custom.css') }}" />
+    <link rel="stylesheet" href="{{ asset('public/build/assets/app-lhA9k1qk.css') }}" />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <style>
         .main-loader-please-wait {
             display: flex;
@@ -84,13 +87,13 @@
     <script>
         var base_url = "{{ url('admin/') }}";
     </script>
-    @vite('resources/js/app.js')
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="{{ asset('js/adminlte.min.js') }}" defer></script>
-    <script src="{{ asset('js/datatables.min.js') }}" defer></script>
-    <script src="{{ asset('js/sweetalert2.min.js') }}" defer></script>
-    <script src="{{ asset('js/select2.min.js') }}" defer></script>
-    <script src="{{ asset('js/custom.js') }}" defer></script>
+    {{-- @vite('resources/js/app.js') --}}
+
+    <script src="{{ asset('public/js/adminlte.min.js') }}" defer></script>
+    <script src="{{ asset('public/js/datatables.min.js') }}" defer></script>
+    {{-- <script src="{{ asset('public/js/sweetalert2.min.js') }}" defer></script> --}}
+    <script src="{{ asset('public/js/select2.min.js') }}" defer></script>
+    <script src="{{ asset('public/js/custom.js') }}" defer></script>
     @stack('scripts')
 </body>
 </html>

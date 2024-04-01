@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-<link rel="stylesheet" href="{{ asset('assets/css/about.css') }}">
+<link rel="stylesheet" href="{{ asset('public/assets/css/about.css') }}">
 @section('content')
 
 @php

@@ -1,0 +1,424 @@
+footer {
+  padding: 60px 0 0;
+  background: #1a232c;
+}
+footer .container{
+  width: 1280px;
+}
+.footer-menus {
+  padding-bottom: 40px;
+}
+.footer-logo {
+  width: 210px;
+  display: block;
+  margin-bottom: 20px;
+  position: relative;
+}
+.footer-content {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "sofia_promedium";
+  margin-bottom: 15px;
+  color: #fff;
+  width: 100%;
+}
+.social-links {
+  margin-top: 35px;
+  position: relative;
+}
+ul.social-links:before {
+  content: '';
+  position: absolute;
+  width: 38%;
+  height: 2px;
+  background: #dfdfdf5e;
+  opacity: .3;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+ul.social-links:after {
+  content: '';
+  position: absolute;
+  width: 38%;
+  height: 2px;
+  background: #dfdfdf5e;
+  opacity: .3;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.social-links li {
+  display: inline-block;
+  margin: 0 5px;
+  width: 27px;
+  height: 27px;
+}
+.social-links li a,
+.social-links li span {
+  padding: 0 !important;
+}
+.social-links li a::before {
+  content: none !important;
+}
+.social-links li a:hover svg {
+  transform: scale(1.1);
+}
+.social-links svg {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  transition: all ease 0.2s;
+}
+.footmenu-column {
+  display: inline-block;
+  vertical-align: top;
+  width: 15%;
+  margin: 0;
+  /* padding-left: 35px; */
+}
+.footmenu-column:nth-child(2) {
+  width: 20%;
+  padding-left: 0;
+}
+.footmenu-column:nth-child(3) {
+  padding-left: 0;
+  width: 22%;
+}
+.footmenu-column:nth-child(4) {
+  width: 21%;
+  padding-left: 0;
+}
+.footmenu-column:nth-child(5) {
+  width: 9%;
+}
+.footmenu-column:nth-child(6) {
+  width: 100% !important;
+  text-align: center;
+  padding-left: 0;
+}
+.footmenu-column:first-child {
+  padding-left: 0;
+  width: 25%;
+}
+.footmenu-column h6 {
+  font-size: 18px;
+  position: relative;
+  margin-bottom: 15px;
+  font-family: "sofia_probold";
+  color: #dca937;
+  margin-top: 15px;
+}
+.footmenu-column ul li a,
+.footmenu-column ul li span {
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  color: #fff;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 12px;
+  font-family: "sofia_promedium";
+  position: relative;
+  padding-left: 15px;
+}
+.footmenu-column .footer-icons a {
+  background: #fff;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  display: inline-block;
+  position: relative;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+.footmenu-column ul li a:hover {
+  padding-left: 20px;
+}
+.footmenu-column ul li a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  height: 7px;
+  width: 7px;
+  background-image: url(../images/double-arrow-right.svg);
+  background-size: cover;
+}
+.footmenu-column .footer-icons a:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+.bottom-footer {
+  background-color: #282929;
+  height: 44px;
+}
+.footer-btn .sales {
+  background: #ffc30e;
+  color: #000;
+  font-size: 14px;
+  font-family: "sofia_probold";
+  text-align: center;
+  padding: 9px 18px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 15px;
+  -webkit-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+  border: solid 1px transparent;
+  margin-left: 5px;
+  text-transform: uppercase;
+}
+.footer-btn .demo {
+  background: transparent;
+  color: #fff;
+  font-size: 14px;
+  font-family: "sofia_probold";
+  text-align: center;
+  padding: 9px 18px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 15px;
+  -webkit-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+  border: solid 1px #fff;
+  text-transform: uppercase;
+}
+.footer-btn .demo:hover {
+  background: #ffc30e;
+  color: #000;
+  border: solid 1px #ffc30e;
+}
+.copyrights {
+  font-size: 14px;
+  font-family: "sofia_promedium";
+  color: #fff;
+}
+.footer-bottom {
+  text-align: center;
+  padding: 20px 0;
+}
+.footer-icons {
+  margin: 10px 0;
+}
+.footer-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer-icons li a svg {
+  height: 15px;
+  width: 15px;
+  vertical-align: middle;
+  fill: #53caaa;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.footer-icons svg path {
+  fill: #0798d6;
+}
+
+section.sticky-footer {
+  position: relative;
+  bottom: 0;
+  background: #fff;
+  padding: 10px 0;
+  z-index: 9;
+  width: 100%;
+  /* box-shadow: 1px -1px 15px #00000014; */
+  display: none;
+}
+.sticky-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.get-quotes {
+  width: 50%;
+  text-align: center;
+}
+.get-quotes:after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 20px;
+  background: #ffc30e;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.whatsapps-us {
+  width: 50%;
+  text-align: center;
+}
+.whatsapps-us .whatsapp-link svg {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  padding: 10px;
+  background: #25d366;
+  border-radius: 50%;
+  left: -7px;
+  top: -2px;
+}
+.whatsapps-us .whatsapp-link {
+  background: #000;
+  font-family: "sofia_probold";
+  color: #fff;
+  border-radius: 10px;
+  padding: 6px 20px 6px 40px;
+  display: inline-block;
+  box-shadow: 0px 3px 6px #00000029;
+  position: relative;
+  border-radius: 45px;
+}
+.nav_quote {
+  background: #ffc30e;
+  padding: 8px 13px;
+  color: #1a232c;
+  border: solid 1px #ffc30e;
+  border-radius: 5px;
+  text-transform: capitalize;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  min-width: 135px;
+}
+.whatsapps-us .nav_quote {
+  background: transparent;
+  border: solid 1px #1a232c;
+  color: #1a232c;
+}
+.whatsapps-us .nav_quote:hover {
+  background: #ffc30e;
+  border: solid 1px #ffc30e;
+  color: #1a232c;
+}
+
+.whatsapp-footer {
+  font-size: 18px;
+  background: #25d366;
+  font-family: "sofia_probold";
+  color: #fff;
+  border-radius: 45px;
+  padding: 10px;
+  box-shadow: 0px 3px 6px #00000029;
+  position: fixed;
+  bottom: 4%;
+  right: 20px;
+  z-index: 999;
+  transition: all ease .3s;
+}
+.whatsapp-link svg {
+  vertical-align: middle;
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1281px) {
+  .container {
+    width: 100% !important;
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav_actions {
+    display: none !important;
+  }
+  .whatsapp-footer {
+    bottom: 5%;
+    right: 10px;
+  }
+  .footer_contact_form .section-head .form-head-bg {
+    width: 121px;
+    height: 121px;
+  }
+  footer {
+    padding-top: 35px;
+    padding-bottom: 75px;
+  }
+  .footer-menus {
+    margin: 0;
+  }
+  .footmenu-column {
+    width: 45% !important;
+    padding-left: 0 !important;
+    margin-bottom: 15px;
+  }
+  .footmenu-column:nth-child(odd) {
+    margin-right: 40px;
+  }
+  .footmenu-column:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+  }
+  section.sticky-footer {
+    display: block;
+    background: #f5f5f5;
+    bottom: 1px;
+  }
+  .whatsapp-footer {
+    display: block;
+  }
+  .whatsapp-footer.show {
+    bottom: 70px;
+}
+  ul.social-links:before {
+    width: 15%;
+}
+ul.social-links:after {
+  width: 15%;
+}
+}
+
+@media screen and (max-width: 641px) {
+  .footmenu-column h6{
+    font-size: 15px !important;
+  }
+  .footmenu-column ul li a, .footmenu-column ul li span{
+    font-size: 12px !important;
+  }
+  .footmenu-column ul li a:hover {
+    padding-left: 15px !important;
+  }
+  .footmenu-column {
+    width: 100% !important;
+  }
+  .footmenu-column:nth-child(odd) {
+    margin-right: 0;
+  }
+  .footmenu-column:last-child {
+    margin-top: 15px;
+  }
+  .footmenu-column.responsive {
+    width: 49% !important;
+    margin-top: 15px;
+  }
+  .footmenu-column.responsive.pd {
+    padding-left: 10px !important;
+  }
+  .footer-content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 341px) {
+  .nav_quote {
+    font-size: 13px;
+  }
+}

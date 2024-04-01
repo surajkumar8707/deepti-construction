@@ -131,7 +131,7 @@
        <div class="nav-container">
           <div class="brand">
              <a href="{{ route('home') }}">
-             <img width="200" height="57" src="{{ asset($settings?->header_image) }}" alt="">
+             <img width="200" height="57" src="{{ asset('public/'.$settings?->header_image) }}" alt="">
              </a>
           </div>
           <div class="nav-mobile">

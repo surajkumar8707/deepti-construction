@@ -53,31 +53,31 @@ return [
             'images' => [
                 [
                     'title' => 'Residences',
-                    'photo' => 'gallery_img/residential-architects.jpg',
+                    'photo' => 'public/gallery_img/residential-architects.jpg',
                     'description' => 'We build residences with ideas based on providing greenery & space designed with top architects in hosur keeping your privacy in mind',
                 ],
                 [
-                    'photo' => 'gallery_img/villa-architects.jpg',
+                    'photo' => 'public/gallery_img/villa-architects.jpg',
                     'title' => 'Villas',
                     'description' => 'Get your luxury villas planned by the best architects in hosur who are hand picked for their insightful designs.'
                 ],
                 [
-                    'photo' => 'gallery_img/apartment-architecture-design.jpg',
+                    'photo' => 'public/gallery_img/appartment.webp',
                     'title' => 'Apartments',
                     'description' => 'Locate your exclusive apartments sketched precisely with family-centric facilities to give the right sense of contentment.'
                 ],
                 [
-                    'photo' => 'gallery_img/bungalow-house-design.jpg',
+                    'photo' => 'public/gallery_img/bungalow-house-design.jpg',
                     'title' => 'Bunglow',
                     'description' => 'Find your bungalow built to the highest standards with a perfect combination of modern architecture and features to provide comfort living.'
                 ],
                 [
-                    'photo' => 'gallery_img/bungalow-house-design.jpg',
+                    'photo' => 'public/gallery_img/row-house-architecture-design.jpg',
                     'title' => 'Duplex House',
                     'description' => 'We have the best team of architects in hosur who deliver your extended lifespaces loaded with amenities, making your duplex house stand apart due to its distinct features.'
                 ],
                 [
-                    'photo' => 'gallery_img/row-house-architecture-design.jpg',
+                    'photo' => 'public/gallery_img/row_house.jpg',
                     'title' => 'Row House',
                     'description' => 'Enjoy living in the expansive space artfully designed to make an exclusive row house that you would be proud to own.'
                 ]
@@ -116,31 +116,31 @@ return [
             'images' => [
                 [
                     'title' => 'Residences',
-                    'photo' => 'gallery_img/IMG-20240131-WA0009.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0009.jpg',
                     'description' => 'We build residences with ideas based on providing greenery & space designed with top architects in hosur keeping your privacy in mind',
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0010.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0010.jpg',
                     'title' => 'Villas',
                     'description' => 'Get your luxury villas planned by the best architects in hosur who are hand picked for their insightful designs.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0011.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0011.jpg',
                     'title' => 'Apartments',
                     'description' => 'Locate your exclusive apartments sketched precisely with family-centric facilities to give the right sense of contentment.'
                 ],
                 [
-                    'photo' => 'gallery_img/apartment-architecture-design.jpg',
+                    'photo' => 'public/gallery_img/appartment.webp',
                     'title' => 'Bunglow',
                     'description' => 'Find your bungalow built to the highest standards with a perfect combination of modern architecture and features to provide comfort living.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0021.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0021.jpg',
                     'title' => 'Duplex House',
                     'description' => 'We have the best team of architects in hosur who deliver your extended lifespaces loaded with amenities, making your duplex house stand apart due to its distinct features.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0023.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0023.jpg',
                     'title' => 'Row House',
                     'description' => 'Enjoy living in the expansive space artfully designed to make an exclusive row house that you would be proud to own.'
                 ]
@@ -179,31 +179,31 @@ return [
             'images' => [
                 [
                     'title' => 'Residences',
-                    'photo' => 'gallery_img/IMG-20240131-WA0093.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0093.jpg',
                     'description' => 'We build residences with ideas based on providing greenery & space designed with top architects in hosur keeping your privacy in mind',
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0094.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0094.jpg',
                     'title' => 'Villas',
                     'description' => 'Get your luxury villas planned by the best architects in hosur who are hand picked for their insightful designs.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0096.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0096.jpg',
                     'title' => 'Apartments',
                     'description' => 'Locate your exclusive apartments sketched precisely with family-centric facilities to give the right sense of contentment.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0100.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0100.jpg',
                     'title' => 'Bunglow',
                     'description' => 'Find your bungalow built to the highest standards with a perfect combination of modern architecture and features to provide comfort living.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0098.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0098.jpg',
                     'title' => 'Duplex House',
                     'description' => 'We have the best team of architects in hosur who deliver your extended lifespaces loaded with amenities, making your duplex house stand apart due to its distinct features.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0101.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0101.jpg',
                     'title' => 'Row House',
                     'description' => 'Enjoy living in the expansive space artfully designed to make an exclusive row house that you would be proud to own.'
                 ]
@@ -242,31 +242,31 @@ return [
             'images' => [
                 [
                     'title' => 'Residences',
-                    'photo' => 'gallery_img/IMG-20240131-WA0081.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0081.jpg',
                     'description' => 'We build residences with ideas based on providing greenery & space designed with top architects in hosur keeping your privacy in mind',
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0082.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0082.jpg',
                     'title' => 'Villas',
                     'description' => 'Get your luxury villas planned by the best architects in hosur who are hand picked for their insightful designs.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0083.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0083.jpg',
                     'title' => 'Apartments',
                     'description' => 'Locate your exclusive apartments sketched precisely with family-centric facilities to give the right sense of contentment.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0084.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0084.jpg',
                     'title' => 'Bunglow',
                     'description' => 'Find your bungalow built to the highest standards with a perfect combination of modern architecture and features to provide comfort living.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0085.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0085.jpg',
                     'title' => 'Duplex House',
                     'description' => 'We have the best team of architects in hosur who deliver your extended lifespaces loaded with amenities, making your duplex house stand apart due to its distinct features.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0086.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0086.jpg',
                     'title' => 'Row House',
                     'description' => 'Enjoy living in the expansive space artfully designed to make an exclusive row house that you would be proud to own.'
                 ]
@@ -305,31 +305,31 @@ return [
             'images' => [
                 [
                     'title' => 'Residences',
-                    'photo' => 'gallery_img/IMG-20240131-WA0093.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0093.jpg',
                     'description' => 'We build residences with ideas based on providing greenery & space designed with top architects in hosur keeping your privacy in mind',
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0094.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0094.jpg',
                     'title' => 'Villas',
                     'description' => 'Get your luxury villas planned by the best architects in hosur who are hand picked for their insightful designs.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0096.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0096.jpg',
                     'title' => 'Apartments',
                     'description' => 'Locate your exclusive apartments sketched precisely with family-centric facilities to give the right sense of contentment.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0100.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0100.jpg',
                     'title' => 'Bunglow',
                     'description' => 'Find your bungalow built to the highest standards with a perfect combination of modern architecture and features to provide comfort living.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0098.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0098.jpg',
                     'title' => 'Duplex House',
                     'description' => 'We have the best team of architects in hosur who deliver your extended lifespaces loaded with amenities, making your duplex house stand apart due to its distinct features.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0101.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0101.jpg',
                     'title' => 'Row House',
                     'description' => 'Enjoy living in the expansive space artfully designed to make an exclusive row house that you would be proud to own.'
                 ]
@@ -372,31 +372,31 @@ return [
             'images' => [
                 [
                     'title' => 'Residences',
-                    'photo' => 'gallery_img/IMG-20240131-WA0093.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0093.jpg',
                     'description' => 'We build residences with ideas based on providing greenery & space designed with top architects in hosur keeping your privacy in mind',
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0094.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0094.jpg',
                     'title' => 'Villas',
                     'description' => 'Get your luxury villas planned by the best architects in hosur who are hand picked for their insightful designs.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0096.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0096.jpg',
                     'title' => 'Apartments',
                     'description' => 'Locate your exclusive apartments sketched precisely with family-centric facilities to give the right sense of contentment.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0100.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0100.jpg',
                     'title' => 'Bunglow',
                     'description' => 'Find your bungalow built to the highest standards with a perfect combination of modern architecture and features to provide comfort living.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0098.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0098.jpg',
                     'title' => 'Duplex House',
                     'description' => 'We have the best team of architects in hosur who deliver your extended lifespaces loaded with amenities, making your duplex house stand apart due to its distinct features.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0101.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0101.jpg',
                     'title' => 'Row House',
                     'description' => 'Enjoy living in the expansive space artfully designed to make an exclusive row house that you would be proud to own.'
                 ]
@@ -435,31 +435,31 @@ return [
             'images' => [
                 [
                     'title' => 'Residences',
-                    'photo' => 'gallery_img/residential-architects.jpg',
+                    'photo' => 'public/gallery_img/residential-architects.jpg',
                     'description' => 'We build residences with ideas based on providing greenery & space designed with top architects in hosur keeping your privacy in mind',
                 ],
                 [
-                    'photo' => 'gallery_img/villa-architects.jpg',
+                    'photo' => 'public/gallery_img/villa-architects.jpg',
                     'title' => 'Villas',
                     'description' => 'Get your luxury villas planned by the best architects in hosur who are hand picked for their insightful designs.'
                 ],
                 [
-                    'photo' => 'gallery_img/apartment-architecture-design.jpg',
+                    'photo' => 'public/gallery_img/appartment.webp',
                     'title' => 'Apartments',
                     'description' => 'Locate your exclusive apartments sketched precisely with family-centric facilities to give the right sense of contentment.'
                 ],
                 [
-                    'photo' => 'gallery_img/bungalow-house-design.jpg',
+                    'photo' => 'public/gallery_img/bungalow-house-design.jpg',
                     'title' => 'Bunglow',
                     'description' => 'Find your bungalow built to the highest standards with a perfect combination of modern architecture and features to provide comfort living.'
                 ],
                 [
-                    'photo' => 'gallery_img/bungalow-house-design.jpg',
+                    'photo' => 'public/gallery_img/bungalow-house-design.jpg',
                     'title' => 'Duplex House',
                     'description' => 'We have the best team of architects in hosur who deliver your extended lifespaces loaded with amenities, making your duplex house stand apart due to its distinct features.'
                 ],
                 [
-                    'photo' => 'gallery_img/row-house-architecture-design.jpg',
+                    'photo' => 'public/gallery_img/row-house-architecture-design.jpg',
                     'title' => 'Row House',
                     'description' => 'Enjoy living in the expansive space artfully designed to make an exclusive row house that you would be proud to own.'
                 ]
@@ -498,31 +498,31 @@ return [
             'images' => [
                 [
                     'title' => 'Residences',
-                    'photo' => 'gallery_img/IMG-20240131-WA0069.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0069.jpg',
                     'description' => 'We build residences with ideas based on providing greenery & space designed with top architects in hosur keeping your privacy in mind',
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0064.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0064.jpg',
                     'title' => 'Villas',
                     'description' => 'Get your luxury villas planned by the best architects in hosur who are hand picked for their insightful designs.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0065.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0065.jpg',
                     'title' => 'Apartments',
                     'description' => 'Locate your exclusive apartments sketched precisely with family-centric facilities to give the right sense of contentment.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0066.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0066.jpg',
                     'title' => 'Bunglow',
                     'description' => 'Find your bungalow built to the highest standards with a perfect combination of modern architecture and features to provide comfort living.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0067.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0067.jpg',
                     'title' => 'Duplex House',
                     'description' => 'We have the best team of architects in hosur who deliver your extended lifespaces loaded with amenities, making your duplex house stand apart due to its distinct features.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0068.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0068.jpg',
                     'title' => 'Row House',
                     'description' => 'Enjoy living in the expansive space artfully designed to make an exclusive row house that you would be proud to own.'
                 ]
@@ -565,31 +565,31 @@ return [
             'images' => [
                 [
                     'title' => 'Residences',
-                    'photo' => 'gallery_img/residential-architects.jpg',
+                    'photo' => 'public/gallery_img/residential-architects.jpg',
                     'description' => 'We build residences with ideas based on providing greenery & space designed with top architects in hosur keeping your privacy in mind',
                 ],
                 [
-                    'photo' => 'gallery_img/villa-architects.jpg',
+                    'photo' => 'public/gallery_img/villa-architects.jpg',
                     'title' => 'Villas',
                     'description' => 'Get your luxury villas planned by the best architects in hosur who are hand picked for their insightful designs.'
                 ],
                 [
-                    'photo' => 'gallery_img/apartment-architecture-design.jpg',
+                    'photo' => 'public/gallery_img/appartment.webp',
                     'title' => 'Apartments',
                     'description' => 'Locate your exclusive apartments sketched precisely with family-centric facilities to give the right sense of contentment.'
                 ],
                 [
-                    'photo' => 'gallery_img/bungalow-house-design.jpg',
+                    'photo' => 'public/gallery_img/bungalow-house-design.jpg',
                     'title' => 'Bunglow',
                     'description' => 'Find your bungalow built to the highest standards with a perfect combination of modern architecture and features to provide comfort living.'
                 ],
                 [
-                    'photo' => 'gallery_img/bungalow-house-design.jpg',
+                    'photo' => 'public/gallery_img/bungalow-house-design.jpg',
                     'title' => 'Duplex House',
                     'description' => 'We have the best team of architects in hosur who deliver your extended lifespaces loaded with amenities, making your duplex house stand apart due to its distinct features.'
                 ],
                 [
-                    'photo' => 'gallery_img/row-house-architecture-design.jpg',
+                    'photo' => 'public/gallery_img/row-house-architecture-design.jpg',
                     'title' => 'Row House',
                     'description' => 'Enjoy living in the expansive space artfully designed to make an exclusive row house that you would be proud to own.'
                 ]
@@ -628,31 +628,31 @@ return [
             'images' => [
                 [
                     'title' => 'Residences',
-                    'photo' => 'gallery_img/IMG-20240131-WA0069.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0069.jpg',
                     'description' => 'We build residences with ideas based on providing greenery & space designed with top architects in hosur keeping your privacy in mind',
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0064.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0064.jpg',
                     'title' => 'Villas',
                     'description' => 'Get your luxury villas planned by the best architects in hosur who are hand picked for their insightful designs.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0065.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0065.jpg',
                     'title' => 'Apartments',
                     'description' => 'Locate your exclusive apartments sketched precisely with family-centric facilities to give the right sense of contentment.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0066.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0066.jpg',
                     'title' => 'Bunglow',
                     'description' => 'Find your bungalow built to the highest standards with a perfect combination of modern architecture and features to provide comfort living.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0067.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0067.jpg',
                     'title' => 'Duplex House',
                     'description' => 'We have the best team of architects in hosur who deliver your extended lifespaces loaded with amenities, making your duplex house stand apart due to its distinct features.'
                 ],
                 [
-                    'photo' => 'gallery_img/IMG-20240131-WA0068.jpg',
+                    'photo' => 'public/gallery_img/IMG-20240131-WA0068.jpg',
                     'title' => 'Row House',
                     'description' => 'Enjoy living in the expansive space artfully designed to make an exclusive row house that you would be proud to own.'
                 ]
@@ -691,33 +691,33 @@ return [
             'images' => [
 
                 [
-                    'photo' => 'gallery_img/villa-architects.jpg',
+                    'photo' => 'public/gallery_img/villa-architects.jpg',
                     'title' => 'Villas',
                     'description' => 'Get your luxury villas planned by the best architects in hosur who are hand picked for their insightful designs.'
                 ],
                 [
                     'title' => 'Residences',
-                    'photo' => 'gallery_img/residential-architects.jpg',
+                    'photo' => 'public/gallery_img/residential-architects.jpg',
                     'description' => 'We build residences with ideas based on providing greenery & space designed with top architects in hosur keeping your privacy in mind',
                 ],
                 [
-                    'photo' => 'gallery_img/apartment-architecture-design.jpg',
+                    'photo' => 'public/gallery_img/appartment.webp',
                     'title' => 'Apartments',
                     'description' => 'Locate your exclusive apartments sketched precisely with family-centric facilities to give the right sense of contentment.'
                 ],
 
                 [
-                    'photo' => 'gallery_img/bungalow-house-design.jpg',
+                    'photo' => 'public/gallery_img/bungalow-house-design.jpg',
                     'title' => 'Duplex House',
                     'description' => 'We have the best team of architects in hosur who deliver your extended lifespaces loaded with amenities, making your duplex house stand apart due to its distinct features.'
                 ],
                 [
-                    'photo' => 'gallery_img/bungalow-house-design.jpg',
+                    'photo' => 'public/gallery_img/bungalow-house-design.jpg',
                     'title' => 'Bunglow',
                     'description' => 'Find your bungalow built to the highest standards with a perfect combination of modern architecture and features to provide comfort living.'
                 ],
                 [
-                    'photo' => 'gallery_img/row-house-architecture-design.jpg',
+                    'photo' => 'public/gallery_img/row-house-architecture-design.jpg',
                     'title' => 'Row House',
                     'description' => 'Enjoy living in the expansive space artfully designed to make an exclusive row house that you would be proud to own.'
                 ]
@@ -756,32 +756,32 @@ return [
             'images' => [
                 [
                     'title' => 'Residences',
-                    'photo' => 'gallery_img/residential-architects.jpg',
+                    'photo' => 'public/gallery_img/residential-architects.jpg',
                     'description' => 'We build residences with ideas based on providing greenery & space designed with top architects in hosur keeping your privacy in mind',
                 ],
                 [
-                    'photo' => 'gallery_img/villa-architects.jpg',
+                    'photo' => 'public/gallery_img/villa-architects.jpg',
                     'title' => 'Villas',
                     'description' => 'Get your luxury villas planned by the best architects in hosur who are hand picked for their insightful designs.'
                 ],
                 [
-                    'photo' => 'gallery_img/apartment-architecture-design.jpg',
+                    'photo' => 'public/gallery_img/appartment.webp',
                     'title' => 'Apartments',
                     'description' => 'Locate your exclusive apartments sketched precisely with family-centric facilities to give the right sense of contentment.'
                 ],
                 [
-                    'photo' => 'gallery_img/bungalow-house-design.jpg',
+                    'photo' => 'public/gallery_img/bungalow-house-design.jpg',
                     'title' => 'Bunglow',
                     'description' => 'Find your bungalow built to the highest standards with a perfect combination of modern architecture and features to provide comfort living.'
                 ],
 
                 [
-                    'photo' => 'gallery_img/row-house-architecture-design.jpg',
+                    'photo' => 'public/gallery_img/row-house-architecture-design.jpg',
                     'title' => 'Row House',
                     'description' => 'Enjoy living in the expansive space artfully designed to make an exclusive row house that you would be proud to own.'
                 ],
                 [
-                    'photo' => 'gallery_img/bungalow-house-design.jpg',
+                    'photo' => 'public/gallery_img/bungalow-house-design.jpg',
                     'title' => 'Duplex House',
                     'description' => 'We have the best team of architects in hosur who deliver your extended lifespaces loaded with amenities, making your duplex house stand apart due to its distinct features.'
                 ],
@@ -820,31 +820,31 @@ return [
             'images' => [
                 [
                     'title' => 'Residences',
-                    'photo' => 'gallery_img/residential-architects.jpg',
+                    'photo' => 'public/gallery_img/residential-architects.jpg',
                     'description' => 'We build residences with ideas based on providing greenery & space designed with top architects in hosur keeping your privacy in mind',
                 ],
                 [
-                    'photo' => 'gallery_img/villa-architects.jpg',
+                    'photo' => 'public/gallery_img/villa-architects.jpg',
                     'title' => 'Villas',
                     'description' => 'Get your luxury villas planned by the best architects in hosur who are hand picked for their insightful designs.'
                 ],
                 [
-                    'photo' => 'gallery_img/apartment-architecture-design.jpg',
+                    'photo' => 'public/gallery_img/appartment.webp',
                     'title' => 'Apartments',
                     'description' => 'Locate your exclusive apartments sketched precisely with family-centric facilities to give the right sense of contentment.'
                 ],
                 [
-                    'photo' => 'gallery_img/bungalow-house-design.jpg',
+                    'photo' => 'public/gallery_img/bungalow-house-design.jpg',
                     'title' => 'Bunglow',
                     'description' => 'Find your bungalow built to the highest standards with a perfect combination of modern architecture and features to provide comfort living.'
                 ],
                 [
-                    'photo' => 'gallery_img/bungalow-house-design.jpg',
+                    'photo' => 'public/gallery_img/bungalow-house-design.jpg',
                     'title' => 'Duplex House',
                     'description' => 'We have the best team of architects in hosur who deliver your extended lifespaces loaded with amenities, making your duplex house stand apart due to its distinct features.'
                 ],
                 [
-                    'photo' => 'gallery_img/row-house-architecture-design.jpg',
+                    'photo' => 'public/gallery_img/row-house-architecture-design.jpg',
                     'title' => 'Row House',
                     'description' => 'Enjoy living in the expansive space artfully designed to make an exclusive row house that you would be proud to own.'
                 ]
@@ -887,31 +887,31 @@ return [
             'images' => [
                 [
                     'title' => 'Residences',
-                    'photo' => 'gallery_img/residential-architects.jpg',
+                    'photo' => 'public/gallery_img/residential-architects.jpg',
                     'description' => 'We build residences with ideas based on providing greenery & space designed with top architects in hosur keeping your privacy in mind',
                 ],
                 [
-                    'photo' => 'gallery_img/villa-architects.jpg',
+                    'photo' => 'public/gallery_img/villa-architects.jpg',
                     'title' => 'Villas',
                     'description' => 'Get your luxury villas planned by the best architects in hosur who are hand picked for their insightful designs.'
                 ],
                 [
-                    'photo' => 'gallery_img/apartment-architecture-design.jpg',
+                    'photo' => 'public/gallery_img/appartment.webp',
                     'title' => 'Apartments',
                     'description' => 'Locate your exclusive apartments sketched precisely with family-centric facilities to give the right sense of contentment.'
                 ],
                 [
-                    'photo' => 'gallery_img/bungalow-house-design.jpg',
+                    'photo' => 'public/gallery_img/bungalow-house-design.jpg',
                     'title' => 'Bunglow',
                     'description' => 'Find your bungalow built to the highest standards with a perfect combination of modern architecture and features to provide comfort living.'
                 ],
                 [
-                    'photo' => 'gallery_img/bungalow-house-design.jpg',
+                    'photo' => 'public/gallery_img/bungalow-house-design.jpg',
                     'title' => 'Duplex House',
                     'description' => 'We have the best team of architects in hosur who deliver your extended lifespaces loaded with amenities, making your duplex house stand apart due to its distinct features.'
                 ],
                 [
-                    'photo' => 'gallery_img/row-house-architecture-design.jpg',
+                    'photo' => 'public/gallery_img/row-house-architecture-design.jpg',
                     'title' => 'Row House',
                     'description' => 'Enjoy living in the expansive space artfully designed to make an exclusive row house that you would be proud to own.'
                 ]
@@ -950,31 +950,31 @@ return [
             'images' => [
                 [
                     'title' => 'Residences',
-                    'photo' => 'gallery_img/residential-architects.jpg',
+                    'photo' => 'public/gallery_img/residential-architects.jpg',
                     'description' => 'We build residences with ideas based on providing greenery & space designed with top architects in hosur keeping your privacy in mind',
                 ],
                 [
-                    'photo' => 'gallery_img/villa-architects.jpg',
+                    'photo' => 'public/gallery_img/villa-architects.jpg',
                     'title' => 'Villas',
                     'description' => 'Get your luxury villas planned by the best architects in hosur who are hand picked for their insightful designs.'
                 ],
                 [
-                    'photo' => 'gallery_img/apartment-architecture-design.jpg',
+                    'photo' => 'public/gallery_img/appartment.webp',
                     'title' => 'Apartments',
                     'description' => 'Locate your exclusive apartments sketched precisely with family-centric facilities to give the right sense of contentment.'
                 ],
                 [
-                    'photo' => 'gallery_img/bungalow-house-design.jpg',
+                    'photo' => 'public/gallery_img/bungalow-house-design.jpg',
                     'title' => 'Bunglow',
                     'description' => 'Find your bungalow built to the highest standards with a perfect combination of modern architecture and features to provide comfort living.'
                 ],
                 [
-                    'photo' => 'gallery_img/bungalow-house-design.jpg',
+                    'photo' => 'public/gallery_img/bungalow-house-design.jpg',
                     'title' => 'Duplex House',
                     'description' => 'We have the best team of architects in hosur who deliver your extended lifespaces loaded with amenities, making your duplex house stand apart due to its distinct features.'
                 ],
                 [
-                    'photo' => 'gallery_img/row-house-architecture-design.jpg',
+                    'photo' => 'public/gallery_img/row-house-architecture-design.jpg',
                     'title' => 'Row House',
                     'description' => 'Enjoy living in the expansive space artfully designed to make an exclusive row house that you would be proud to own.'
                 ]

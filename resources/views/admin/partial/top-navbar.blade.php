@@ -14,7 +14,7 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                 data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <img class="image img-circle" style="height:30px;width:30px"
-                    src="{{ URL::asset('/images/avatar.png') }}">
+                    src="{{ URL::asset('public/images/avatar.png') }}">
             </a>
             <ul class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="navbarDropdown">
                 <span class="dropdown-item">
@@ -40,9 +40,9 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel"> 
-                  <i class="fas fa-sign-out-alt"></i> 
-                  {{ __('Log Out') }} 
+                <h5 class="modal-title" id="exampleModalLabel">
+                  <i class="fas fa-sign-out-alt"></i>
+                  {{ __('Log Out') }}
                 </h5>
                 <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>

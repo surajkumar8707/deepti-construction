@@ -51,7 +51,7 @@
         $('#page_type').change(function(){
             var $this = $(this);
             const page_type = $(this).val();
-            const base_url = '{{ url('') }}';
+            const base_url = "{{ url('') }}";
             $.ajax({
                 type:'GET',
                 url: base_url + '/admin/manage-front-end-content/get-page-detail/' + page_type,

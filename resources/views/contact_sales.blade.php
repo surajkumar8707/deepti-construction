@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-<link rel="stylesheet" href="{{ asset('assets/css/contact.css') }}">
+<link rel="stylesheet" href="{{ asset('public/assets/css/contact.css') }}">
 <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
 <script type="text/javascript">
     var onloadCallback = function() {
@@ -110,7 +110,7 @@
                           <li id="button-submit">
                             <!-- onclick="formSubmit()" -->
                             <button onclick="formSubmit(event)" type="button" id="submit-button" class="form-submission contact-submit button">Submit</button>
-                            <span id="ajx-loader"><img src="assets/images/ajax_loader.gif" alt="loader"></span>
+                            <span id="ajx-loader"><img src="public/assets/images/ajax_loader.gif" alt="loader"></span>
                           </li>
                       </ul>
                   </form>
@@ -122,7 +122,7 @@
                       <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37"><defs><style>.whatsappa{fill:#fff;}</style></defs><path class="whatsappa" d="M18.5,0H18.5A18.489,18.489,0,0,0,3.522,29.343L1.216,36.216l7.111-2.273A18.5,18.5,0,1,0,18.5,0ZM29.269,26.124c-.446,1.26-2.218,2.306-3.631,2.611-.967.206-2.229.37-6.48-1.392-5.437-2.252-8.938-7.777-9.211-8.135s-2.2-2.925-2.2-5.58a5.906,5.906,0,0,1,1.892-4.5,2.688,2.688,0,0,1,1.892-.664c.229,0,.435.012.62.021.543.023.816.055,1.175.913.446,1.075,1.533,3.73,1.663,4a1.1,1.1,0,0,1,.079,1,3.2,3.2,0,0,1-.6.849c-.273.315-.532.555-.8.893-.25.294-.532.608-.217,1.152a16.421,16.421,0,0,0,3,3.73A13.6,13.6,0,0,0,20.789,23.7a1.17,1.17,0,0,0,1.3-.206,22.383,22.383,0,0,0,1.445-1.915,1.032,1.032,0,0,1,1.327-.4c.5.173,3.143,1.48,3.686,1.751s.9.4,1.034.631A4.607,4.607,0,0,1,29.269,26.124Z"></path></svg>
                       Message us on WhatsApp
                   </a>
-                  <h6>{{ $settings?->app_name }} Pvt. Ltd</h6>
+                  <h6>{{ $settings?->app_name }}</h6>
                   <ul>
                       <li>
                           <span>
@@ -390,7 +390,7 @@
                    <input type="hidden" name="message" id="message-discover">
                    <input type="hidden" name="solution" id="solution-discover">
                    <button type="button" onclick="return discoverFormSubmit()" id="discover-submit-button" class="button">Submit</button>
-                   <span id="ajx-loader"><img src="assets/images/ajax_loader.gif" alt="loader"></span>
+                   <span id="ajx-loader"><img src="public/assets/images/ajax_loader.gif" alt="loader"></span>
                 </li>
              </ul>
              <input type="hidden" name="txtname" class="popup-name">
@@ -418,7 +418,7 @@
             font-family: 'sofia_proregular';
         }
     </style>
-    <div class="publishd-date-wrap" itemscope="" itemtype=""><span class="text-tiny">Published:  <span class="published_on" itemprop="datePublished"> 2023-10-02</span></span></div>
+    {{-- <div class="publishd-date-wrap" itemscope="" itemtype=""><span class="text-tiny">Published:  <span class="published_on" itemprop="datePublished"> 2023-10-02</span></span></div> --}}
 </div>
 <!-- Last published date  -->
 <section class="faq-bg" id="faq">

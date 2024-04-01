@@ -30,30 +30,30 @@
             <div class="testmonial-cont">
                 <p>The transformation from a traditional structure to an urban classic residence was an  ideal blend of contemporary and trendy designs giving a remarkable ideation from CHENNEE property experts.</p>
                 <div class="reviewer">
-                    <img class="user" src="assets/images/user-one.svg" alt="">
+                    <img class="user" src="public/assets/images/user-one.svg" alt="">
                     <span>
                         Athithan
-                        <img class="rating" src="assets/images/rating-four.svg" alt="">
+                        <img class="rating" src="public/assets/images/rating-four.svg" alt="">
                     </span>
                 </div>
             </div>
             <div class="testmonial-cont filled">
                 <p>In every way, CHENNEE Architects and Construction expert’s performance has been amazing. When it comes to material purchases for construction, we appreciate your expertise and attention to our needs, thereby saving us millions! </p>
                 <div class="reviewer">
-                    <img class="user" src="assets/images/user-two.svg" alt="">
+                    <img class="user" src="public/assets/images/user-two.svg" alt="">
                     <span>
                         Anukeerthana
-                        <img class="rating" src="assets/images/rating-five.svg" alt="">
+                        <img class="rating" src="public/assets/images/rating-five.svg" alt="">
                     </span>
                 </div>
             </div>
             <div class="testmonial-cont">
                 <p>My family and I couldn't dream of a residence which is so prettily designed. The vibe is & our housing project has the right architecture designed making it so rejuvenating and beautiful. Finally, we enjoy living our dream! Thanks to CHENNE Architects & Construction.</p>
                 <div class="reviewer">
-                    <img class="user" src="assets/images/user-three.svg" alt="">
+                    <img class="user" src="public/assets/images/user-three.svg" alt="">
                     <span>
                         Sundar
-                        <img class="rating" src="assets/images/rating-four.svg" alt="">
+                        <img class="rating" src="public/assets/images/rating-four.svg" alt="">
                     </span>
                 </div>
             </div>
@@ -71,7 +71,7 @@
             font-family: 'sofia_proregular';
         }
     </style>
-    <div class="publishd-date-wrap" itemscope="" itemtype=""><span class="text-tiny">Published:  <span class="published_on" itemprop="datePublished"> 2023-10-02</span></span></div>
+    {{-- <div class="publishd-date-wrap" itemscope="" itemtype=""><span class="text-tiny">Published:  <span class="published_on" itemprop="datePublished"> 2023-10-02</span></span></div> --}}
 </div>
 <!-- Last published date  -->
 <section class="faq-bg" id="faq">

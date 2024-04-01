@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-<link rel="stylesheet" href="{{ asset('assets/css/about.css') }}">
+<link rel="stylesheet" href="{{ asset('public/assets/css/about.css') }}">
 @section('content')
 
 @php
@@ -33,7 +33,7 @@
     <div class="container">
        <div class="flex-col-container">
                     <div class="flex-col-left">
-                      <img width="760" height="558" class="transactional-img customwid LoadImg" src="assets/images/about/profesionals-in-construction.jpg" alt="" style="">
+                      <img width="760" height="558" class="transactional-img customwid LoadImg" src="public/assets/images/about/profesionals-in-construction.jpg" alt="" style="">
                    </div>
                    <div class="flex-col-right contentL">
                       <div class="flex-head wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s;">
@@ -85,23 +85,23 @@
 
 
                 <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1419px, 0px, 0px); transition: all 0.25s ease 0s; width: 3194px;"><div class="owl-item cloned" style="width: 344.8px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img src="assets/images/gallery/gallery-1.png" alt="">
+                   <img src="public/assets/images/gallery/gallery-1.png" alt="">
                    </li></div><div class="owl-item cloned" style="width: 344.8px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img src="assets/images/gallery/gallery-2.png" alt="">
+                   <img src="public/assets/images/gallery/gallery-2.png" alt="">
                    </li></div><div class="owl-item cloned" style="width: 344.8px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img src="assets/images/gallery/gallery-3.png" alt="">
+                   <img src="public/assets/images/gallery/gallery-3.png" alt="">
                    </li></div><div class="owl-item" style="width: 344.8px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img src="assets/images/gallery/gallery-1.png" alt="">
+                   <img src="public/assets/images/gallery/gallery-1.png" alt="">
                    </li></div><div class="owl-item active" style="width: 344.8px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img src="assets/images/gallery/gallery-2.png" alt="">
+                   <img src="public/assets/images/gallery/gallery-2.png" alt="">
                    </li></div><div class="owl-item active" style="width: 344.8px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img src="assets/images/gallery/gallery-3.png" alt="">
+                   <img src="public/assets/images/gallery/gallery-3.png" alt="">
                    </li></div><div class="owl-item cloned active" style="width: 344.8px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img src="assets/images/gallery/gallery-1.png" alt="">
+                   <img src="public/assets/images/gallery/gallery-1.png" alt="">
                    </li></div><div class="owl-item cloned" style="width: 344.8px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img src="assets/images/gallery/gallery-2.png" alt="">
+                   <img src="public/assets/images/gallery/gallery-2.png" alt="">
                    </li></div><div class="owl-item cloned" style="width: 344.8px; margin-right: 10px;"><li class="item" style="width:250px">
-                   <img src="assets/images/gallery/gallery-3.png" alt="">
+                   <img src="public/assets/images/gallery/gallery-3.png" alt="">
                    </li></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"><button role="button" class="owl-dot active"><span></span></button></div></ul>
              </div>
              <div id="upload-content2" class="target-div">
@@ -110,11 +110,11 @@
 
 
                 <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;"><div class="owl-item"><li class="item" style="width:250px">
-                   <img src="assets/images/gallery/gallery-1.png" alt="">
+                   <img src="public/assets/images/gallery/gallery-1.png" alt="">
                    </li></div><div class="owl-item"><li class="item" style="width:250px">
-                   <img src="assets/images/gallery/gallery-2.png" alt="">
+                   <img src="public/assets/images/gallery/gallery-2.png" alt="">
                    </li></div><div class="owl-item"><li class="item" style="width:250px">
-                   <img src="assets/images/gallery/gallery-3.png" alt="">
+                   <img src="public/assets/images/gallery/gallery-3.png" alt="">
                    </li></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"><button role="button" class="owl-dot active"><span></span></button></div></ul>
              </div>
              <div id="upload-content3" class="target-div">
@@ -123,11 +123,11 @@
 
 
                 <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;"><div class="owl-item"><li class="item" style="width:250px">
-                   <img src="assets/images/gallery/gallery-1.png" alt="">
+                   <img src="public/assets/images/gallery/gallery-1.png" alt="">
                    </li></div><div class="owl-item"><li class="item" style="width:250px">
-                   <img src="assets/images/gallery/gallery-2.png" alt="">
+                   <img src="public/assets/images/gallery/gallery-2.png" alt="">
                    </li></div><div class="owl-item"><li class="item" style="width:250px">
-                   <img src="assets/images/gallery/gallery-3.png" alt="">
+                   <img src="public/assets/images/gallery/gallery-3.png" alt="">
                    </li></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"><button role="button" class="owl-dot active"><span></span></button></div></ul>
              </div>
              <div id="upload-content4" class="target-div">
@@ -136,11 +136,11 @@
 
 
                 <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;"><div class="owl-item"><li class="item" style="width:250px">
-                   <img src="assets/images/gallery/gallery-1.png" alt="">
+                   <img src="public/assets/images/gallery/gallery-1.png" alt="">
                    </li></div><div class="owl-item"><li class="item" style="width:250px">
-                   <img src="assets/images/gallery/gallery-2.png" alt="">
+                   <img src="public/assets/images/gallery/gallery-2.png" alt="">
                    </li></div><div class="owl-item"><li class="item" style="width:250px">
-                   <img src="assets/images/gallery/gallery-3.png" alt="">
+                   <img src="public/assets/images/gallery/gallery-3.png" alt="">
                    </li></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"><button role="button" class="owl-dot active"><span></span></button></div></ul>
              </div>
           </div>
@@ -159,10 +159,10 @@
       <div class="testmonial-cont">
           <p>The transformation from a traditional structure to an urban classic residence was an  ideal blend of contemporary and trendy designs giving a remarkable ideation from {{ $settings?->app_name }}p>
           <div class="reviewer">
-              <img class="user" src="assets/images/user-one.svg" alt="">
+              <img class="user" src="public/assets/images/user-one.svg" alt="">
               <span>
                   Athithan
-                  <img class="rating" src="assets/images/rating-four.svg" alt="">
+                  <img class="rating" src="public/assets/images/rating-four.svg" alt="">
               </span>
 
           </div>
@@ -170,10 +170,10 @@
       <div class="testmonial-cont filled">
           <p>In every way, {{ $settings?->app_name }} expert’s performance has been amazing. When it comes to material purchases for construction, we appreciate your expertise and attention to our needs, thereby saving us millions! </p>
           <div class="reviewer">
-              <img class="user" src="assets/images/user-two.svg" alt="">
+              <img class="user" src="public/assets/images/user-two.svg" alt="">
               <span>
               Anukeerthana
-                  <img class="rating" src="assets/images/rating-five.svg" alt="">
+                  <img class="rating" src="public/assets/images/rating-five.svg" alt="">
               </span>
 
           </div>
@@ -181,10 +181,10 @@
       <div class="testmonial-cont">
           <p>My family and I couldn't dream of a residence which is so prettily designed. The vibe is &amp; our housing project has the right architecture designed making it so rejuvenating and beautiful. Finally, we enjoy living our dream! Thanks to {{ $settings->app_name }}.</p>
           <div class="reviewer">
-              <img class="user" src="assets/images/user-three.svg" alt="">
+              <img class="user" src="public/assets/images/user-three.svg" alt="">
               <span>
               Sundar
-                  <img class="rating" src="assets/images/rating-four.svg" alt="">
+                  <img class="rating" src="public/assets/images/rating-four.svg" alt="">
               </span>
 
           </div>
@@ -226,30 +226,30 @@
             <div class="testmonial-cont">
                 <p>The transformation from a traditional structure to an urban classic residence was an  ideal blend of contemporary and trendy designs giving a remarkable ideation from {{ $settings->app_name }} property experts.</p>
                 <div class="reviewer">
-                    <img class="user" src="assets/images/user-one.svg" alt="">
+                    <img class="user" src="public/assets/images/user-one.svg" alt="">
                     <span>
                         Athithan
-                        <img class="rating" src="assets/images/rating-four.svg" alt="">
+                        <img class="rating" src="public/assets/images/rating-four.svg" alt="">
                     </span>
                 </div>
             </div>
             <div class="testmonial-cont filled">
                 <p>In every way, {{ $settings->app_name }} expert’s performance has been amazing. When it comes to material purchases for construction, we appreciate your expertise and attention to our needs, thereby saving us millions! </p>
                 <div class="reviewer">
-                    <img class="user" src="assets/images/user-two.svg" alt="">
+                    <img class="user" src="public/assets/images/user-two.svg" alt="">
                     <span>
                         Anukeerthana
-                        <img class="rating" src="assets/images/rating-five.svg" alt="">
+                        <img class="rating" src="public/assets/images/rating-five.svg" alt="">
                     </span>
                 </div>
             </div>
             <div class="testmonial-cont">
                 <p>My family and I couldn't dream of a residence which is so prettily designed. The vibe is & our housing project has the right architecture designed making it so rejuvenating and beautiful. Finally, we enjoy living our dream! Thanks to {{ $settings->app_name }}.</p>
                 <div class="reviewer">
-                    <img class="user" src="assets/images/user-three.svg" alt="">
+                    <img class="user" src="public/assets/images/user-three.svg" alt="">
                     <span>
                         Sundar
-                        <img class="rating" src="assets/images/rating-four.svg" alt="">
+                        <img class="rating" src="public/assets/images/rating-four.svg" alt="">
                     </span>
                 </div>
             </div>
