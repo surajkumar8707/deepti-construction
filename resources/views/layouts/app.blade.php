@@ -6,10 +6,10 @@
 <html lang="en">
 <head>
     <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
-    <title>Residential Architects in Hosur | Best Architecture Firms | House Building Planners in Hosur</title>
+    <title>Residential Architects | Best Architecture Firms | House Building Planners</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3">
-    <meta name="description" content="CHENNEE Architects is the best architects in Hosur that offers the excellent architectural house plans & design services for all types of residential buildings within your budget including floor plans, 3D elevations, structural drawings, civil drawings, and 3D interiors." />
-    <meta name="keywords" content="architects in hosur, architecture firm in hosur, residential architects, home architects in hosur" />
+    <meta name="description" content="{{ $settings?->app_name }} is the best architects" />
+    <meta name="keywords" content="architects, architecture firm, residential architects, home architects" />
     <link rel="icon" sizes="192x192" href="{{ asset('public/assets/images/favicon.png') }}">
     <link rel="apple-touch-icon" href="{{ asset('public/assets/images/favicon.png') }}">
     <link rel="manifest" href="manifest.json">
@@ -19,17 +19,17 @@
     <meta property="og:site_name" content="{{ $settings?->app_name }}"/>
     <meta property="og:image" content="{{ $settings?->header_image }}" />
     <meta property="og:image" content="{{ $settings?->header_image }}" />
-    <meta property="og:title" content="A Leading Architectural & Construction Services Company in Chennai, Hosur & Bangalore" />
-    <meta property="og:description" content="{{ $settings?->app_name }} and Construction, is one of the top trusted construction company in Hosur, Chennai & Bangalore that engages in a broad range of services including architectural design, house construction & interior decoration in an affordable budget." />
+    <meta property="og:title" content="A Leading Architectural & Construction Services Company" />
+    <meta property="og:description" content="{{ $settings?->app_name }} and Construction, is one of the top trusted construction company" />
     <meta property="twitter:card" content="summary_large_image"/>
     <meta property="twitter:url" content="{{ url('') }}"/>
-    <meta name="twitter:title" content="A Leading Architectural & Construction Services Company in Chennai, Hosur & Bangalore"/>
-    <meta name="twitter:description" content="{{ $settings?->app_name }} and Construction, is one of the top trusted construction company in Hosur, Chennai & Bangalore that engages in a broad range of services including architectural design, house construction & interior decoration in an affordable budget."/>
+    <meta name="twitter:title" content="A Leading Architectural & Construction Services Company"/>
+    <meta name="twitter:description" content="{{ $settings?->app_name }} and Construction, is one of the top trusted construction company"/>
     <meta name="twitter:image"  content="public/assets/images/CHENNEE-OG-logo-large.png"/>
     <meta name="twitter:creator" content="@chenneeofficial" />
     <meta name="twitter:site" content="@chenneeofficial" />
     <meta name="robots" content="index,follow">
-    <link rel="canonical" href="{{ asset('architects.in.hosur') }}" />
+    <link rel="canonical" href="{{ asset('architects.in.lucknow') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('public/assets/css/common.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('public/assets/css/fonts.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('public/assets/css/header.css') }}" />
@@ -44,11 +44,11 @@
             "@type": "Review",
             "itemReviewed": {
                 "@type": "LocalBusiness",
-                "name": "Architects in Hosur",
+                "name": "Architects",
                 "image": "{{ asset('public/assets/images/CHENNEE-OG-logo-large.png') }}",
-                "description": "CHENNEE Architects is the best architects in Hosur that offers the excellent architectural house plans & design services for all types of residential buildings within your budget including floor plans, 3D elevations, structural drawings, civil drawings, and 3D interiors.",
+                "description": "Construction Architects is the best architects that offers the excellent architectural house plans & design services for all types of residential buildings within your budget including floor plans, 3D elevations, structural drawings, civil drawings, and 3D interiors.",
                 "telephone": "9600442776",
-                "url": "{{ route('architects.in.hosur') }}",
+                "url": "{{ url('') }}",
                 "pricerange": "Contact 9600442776 | Customize Pricing Package"
             },
             "author": "Users",

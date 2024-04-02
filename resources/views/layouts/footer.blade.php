@@ -4,7 +4,7 @@
     <div class="footer-menus wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s;">
        <div class="footmenu-column">
           <a itemprop="url" href="./" class="footer-logo" title="chennee">
-          <img src="{{ asset('public/'.$settings?->header_image) }}" width="210" height="61" class="footer-logo LoadImg" alt="chennee logo" style="">
+          <img src="{{ asset($settings?->header_image) }}" width="210" height="61" class="footer-logo LoadImg" alt="chennee logo" style="">
           </a>
           <p class="footer-content">
              We are a one stop solution for all your architectural planning, construction and interior design needs.
@@ -131,7 +131,7 @@
        </div>
     </div>
     <div class="footer-bottom">
-       <span class="copyrights">&copy;  {{ $settings->app_name }} {{ date('Y') }}</span>
+       <span class="copyrights">All copyright &copy;  {{ $settings->app_name }} {{ date('Y') }}</span>
     </div>
     </a>
  </footer>

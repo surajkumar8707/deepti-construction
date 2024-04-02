@@ -392,7 +392,7 @@ Customers may visualise the interiors &amp; exteriors with this approach.
              </li>
              <li>
                 <img loading="lazy" src="public/assets/images/architects/transparency.png" alt="Transparency" title="Transparency">
-                <span>Transparency</span>
+                <span>Resturant</span>
              </li>
              <li>
                 <img loading="lazy" src="public/assets/images/architects/customer-satisfication.png" alt="Customer Satisfaction" title="Customer Satisfaction">

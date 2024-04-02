@@ -22,7 +22,7 @@ class SettingSeeder extends Seeder
             'email' => 'const.technology62@gmail.com',
             'whatsapp' => '+91 9324394183',
             'contact' => '+91 9324394183',
-            'header_image' => 'assets/images/header-logo.png',
+            'header_image' => 'public/assets/images/header-logo.png',
         ]);
     }
 }

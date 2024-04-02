@@ -6,10 +6,10 @@
 <html lang="en">
 <head>
 <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
-      <title>#1 Architect & Construction Firm in Hosur, Bangalore & Chennai</title>
+      <title>{{ $settings?->app_name }}</title>
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3">
-      <meta name="description" content="and Construction delivers a one-stop solution for all your construction needs including architectural planning and interior designing in Bangalore, Chennai & Hosur with good experience in residential projects." />
-      <meta name="keywords" content="Construction company in bangalore, civil company in bangalore, architecture and construction firm, civil construction company in bangalore" />
+      <meta name="description" content="{{ $settings?->app_name }}" />
+      <meta name="keywords" content="{{ $settings?->app_name }}" />
       <link rel="icon" sizes="192x192" href="{{ $settings?->header_image }}">
         <link rel="apple-touch-icon" href="{{ $settings?->header_image }}">
       <link rel="manifest" href="manifest.json">
@@ -19,12 +19,12 @@
       <meta property="og:site_name" content="{{ $settings?->app_name }}"/>
       <meta property="og:image" content="{{ $settings?->header_image }}" />
       <meta property="og:image" content="{{ $settings?->header_image }}" />
-      <meta property="og:title" content="A Leading Architectural & Construction Services Company in Chennai, Hosur & Bangalore" />
-      <meta property="og:description" content="{{ $settings?->app_name }} and Construction, is one of the top trusted construction company in Hosur, Chennai & Bangalore that engages in a broad range of services including architectural design, house construction & interior decoration in an affordable budget." />
+      <meta property="og:title" content="{{ $settings?->app_name }}" />
+      <meta property="og:description" content="{{ $settings?->app_name }}" />
       <meta property="twitter:card" content="summary_large_image"/>
       <meta property="twitter:url" content="{{ url('') }}"/>
-      <meta name="twitter:title" content="A Leading Architectural & Construction Services Company in Chennai, Hosur & Bangalore"/>
-      <meta name="twitter:description" content="{{ $settings?->app_name }} and Construction, is one of the top trusted construction company in Hosur, Chennai & Bangalore that engages in a broad range of services including architectural design, house construction & interior decoration in an affordable budget."/>
+      <meta name="twitter:title" content="{{ $settings?->app_name }}"/>
+      <meta name="twitter:description" content="{{ $settings?->app_name }}"/>
       <meta name="twitter:image"  content="{{ $settings?->header_image }}"/>
       <meta name="twitter:creator" content="@ {{ $settings?->app_name }}" />
       <meta name="twitter:site" content="@ {{ $settings?->app_name }}" />
@@ -199,10 +199,10 @@ $('.mobile-call').click(function(){
                               <li>3D Elevation</li>
                               <li>3D Interior Design</li>
                            </ul>
-                           {{-- <a class="cta" href="https://www.chennee.in/architects-in-hosur.php">Explore Architectural Services in Hosur
+                           {{-- <a class="cta" href="https://www.chennee.in/architects-in-hosur.php">Explore Architectural Services in Lucknow
                            <svg xmlns="https://www.w3.org/2000/svg" width="14.455" height="12.396" viewBox="0 0 14.455 12.396"><defs><style>.apps{fill:#C09432;}</style></defs><g transform="translate(0 0)"><path class="apps" d="M.869,37.025a1.034,1.034,0,0,1,.179-.013h10.2l-.222-.1a2.068,2.068,0,0,1-.584-.414l-2.86-2.86a1.07,1.07,0,0,1-.15-1.37A1.034,1.034,0,0,1,8.98,32.13L14.151,37.3a1.034,1.034,0,0,1,0,1.463h0L8.98,43.936a1.034,1.034,0,0,1-1.551-.1,1.07,1.07,0,0,1,.15-1.37L10.433,39.6a2.068,2.068,0,0,1,.517-.377l.31-.14H1.1a1.07,1.07,0,0,1-1.091-.869A1.034,1.034,0,0,1,.869,37.025Z" transform="translate(0 -31.842)"></path></g></svg>
                            </a>
-                           <a class="cta" href="https://www.chennee.in/architects-in-bangalore.php">Explore Architectural Services in Bangalore
+                           <a class="cta" href="https://www.chennee.in/architects-in-bangalore.php">Explore Architectural Services in Gorakpur
                            <svg xmlns="https://www.w3.org/2000/svg" width="14.455" height="12.396" viewBox="0 0 14.455 12.396"><defs><style>.apps{fill:#C09432;}</style></defs><g transform="translate(0 0)"><path class="apps" d="M.869,37.025a1.034,1.034,0,0,1,.179-.013h10.2l-.222-.1a2.068,2.068,0,0,1-.584-.414l-2.86-2.86a1.07,1.07,0,0,1-.15-1.37A1.034,1.034,0,0,1,8.98,32.13L14.151,37.3a1.034,1.034,0,0,1,0,1.463h0L8.98,43.936a1.034,1.034,0,0,1-1.551-.1,1.07,1.07,0,0,1,.15-1.37L10.433,39.6a2.068,2.068,0,0,1,.517-.377l.31-.14H1.1a1.07,1.07,0,0,1-1.091-.869A1.034,1.034,0,0,1,.869,37.025Z" transform="translate(0 -31.842)"></path></g></svg>
                            </a> --}}
                         </div>
@@ -227,10 +227,10 @@ $('.mobile-call').click(function(){
                               <li>Bedroom</li>
                               <li>Dining Room</li>
                            </ul>
-                           {{-- <a class="cta" href="https://www.chennee.in/interior-designers-in-hosur.php">Explore Interior Designers in Hosur
+                           {{-- <a class="cta" href="https://www.chennee.in/interior-designers-in-hosur.php">Explore Interior Designers in Lucknow
                            <svg xmlns="https://www.w3.org/2000/svg" width="14.455" height="12.396" viewBox="0 0 14.455 12.396"><defs><style>.apps{fill:#C09432;}</style></defs><g transform="translate(0 0)"><path class="apps" d="M.869,37.025a1.034,1.034,0,0,1,.179-.013h10.2l-.222-.1a2.068,2.068,0,0,1-.584-.414l-2.86-2.86a1.07,1.07,0,0,1-.15-1.37A1.034,1.034,0,0,1,8.98,32.13L14.151,37.3a1.034,1.034,0,0,1,0,1.463h0L8.98,43.936a1.034,1.034,0,0,1-1.551-.1,1.07,1.07,0,0,1,.15-1.37L10.433,39.6a2.068,2.068,0,0,1,.517-.377l.31-.14H1.1a1.07,1.07,0,0,1-1.091-.869A1.034,1.034,0,0,1,.869,37.025Z" transform="translate(0 -31.842)"></path></g></svg>
                            </a>
-                           <a class="cta" href="https://www.chennee.in/home-interior-designers-in-bangalore.php">Explore Interior Designers in Bangalore
+                           <a class="cta" href="https://www.chennee.in/home-interior-designers-in-bangalore.php">Explore Interior Designers in Gorakpur
                            <svg xmlns="https://www.w3.org/2000/svg" width="14.455" height="12.396" viewBox="0 0 14.455 12.396"><defs><style>.apps{fill:#C09432;}</style></defs><g transform="translate(0 0)"><path class="apps" d="M.869,37.025a1.034,1.034,0,0,1,.179-.013h10.2l-.222-.1a2.068,2.068,0,0,1-.584-.414l-2.86-2.86a1.07,1.07,0,0,1-.15-1.37A1.034,1.034,0,0,1,8.98,32.13L14.151,37.3a1.034,1.034,0,0,1,0,1.463h0L8.98,43.936a1.034,1.034,0,0,1-1.551-.1,1.07,1.07,0,0,1,.15-1.37L10.433,39.6a2.068,2.068,0,0,1,.517-.377l.31-.14H1.1a1.07,1.07,0,0,1-1.091-.869A1.034,1.034,0,0,1,.869,37.025Z" transform="translate(0 -31.842)"></path></g></svg>
                            </a> --}}
                         </div>
@@ -249,10 +249,10 @@ $('.mobile-call').click(function(){
                               <li>Duplex House</li>
                               <li>Bungalow</li>
                            </ul>
-                           {{-- <a class="cta" href="https://www.chennee.in/building-construction-contractors-hosur.php">Explore Construction Services in Hosur
+                           {{-- <a class="cta" href="https://www.chennee.in/building-construction-contractors-hosur.php">Explore Construction Services in Lucknow
                            <svg xmlns="https://www.w3.org/2000/svg" width="14.455" height="12.396" viewBox="0 0 14.455 12.396"><defs><style>.apps{fill:#C09432;}</style></defs><g transform="translate(0 0)"><path class="apps" d="M.869,37.025a1.034,1.034,0,0,1,.179-.013h10.2l-.222-.1a2.068,2.068,0,0,1-.584-.414l-2.86-2.86a1.07,1.07,0,0,1-.15-1.37A1.034,1.034,0,0,1,8.98,32.13L14.151,37.3a1.034,1.034,0,0,1,0,1.463h0L8.98,43.936a1.034,1.034,0,0,1-1.551-.1,1.07,1.07,0,0,1,.15-1.37L10.433,39.6a2.068,2.068,0,0,1,.517-.377l.31-.14H1.1a1.07,1.07,0,0,1-1.091-.869A1.034,1.034,0,0,1,.869,37.025Z" transform="translate(0 -31.842)"></path></g></svg>
                            </a>
-                           <a class="cta" href="https://www.chennee.in/building-construction-contractors-bangalore.php">Explore Construction Services in Bangalore
+                           <a class="cta" href="https://www.chennee.in/building-construction-contractors-bangalore.php">Explore Construction Services in Gorakpur
                            <svg xmlns="https://www.w3.org/2000/svg" width="14.455" height="12.396" viewBox="0 0 14.455 12.396"><defs><style>.apps{fill:#C09432;}</style></defs><g transform="translate(0 0)"><path class="apps" d="M.869,37.025a1.034,1.034,0,0,1,.179-.013h10.2l-.222-.1a2.068,2.068,0,0,1-.584-.414l-2.86-2.86a1.07,1.07,0,0,1-.15-1.37A1.034,1.034,0,0,1,8.98,32.13L14.151,37.3a1.034,1.034,0,0,1,0,1.463h0L8.98,43.936a1.034,1.034,0,0,1-1.551-.1,1.07,1.07,0,0,1,.15-1.37L10.433,39.6a2.068,2.068,0,0,1,.517-.377l.31-.14H1.1a1.07,1.07,0,0,1-1.091-.869A1.034,1.034,0,0,1,.869,37.025Z" transform="translate(0 -31.842)"></path></g></svg>
                            </a> --}}
                         </div>
@@ -277,10 +277,10 @@ $('.mobile-call').click(function(){
                               <li>Living Room Renovation</li>
                               <li>Bedroom Renovation</li>
                            </ul>
-                           {{-- <a class="cta" href="https://www.chennee.in/renovation-contractors-in-hosur.php">Explore Renovation Services in Hosur
+                           {{-- <a class="cta" href="https://www.chennee.in/renovation-contractors-in-hosur.php">Explore Renovation Services in Lucknow
                            <svg xmlns="https://www.w3.org/2000/svg" width="14.455" height="12.396" viewBox="0 0 14.455 12.396"><defs><style>.apps{fill:#C09432;}</style></defs><g transform="translate(0 0)"><path class="apps" d="M.869,37.025a1.034,1.034,0,0,1,.179-.013h10.2l-.222-.1a2.068,2.068,0,0,1-.584-.414l-2.86-2.86a1.07,1.07,0,0,1-.15-1.37A1.034,1.034,0,0,1,8.98,32.13L14.151,37.3a1.034,1.034,0,0,1,0,1.463h0L8.98,43.936a1.034,1.034,0,0,1-1.551-.1,1.07,1.07,0,0,1,.15-1.37L10.433,39.6a2.068,2.068,0,0,1,.517-.377l.31-.14H1.1a1.07,1.07,0,0,1-1.091-.869A1.034,1.034,0,0,1,.869,37.025Z" transform="translate(0 -31.842)"></path></g></svg>
                            </a>
-                           <a class="cta" href="https://www.chennee.in/house-renovation-contractors-bangalore.php">Explore Renovation Services in Bangalore
+                           <a class="cta" href="https://www.chennee.in/house-renovation-contractors-bangalore.php">Explore Renovation Services in Gorakpur
                            <svg xmlns="https://www.w3.org/2000/svg" width="14.455" height="12.396" viewBox="0 0 14.455 12.396"><defs><style>.apps{fill:#C09432;}</style></defs><g transform="translate(0 0)"><path class="apps" d="M.869,37.025a1.034,1.034,0,0,1,.179-.013h10.2l-.222-.1a2.068,2.068,0,0,1-.584-.414l-2.86-2.86a1.07,1.07,0,0,1-.15-1.37A1.034,1.034,0,0,1,8.98,32.13L14.151,37.3a1.034,1.034,0,0,1,0,1.463h0L8.98,43.936a1.034,1.034,0,0,1-1.551-.1,1.07,1.07,0,0,1,.15-1.37L10.433,39.6a2.068,2.068,0,0,1,.517-.377l.31-.14H1.1a1.07,1.07,0,0,1-1.091-.869A1.034,1.034,0,0,1,.869,37.025Z" transform="translate(0 -31.842)"></path></g></svg>
                            </a> --}}
                         </div>
@@ -350,7 +350,7 @@ $('.mobile-call').click(function(){
                   </li>
                   <li>
                      <img width="380" height="200" loading="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="public/assets/images/homepage/transparency.png" alt="Transparency" title="Transparency">
-                     <span>Transparency</span>
+                     <span>Resturant</span>
                   </li>
                </ul>
             </div>
@@ -548,31 +548,31 @@ $('.mobile-call').click(function(){
                 <div class="footmenu-column responsive">
                     <h6>Services in Lucknow</h6>
                     <ul>
-                       <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.hosur') }}" title="Architects in Hosur">Architects in Lucknow</a></li>
-                       <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.hosur') }}" title="Building Contractors in Hosur">Building Contractors in Lucknow</a></li>
-                       <li itemprop="name"><a itemprop="url" href="{{ route('interior.designers.in.hosur') }}" title="Interior Designers in Hosur">Interior Designers in Lucknow</a></li>
-                       <li itemprop="name"><a itemprop="url" href="{{ route('renovation.contractors.in.hosur') }}" title="Renovation Contractors in Hosur">Renovation Contractors in Lucknow</a></li>
-                       {{-- <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Hosur">House Construction Company in Lucknow</a></li> --}}
+                       <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.hosur') }}" title="Architects in Lucknow">Architects in Lucknow</a></li>
+                       <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.hosur') }}" title="Building Contractors in Lucknow">Building Contractors in Lucknow</a></li>
+                       <li itemprop="name"><a itemprop="url" href="{{ route('interior.designers.in.hosur') }}" title="Interior Designers in Lucknow">Interior Designers in Lucknow</a></li>
+                       <li itemprop="name"><a itemprop="url" href="{{ route('renovation.contractors.in.hosur') }}" title="Renovation Contractors in Lucknow">Renovation Contractors in Lucknow</a></li>
+                       {{-- <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Lucknow">House Construction Company in Lucknow</a></li> --}}
                     </ul>
                     </div>
                     <div class="footmenu-column responsive">
                         <h6>Services in Gorakpur</h6>
                         <ul>
-                        <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.bangalore') }}" title="Architects in Bangalore">Architects in Gorakpur</a></li>
-                        <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.bangalore') }}" title="Building Contractors in Bangalore">Building Contractors in Gorakpur</a></li>
-                        <li itemprop="name"><a itemprop="url" href="https{{ route('interior.designers.in.bangalore') }}" title="Interior Designers in Bangalore">Interior Designers in Gorakpur</a></li>
-                        <li itemprop="name"><a itemprop="url" href="{{ route('house.renovation.contractors.bangalore') }}" title="Renovation Contractors in Bangalore">Renovation Contractors in Gorakpur</a></li>
-                        {{-- <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Bangalore">House Construction Company in Gorakpur</a></li> --}}
+                        <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.bangalore') }}" title="Architects in Gorakpur">Architects in Gorakpur</a></li>
+                        <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.bangalore') }}" title="Building Contractors in Gorakpur">Building Contractors in Gorakpur</a></li>
+                        <li itemprop="name"><a itemprop="url" href="https{{ route('interior.designers.in.bangalore') }}" title="Interior Designers in Gorakpur">Interior Designers in Gorakpur</a></li>
+                        <li itemprop="name"><a itemprop="url" href="{{ route('house.renovation.contractors.bangalore') }}" title="Renovation Contractors in Gorakpur">Renovation Contractors in Gorakpur</a></li>
+                        {{-- <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Gorakpur">House Construction Company in Gorakpur</a></li> --}}
                         </ul>
                     </div>
                     <div class="footmenu-column responsive">
                         <h6>Services in Allahabaad</h6>
                         <ul>
-                        <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.chennai') }}" title="Architects in Chennai">Architects in Allahabaad</a></li>
-                        <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.chennai') }}" title="Building Contractors in Chennai">Building Contractors in Allahabaad</a></li>
-                        <li itemprop="name"><a itemprop="url" href="{{ route('interior.designers.in.chennai') }}" title="Interior Designers in Chennai">Interior Designers in Allahabaad</a></li>
-                        <li itemprop="name"><a itemprop="url" href="{{ route('house.renovation.contractors.chennai') }}" title="Renovation Contractors in Chennai">Renovation Contractors in Allahabaad</a></li>
-                        {{-- <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Chennai">House Construction Company in Allahabaad</a></li> --}}
+                        <li itemprop="name"><a itemprop="url" href="{{ route('architects.in.chennai') }}" title="Architects in Allahabaad">Architects in Allahabaad</a></li>
+                        <li itemprop="name"><a itemprop="url" href="{{ route('building.construction.contractors.chennai') }}" title="Building Contractors in Allahabaad">Building Contractors in Allahabaad</a></li>
+                        <li itemprop="name"><a itemprop="url" href="{{ route('interior.designers.in.chennai') }}" title="Interior Designers in Allahabaad">Interior Designers in Allahabaad</a></li>
+                        <li itemprop="name"><a itemprop="url" href="{{ route('house.renovation.contractors.chennai') }}" title="Renovation Contractors in Allahabaad">Renovation Contractors in Allahabaad</a></li>
+                        {{-- <li itemprop="name"><a itemprop="url" href="#" title="House Construction Company in Allahabaad">House Construction Company in Allahabaad</a></li> --}}
                         </ul>
                     </div>
                     <div class="footmenu-column responsive pd">
@@ -662,7 +662,7 @@ $('.mobile-call').click(function(){
                     </div>
                 </div>
         <div class="footer-bottom">
-            <span class="copyrights">© {{ $settings->app_name }}</span>
+            <span class="copyrights">All copyright &copy; {{ $settings->app_name.' '.date('Y') }}</span>
         </div>
 </a></footer>
 
